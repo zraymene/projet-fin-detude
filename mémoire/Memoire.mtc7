@@ -1,11 +1,17 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Introduction}{\reset@font\mtcSfont 13}{section.2.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Les méthodes de détections d'objets basées sur l'apprentissage profond}{\reset@font\mtcSfont 14}{section.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Concepts de base}{\reset@font\mtcSSfont 14}{subsection.2.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Les réseaux de neurones convolutifs (CNN)}{\reset@font\mtcSSSfont 14}{section*.17}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Couche de convolution}{\reset@font\mtcPfont 15}{section*.18}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Pooling Layer}{\reset@font\mtcPfont 15}{section*.20}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Fully Connected Layer (FC)}{\reset@font\mtcPfont 16}{section*.22}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode L'apprentissage par transfert}{\reset@font\mtcPfont 16}{section*.24}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Métriques pour l'évaluation des systèmes de détection d'objets}{\reset@font\mtcSfont 17}{section.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Bases de données d'évaluation}{\reset@font\mtcSfont 17}{section.2.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Conclusion}{\reset@font\mtcSfont 18}{section.2.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Concepts de base}{\reset@font\mtcSfont 14}{section.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Les réseaux de neurones convolutifs (CNN)}{\reset@font\mtcSSfont 14}{subsection.2.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Couche de convolution}{\reset@font\mtcSSSfont 15}{section*.17}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Pooling Layer}{\reset@font\mtcSSSfont 15}{section*.19}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Fully Connected Layer (FC)}{\reset@font\mtcSSSfont 16}{section*.21}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}L'apprentissage par transfert}{\reset@font\mtcSSfont 16}{subsection.2.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.3}Architectures CNN proposées populaires}{\reset@font\mtcSSfont 17}{subsection.2.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode AlexNet}{\reset@font\mtcSSSfont 17}{section*.24}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode VGG-16}{\reset@font\mtcSSSfont 18}{section*.26}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode ResNet}{\reset@font\mtcSSSfont 19}{section*.28}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode GoogLeNet}{\reset@font\mtcSSSfont 20}{section*.30}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Darknet-53}{\reset@font\mtcSSSfont 21}{section*.32}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{\reset@font\mtcSfont 22}{section.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{\reset@font\mtcSfont 22}{section.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Bases de données d'évaluation}{\reset@font\mtcSfont 22}{section.2.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Conclusion}{\reset@font\mtcSfont 23}{section.2.6}}

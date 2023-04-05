@@ -33,9 +33,15 @@
 \contentsline {subsubsection}{Pooling Layer}{15}{section*.19}%
 \contentsline {subsubsection}{Fully Connected Layer (FC)}{16}{section*.21}%
 \contentsline {subsection}{\numberline {2.2.2}L'apprentissage par transfert}{16}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{17}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{17}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Bases de données d'évaluation}{17}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Conclusion}{18}{section.2.6}%
-\contentsline {chapter}{Bibliographie}{19}{section.2.6}%
-\contentsline {chapter}{Annexe}{19}{section.2.6}%
+\contentsline {subsection}{\numberline {2.2.3}Architectures CNN populaires}{17}{subsection.2.2.3}%
+\contentsline {subsubsection}{AlexNet}{17}{section*.24}%
+\contentsline {subsubsection}{VGG-16}{18}{section*.26}%
+\contentsline {subsubsection}{ResNet}{19}{section*.28}%
+\contentsline {subsubsection}{GoogLeNet}{20}{section*.30}%
+\contentsline {subsubsection}{Darknet-53}{21}{section*.32}%
+\contentsline {section}{\numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{22}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{22}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Bases de données d'évaluation}{22}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Conclusion}{23}{section.2.6}%
+\contentsline {chapter}{Bibliographie}{24}{section.2.6}%
+\contentsline {chapter}{Annexe}{24}{section.2.6}%

@@ -71,9 +71,64 @@ D'autre part, la rétroporpagation où le modèle apprend, il fait que l'erreur 
           \label{img5}
           \end{figure}
 
+% =========== Backbones =========== 
+     \subsection{Architectures CNN populaires} 
+     Au fil des ans, de nombreuses architectures de réseaux de neurones convolutionnels ont été introduites, chacune avec sa complexité et sa profondeur uniques en termes de couches en corrélation avec les performances de l'architecture. Les plus notables sont :
+     
+          % =========== AlexNet =========== 
+          \subsubsection{AlexNet} \cite{alex_paper}
+          Alex Krizhevsky en collaboration avec Ilya Sutskever et Geoffrey Hinton. en 2012, a développé un réseau de neurones convolutifs composé de 8 couches, dont 5 sont convolutives et 3 sont entièrement connectées. Le réseau s'appelle AlexNet. il a amélioré LeNet-5 en ajoutant plus de couches et en contenant environ 60 millions de paramètres. Les unités linéaires rectifiées (ReLU) sont utilisées pour la première fois comme activations dans AlexNet au lieu des activations sigmoïdes et tanh pour ajouter de la non-linéarité.
+          \begin{figure}[H]
+               \centering
+               \includegraphics[height=9cm,width=15cm]{Chapitre2/img6.png}
+               \caption{Architecture de AlexNet.}
+               \label{img6}
+               \end{figure}
+
+          % =========== VGG-16 ===========
+          \subsubsection{VGG-16} \cite{vgg_paper}
+          est l'une des architectures les plus utilisées dans la détection d'objets et a 	réalisé des performances intéressantes, elle est sortie en 2014, composée de 13 couches convolutives et 3 entièrement connectées avec activation ReLU. VGG-16 fournit plus de couches par rapport à AlexNet et utilise des filtres plus petits de 2x2 et 3x3. Il comprend 138 millions de paramètres.
+          \begin{figure}[H]
+               \centering
+               \includegraphics[height=9cm,width=15cm]{Chapitre2/img7.png}
+               \caption{Architecture de VGG-16.}
+               \label{img7}
+               \end{figure}
+
+          % =========== ResNet ===========
+          \subsubsection{ResNet} \cite{res_paper}
+          Les réseaux de neurones convolutifs sont devenus de plus en plus profonds avec l'ajout de couches, mais une fois la précision saturée, elle chute rapidement, ce phénomène appelé dégradation. Pour résoudre ce problème, He et al. en 2015 ont développé des ResNets basés sur les résidus. Les résidus sont essentiellement des connexions de raccourci, une pile de couches définies de telle sorte que la sortie d'une couche est prise et ajoutée à une autre couche plus profonde dans le réseau. Étant donné que le module d'apprentissage résiduel résout le problème de la dégradation de la formation, la profondeur du réseau est augmenté et les performances sont continuellement améliorées.
+
+          Il existe de nombreuses variantes de ResNets, par exemple, ResNet-50 qui est composé de 26 millions de paramètres, ResNet-101 avec 44 millions de paramètres et ResNet-152 qui est plus profond avec 152 couches, les deux sont largement utilisés dans la détection d'objets.
+          \begin{figure}[H]
+               \centering
+               \includegraphics[height=8cm,width=5cm]{Chapitre2/img8.png}
+               \caption{Structure d'un bloc résiduel.}
+               \label{img8}
+               \end{figure}
+          
+          % =========== GoogLeNet ===========
+          \subsubsection{GoogLeNet} \cite{googlenet_paper}
+          Aussi appelé Inception V1, GoogLeNet est un petit réseau développé par Szegedy et al. en 2014. Leur méthode est différente de celle de VGGNet et AlexNet. Ils ont proposé une nouvelle notion connue sous le nom Inception Block, où elle intègre des transformations convolutives à plusieurs échelles. Inception Block comprend des filtres de différentes tailles 1x1, 3x3 et 5x5. Il utilise une convolution 1x1 au milieu du réseau pour réduire la dimensionnalité et ils ont choisi d'utiliser Max-Pooling au lieu de couches entièrement connectées. Le réseau est composé de 22 couches avec 5 millions de paramètres. GoogLeNet est principalement utilisé dans le modèle de détection d'objets YOLO.
+          \begin{figure}[H]
+               \centering
+               \includegraphics[height=8cm,width=12cm]{Chapitre2/img9.png}
+               \caption{Structure de Inception Block.}
+               \label{img9}
+               \end{figure}
+
+           % =========== Darknet-53 ===========
+           \subsubsection{Darknet-53} \cite{darknet_paper}
+           Il a été introduit en 2018 par Joseph Redmon Ali Farhadi, il sert d'architecture de YOLOv3. c'était une amélioration de son prédécesseur Darknet-19 qui était l'architecture de YOLOv2. il se compose de 53 couches convolutionnelles qui servent de base au réseau de détection d'objets ou à un extracteur de caractéristiques. inclure l'utilisation de connexions résiduelles. Après chaque couche convolutive, un groupe résiduel a différents blocs résiduels tels que 1x, 2x, 4x et 8x. Pour sous-échantillonner la dimension spatiale des cartes d'entités, une convolution striée avec une foulée de 2 est utilisée avant chaque groupe résiduel. Cela a permis d'éviter la perte de fonctionnalités de bas niveau et d'encoder des informations de position utiles pour la détection d'objets.
+           \begin{figure}[H]
+                \centering
+                \includegraphics[height=8cm,width=7cm]{Chapitre2/img10.png}
+                \caption{Architecture de Darknet-53.}
+                \label{img10}
+                \end{figure}
+
+
 \section{Les méthodes de détections d'objets basées sur l'apprentissage profond} 
-% =========== Architectures CNN populaires =========== 
-     \subsection{Architectures CNN proposées populaires} 
 
 \section{Métriques pour l'évaluation des systèmes de détection d'objets} 
 
