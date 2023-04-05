@@ -1,0 +1,77 @@
+\documentclass[12pt, oneside]{book}
+%------------------------------Zone 1-------------------------
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % un second package permettant d'utiliser tous les caractères de votre clavier.
+\usepackage[francais]{babel} % un troisième package pour dire à <em>Latex</em> que vous écrivez en français.
+\AddThinSpaceBeforeFootnotes % à insérer si on utilise \usepackage[french]{babel}
+\FrenchFootnotes % à insérer si on utilise \usepackage[french]{babel}
+ \usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{tikz}
+\usepackage[hmargin=3 cm,vmargin= 3 cm]{geometry}
+\usepackage[toc,page]{appendix} 
+\usepackage[Glenn]{fncychap}
+\usepackage{fancyhdr}
+%\usepackage{titlesec}
+\usepackage{minitoc}
+%\usepackage{french} 
+\usepackage{array,multirow,makecell}
+\usepackage{lettrine}
+\usepackage{caption}
+\DeclareCaptionFormat{sanslabel}{#3}%
+%------------------------------Fin Zone 1---------------------------
+% Interligne
+\usepackage{setspace}
+% \singlespacing
+\onehalfspacing
+% \doublespacing
+\usepackage{hyperref}
+\begin{document}
+%------------------------------Zone 2: début des page non numérotées-------------------------
+\frontmatter
+\input{PageDeGarde/PageDeGarde.tex}
+%\input{Remerciements/Remerciements.tex}
+%\input{Dedicaces/Dedicace_souad.tex}
+%\input{Resume/Resume.tex}
+%\input{Resume/Abstract.tex}
+
+%\dominitoc
+\pagenumbering{roman}%numérotation avec les chiffres romains
+\setcounter{page}{1} %début de la numérotation est 1.
+\addcontentsline{toc}{chapter}{Remerciements}
+%\input{Merci/Merci.tex}
+\addcontentsline{toc}{chapter}{Résumé}
+%\input{Resume/Resume.tex}
+\addcontentsline{toc}{chapter}{Abstract}
+%\input{Resume/Abstract.tex}
+\addcontentsline{toc}{chapter}{Liste des tableaux}
+\listoftables
+\addcontentsline{toc}{chapter}{Table des figures}
+\listoffigures
+\dominitoc
+\tableofcontents
+
+%\input{ListeDesAbreviations/ListeDesAbreviations.tex} % rajoute la liste des abréviations.
+%\addcontentsline{toc}{chapter}{Liste des abréviations}
+
+\mainmatter
+%\pagenumbering{arabic}% numérotation avec les chiffres arabe
+%\setcounter{page}{1} % début de la numérotation est 1.
+%\addcontentsline{toc}{chapter}{Introduction générale}
+\input{IntroductionGenerale/IntroductionGenerale.tex}
+\input{Chapitre1/Chapitre1.tex}
+\input{Chapitre2/Chapitre2.tex}
+%\input{Chapitre3/Chapitre3.tex}
+%\input{Chapitre4/Chapitre4.tex}
+%\input{ConclusionGenerale/ConclusionGenerale.tex}
+\input{Bibliographie/references.tex}
+%-----------------Fin Zone 5: fin de la numérotation avec les chiffres arabs---------------------
+\backmatter 
+%\input{Annexe/Annexe.tex}
+\addcontentsline{toc}{chapter}{Annexe}
+
+\end{document}

@@ -1,0 +1,706 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.10)  14 JUN 2021 08:54
+entering extended mode
+**./PageDeGarde.tex
+(PageDeGarde.tex
+LaTeX2e <2020-10-01> patch level 3
+L3 programming layer <2020-12-07> xparse <2020-03-03>
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{center}
+                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+[] 
+ []
+
+! Undefined control sequence.
+l.5 { \large
+             \textbf {République Algérienne Démocratique et Populaire}  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (57.18027pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/bx/n/10 Republique 
+ []
+
+
+Overfull \hbox (54.15947pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/bx/n/10 Algerienne 
+ []
+
+
+Overfull \hbox (70.57602pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/bx/n/10 Democratique 
+ []
+
+
+Overfull \hbox (9.74301pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/bx/n/10 et 
+ []
+
+
+Overfull \hbox (23.51376pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/bx/n/10 Pop- 
+ []
+
+
+Overfull \hbox (10.22217pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/bx/n/10 u- 
+ []
+
+
+Overfull \hbox (21.986pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/bx/n/10 laire 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \normalsize
+                \textbf{Ministère de l'Enseignement Supérieur et de la Rec...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (47.98032pt too wide) in paragraph at lines 6--6
+ []\OT1/cmr/bx/n/10 Ministere 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 de 
+ []
+
+
+Overfull \hbox (76.13988pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 l'Enseignement 
+ []
+
+
+Overfull \hbox (48.76367pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 Superieur 
+ []
+
+
+Overfull \hbox (9.74301pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 et 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 de 
+ []
+
+
+Overfull \hbox (8.78465pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 la 
+ []
+
+
+Overfull \hbox (51.53448pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 Recherche 
+ []
+
+
+Overfull \hbox (18.52768pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 Sci- 
+ []
+
+
+Overfull \hbox (15.49298pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 en- 
+ []
+
+
+Overfull \hbox (31.78456pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 tifique 
+ []
+
+! Undefined control sequence.
+l.7 { \large
+             \textbf {Université Batna 2 - Mostafa Ben Boulaïd -}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (51.66084pt too wide) in paragraph at lines 7--7
+ []\OT1/cmr/bx/n/10 Universite 
+ []
+
+
+Overfull \hbox (30.22202pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/bx/n/10 Batna 
+ []
+
+
+Overfull \hbox (5.74997pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/bx/n/10 2 
+ []
+
+
+Overfull \hbox (3.83331pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/bx/n/10 - 
+ []
+
+
+Overfull \hbox (40.36917pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/bx/n/10 Mostafa 
+ []
+
+
+Overfull \hbox (19.84018pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/bx/n/10 Ben 
+ []
+
+
+Overfull \hbox (38.68727pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/bx/n/10 Boulad 
+ []
+
+
+Overfull \hbox (3.83331pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/bx/n/10 - 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 10.
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \begin{tabular}{l m{12 cm} l}
+                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Illegal character in array arg.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \begin{tabular}{l m{12 cm} l}
+                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.11   \includegraphics
+                       [scale=0.15]{PageDeGarde/lg.png}&
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+! Undefined control sequence.
+l.13   & \includegraphics
+                         [scale=0.15]{PageDeGarde/lg.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+Overfull \hbox (387.36874pt too wide) in paragraph at lines 10--15
+ [][] 
+ []
+
+! Undefined control sequence.
+l.18 \Huge
+          {\textbf{Mémoire }}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (44.72202pt too wide) in paragraph at lines 18--18
+ []\OT1/cmr/bx/n/10 Memoire 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \normalsize
+                {Présenté }\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+LaTeX Font Info:    Trying to load font information for +cmr on input line 19.
+LaTeX Font Info:    No file cmr.fd. on input line 19.
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 19.
+
+! Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.19 \normalsize{Pré
+                     senté }\\
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 19.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Overfull \hbox (13.8889pt too wide) in paragraph at lines 19--19
+ []\/cmr/m/n/10 ee 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20  \normalsize
+                 \textbf{Pour l'obtension du grade de Master en Informatique...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (24.41655pt too wide) in paragraph at lines 20--20
+ []\OT1/cmr/bx/n/10 Pour 
+ []
+
+
+Overfull \hbox (54.52887pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 l'obtension 
+ []
+
+
+Overfull \hbox (12.77771pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 du 
+ []
+
+
+Overfull \hbox (27.73596pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 grade 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 de 
+ []
+
+
+Overfull \hbox (24.87622pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 Mas- 
+ []
+
+
+Overfull \hbox (14.47911pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 ter 
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 en 
+ []
+
+
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 In- 
+ []
+
+
+Overfull \hbox (17.83325pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 for- 
+ []
+
+
+Overfull \hbox (19.00682pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 ma- 
+ []
+
+
+Overfull \hbox (25.3957pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 tique 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...ize{Option: Cryptographie et sécurité }}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (16.35545pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/m/it/10 Op- 
+ []
+
+
+Overfull \hbox (20.18877pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/m/it/10 tion: 
+ []
+
+
+Overfull \hbox (24.91647pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/m/it/10 Cryp- 
+ []
+
+
+Overfull \hbox (24.91644pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/m/it/10 togra- 
+ []
+
+
+Overfull \hbox (17.88878pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/m/it/10 phie 
+ []
+
+
+Overfull \hbox (7.92215pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/m/it/10 et 
+ []
+
+
+Overfull \hbox (34.61224pt too wide) in paragraph at lines 21--21
+ \OT1/cmr/m/it/10 securite 
+ []
+
+! Undefined control sequence.
+<recently read> \Large 
+                       
+l.22 \Large
+           \textbf{{Thème}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (34.51372pt too wide) in paragraph at lines 22--22
+ []\OT1/cmr/bx/n/10 Theme 
+ []
+
+! Undefined control sequence.
+<recently read> \large 
+                       
+l.27   \large
+             \textbf{Apprentissage profond pour la segmentation sémantiques...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (346.46611pt too wide) in paragraph at lines 24--31
+ [][] 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \normalsize
+                 \textbf{Présenté par: }\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (43.48729pt too wide) in paragraph at lines 33--33
+ []\OT1/cmr/bx/n/10 Presente 
+ []
+
+
+Overfull \hbox (19.9096pt too wide) in paragraph at lines 33--33
+ \OT1/cmr/bx/n/10 par: 
+ []
+
+! Undefined control sequence.
+<recently read> \large 
+                       
+l.34 \large
+           { Belamri Ahmed Amine }\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+<recently read> \large 
+                       
+l.35 \large
+           { Belagrouz Koutaiba}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no B in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38   \normalsize
+                  \textbf{Dirigé par: }& \normalsize{Dr. Leïla BOUSSAAD } \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...malsize\textbf{Dirigé par: }& \normalsize
+                                                  {Dr. Leïla BOUSSAAD } \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no D in font nullfont!
+
+Overfull \hbox (196.97185pt too wide) in paragraph at lines 37--39
+ [][] 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \normalsize
+                 \textbf{Promotion: 2020/2021 }
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (56.68027pt too wide) in paragraph at lines 41--42
+ []\OT1/cmr/bx/n/10 Promotion: 
+ []
+
+
+Overfull \hbox (51.74973pt too wide) in paragraph at lines 41--42
+ \OT1/cmr/bx/n/10 2020/2021 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> ./PageDeGarde.tex
+                     
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 42 strings out of 479624
+ 731 string characters out of 2875003
+ 270998 words of memory out of 3000000
+ 17306 multiletter control sequences out of 15000+200000
+ 404084 words of font info for 29 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,9n,42p,160b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
