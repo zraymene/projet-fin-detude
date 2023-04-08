@@ -1,3 +1,9 @@
+% TODO:
+%    - Loss functions for object detections
+%    - Add seprate title for background cocepts "Deep learning": speak about deep neural network
+%
+%
+
 \chapter{Détection d'objets et apprentissage profond}
 \newpage
 \pagestyle{fancy}
@@ -129,6 +135,87 @@ D'autre part, la rétroporpagation où le modèle apprend, il fait que l'erreur 
 
 
 \section{Les méthodes de détections d'objets basées sur l'apprentissage profond} 
+Les méthodes actuelles de détection d'objets sont divisées en 2 catégories :
+% =========== Two-Stage ===========
+     \subsection{Détecteurs à Deux-étapes}
+     Ce type de détecteurs sépare la tâche de localisation d'objets de la tâche de classification d'objets. Il génère d'abord la proposition de région, puis classe la région. Le principal avantage est la haute précision de détection et le principal inconvénient est la lenteur vitesse de détection.
+     
+     % =========== RCNN ===========
+     \subsubsection{RCNN} \cite{rcnn_paper}
+     Il a été introduit par Ross Girshick et al en 2004. Il extrait d'abord 2000 régions de l'image et on les appelle des propositions de région en utilisant un algorithme de recherche sélective. Ces 2000 propositions de régions candidates sont déformées en un carré et introduites dans un réseau neuronal convolutionnel qui produit un vecteur de caractéristiques de 4096 dimensions en sortie. Le CNN agit comme un extracteur de caractéristiques et la couche dense de sortie se compose des caractéristiques extraites de l'image et les caractéristiques extraites sont introduites dans un SVM pour classer la présence de l'objet dans cette proposition de région candidate. La régression de la boîte englobante et la suppression non maximale (NMS) seront effectuées pour effectuer un réglage fin de la boîte englobante.
+     \begin{figure}[H]
+          \centering
+          \includegraphics[height=5cm,width=15cm]{Chapitre2/img11.jpg}
+          \caption{Architecture de RCNN}
+          \label{img11}
+          \end{figure}
+     \begin{figure}[H]
+          \centering
+          \includegraphics[height=5cm,width=15cm]{Chapitre2/img12.png}
+          \caption{Suppression non maximale (NMS).}
+          \label{img12}
+          \end{figure}
+
+     % =========== Fast-RCNN ===========
+     \subsubsection{Fast-RCNN} \cite{fast_rcnn_paper}
+     R.Girshick et al. a proposé couche de pooling de région d'intérêt (Region of Interst, ROI),il mappe différentes régions de caractéristiques sur des vecteurs de caractéristiques de taille fixe et les envoie à la couche entièrement connectée (FC). puis le softmax prédit les catégories d'objets et la régression de la boîte englobante localise avec précision l'emplacement de l'objet. Un autre changement est qu'il utilise la perte multi-tâches conjointement pour former la classification et la régression de la boîte englobante, ce qui augmente considérablement la vitesse.
+     \begin{figure}[H]
+          \centering
+          \includegraphics[height=5cm,width=15cm]{Chapitre2/img13.png}
+          \caption{Architecture de Fast-RCNN}
+          \label{img13}
+          \end{figure}
+
+     % =========== Faster-RCNN ===========
+     \subsubsection{Faster-RCNN} \cite{faster_rcnn_paper}
+     RCNN et Fast-RCNN avaient un goulot d'étranglement qui est l'algorithme de recherche sélective qui est utilisé dans la phase de proposition de région. il doit rechercher toutes les propositions de région dans l'image et les mapper dans les cartes d'entités, ce qui prend beaucoup de temps. Par conséquent, Shaoqing Ren et al ont proposé un réseau de proposition régional (RPN), il s'est intégré dans le réseau qui partage les caractéristiques de convolution de l'image complète avec le réseau de détection qui a permis au RPN d'être implémenté dans le GPU, ce qui a donné un coût quasi nul de exécution. RPN prend en entrée la carte de caractéristiques de convolution générée par la couche dorsale et génère les ancres générées par la convolution de fenêtre coulissante appliquée sur la carte de caractéristiques d'entrée.
+     \begin{figure}[H]
+          \centering
+          \includegraphics[height=14cm,width=7cm]{Chapitre2/img14.png}
+          \caption{Architecture de Faster-RCNN}
+          \label{img14}
+          \end{figure}
+
+% =========== One-Stage ===========
+     \subsection{Détecteurs à Un-étapes}
+     Contrairement aux détecteurs à deux étapes, ces modèles ignorent l'étape de proposition de région des modèles à deux étages et exécutent la détection directement sur un échantillonnage dense d'emplacements. Ils considèrent généralement toutes les positions sur l'image comme des objets potentiels et essaient de classer chaque région d'intérêt comme arrière-plan ou comme objet cible.
+
+     % =========== YOLO ===========
+     \subsubsection{YOLO (You Only Look Once)} \cite{yolo_paper}
+     a été publié pour la première fois par Joseph Redmon et al. en 2015, le réseau utilisé utilise un GoogLeNet modifié comme réseau backbone. il se compose de 24 couches convolutionnelles et de 2 couches entièrement connectées avec une entrée réseau de 448 × 448 images. Il divise l'image complète en grilles S×S. Chaque cellule de grille est responsable de la détection du centre de l'objet tombant dans la cellule de grille. Chaque cellule de la grille prédit les probabilités de classe C, les boîtes englobantes B et les scores de confiance, et l'image complète est codée pour produire le tenseur SxSx(5B+C).
+     \begin{figure}[H]
+          \centering
+          \includegraphics[height=7cm,width=14cm]{Chapitre2/img15.png}
+          \caption{Architecture de YOLO (You Only Look Once)}
+          \label{img15}
+          \end{figure}
+
+     % =========== YOLOv3 ===========
+     \subsubsection{YOLOv3} \cite{yolov3_paper}
+     été introduit par Redmon J et Farhadi A 2018, il est basé sur l'architecture Darknet-53 qui combine des blocs résiduels et FPN (Feature Pyramid Network) est un extracteur de caractéristiques qui prend une image à échelle unique d'une taille arbitraire en entrée et des sorties proportionnellement dimensionnées cartes de fonctionnalités à plusieurs niveaux, ce qui donne de bonnes performances sur une large gamme de résolutions d'entrée.
+     \begin{figure}[H]
+          \centering
+          \includegraphics[height=5cm,width=9cm]{Chapitre2/img16_.jpg}
+          \caption{Feature Network Pyramid (FNP)}
+          \label{img16_}
+          \end{figure}
+     \begin{figure}[H]
+          \centering
+          \includegraphics[height=6cm,width=14cm]{Chapitre2/img16.jpg}
+          \caption{Architecture de YOLOv3}
+          \label{img16}
+          \end{figure}
+     
+          
+     % =========== SSD ===========
+     \subsubsection{SSD (Single Shot MultiBox Detector)} \cite{ssd_paper}
+     il a été publié par C. Szegedy et al en 2016. il a utilisé VEGG16 comme réseau principal pour l'extraction de caractéristiques tout en remplaçant les couches entièrement connectées par des couches convolutives et en ajoutant 4 autres couches convolutives. Le réseau est divisé en 6 étapes. Chaque étape extrait des cartes de caractéristiques de différents niveaux sémantiques et effectue une classification d'objets et une régression par boîte englobante.
+     \begin{figure}[H]
+          \centering
+          \includegraphics[height=7cm,width=14cm]{Chapitre2/img17.png}
+          \caption{Architecture de SSD (Single Shot MultiBox Detector)}
+          \label{img17}
+          \end{figure}
 
 \section{Métriques pour l'évaluation des systèmes de détection d'objets} 
 

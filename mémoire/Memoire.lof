@@ -20,3 +20,11 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Structure d'un bloc résiduel.\relax }}{20}{figure.caption.29}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Structure de Inception Block.\relax }}{21}{figure.caption.31}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture de Darknet-53.\relax }}{22}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Architecture de RCNN\relax }}{23}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Suppression non maximale (NMS).\relax }}{23}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Architecture de Fast-RCNN\relax }}{24}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Architecture de Faster-RCNN\relax }}{25}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Architecture de YOLO (You Only Look Once)\relax }}{26}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Feature Network Pyramid (FNP)\relax }}{27}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Architecture de YOLOv3\relax }}{27}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Architecture de SSD (Single Shot MultiBox Detector)\relax }}{28}{figure.caption.47}%

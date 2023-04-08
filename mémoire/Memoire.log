@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.7)  5 APR 2023 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.7)  9 APR 2023 00:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -941,7 +941,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
 (G:\Programs\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<PageDeGarde/lg.png, id=145, 358.2183pt x 514.8033pt>
+<PageDeGarde/lg.png, id=153, 358.2183pt x 514.8033pt>
 File: PageDeGarde/lg.png Graphic file (type png)
 <use PageDeGarde/lg.png>
 Package pdftex.def Info: PageDeGarde/lg.png  used on input line 11.
@@ -976,7 +976,9 @@ l.54 \listoffigures
 
 LaTeX Warning: Citation `db4' on page ii undefined on input line 14.
 
-)
+[2
+
+])
 \tf@lof=\write7
 \openout7 = `Memoire.lof'.
 
@@ -1018,15 +1020,13 @@ Package minitoc Info: I0033
 (minitoc)             Writing Memoire.mtc9.
 \openout4 = `Memoire.mtc9'.
 
- [2
-
-] (Memoire.toc [3
+ [3] (Memoire.toc [4
 
 ])
 \tf@toc=\write8
 \openout8 = `Memoire.toc'.
 
- [4] (IntroductionGenerale/IntroductionGenerale.tex
+ [5] (IntroductionGenerale/IntroductionGenerale.tex
 [1
 
 
@@ -1051,7 +1051,7 @@ Package minitoc Info: I0006
  [3
 
 ]
-<Chapitre1/im4.png, id=266, 913.011pt x 316.7835pt>
+<Chapitre1/im4.png, id=296, 913.011pt x 316.7835pt>
 File: Chapitre1/im4.png Graphic file (type png)
 <use Chapitre1/im4.png>
 Package pdftex.def Info: Chapitre1/im4.png  used on input line 22.
@@ -1070,7 +1070,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-<Chapitre1/im5.png, id=272, 908.79526pt x 306.54526pt>
+<Chapitre1/im5.png, id=302, 908.79526pt x 306.54526pt>
 File: Chapitre1/im5.png Graphic file (type png)
 <use Chapitre1/im5.png>
 Package pdftex.def Info: Chapitre1/im5.png  used on input line 32.
@@ -1080,7 +1080,7 @@ Overfull \hbox (11.66393pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
-<Chapitre1/im6.png, id=273, 913.011pt x 313.17pt>
+<Chapitre1/im6.png, id=303, 913.011pt x 313.17pt>
 File: Chapitre1/im6.png Graphic file (type png)
 <use Chapitre1/im6.png>
 Package pdftex.def Info: Chapitre1/im6.png  used on input line 38.
@@ -1099,7 +1099,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./Chapitre1/im4.png> <./Chapitre1/im5.png>]
-<Chapitre1/im7.png, id=280, 913.61325pt x 314.97675pt>
+<Chapitre1/im7.png, id=310, 913.61325pt x 314.97675pt>
 File: Chapitre1/im7.png Graphic file (type png)
 <use Chapitre1/im7.png>
 Package pdftex.def Info: Chapitre1/im7.png  used on input line 52.
@@ -1127,7 +1127,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7 <./Chapitre1/im7.png>]
-<Chapitre1/im10.png, id=289, 385.44pt x 383.63326pt>
+<Chapitre1/im10.png, id=320, 385.44pt x 383.63326pt>
 File: Chapitre1/im10.png Graphic file (type png)
 <use Chapitre1/im10.png>
 Package pdftex.def Info: Chapitre1/im10.png  used on input line 78.
@@ -1142,7 +1142,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<Chapitre1/im8.png, id=295, 595.62524pt x 422.17725pt>
+<Chapitre1/im8.png, id=325, 595.62524pt x 422.17725pt>
 File: Chapitre1/im8.png Graphic file (type png)
 <use Chapitre1/im8.png>
 Package pdftex.def Info: Chapitre1/im8.png  used on input line 100.
@@ -1157,7 +1157,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <./Chapitre1/im10.png>]
-<Chapitre1/im9.png, id=300, 1155.1155pt x 649.2255pt>
+<Chapitre1/im9.png, id=330, 1155.1155pt x 649.2255pt>
 File: Chapitre1/im9.png Graphic file (type png)
 <use Chapitre1/im9.png>
 Package pdftex.def Info: Chapitre1/im9.png  used on input line 111.
@@ -1185,7 +1185,7 @@ Chapitre 2.
 [12
 
 ]
-<Chapitre2/img1.png, id=313, 630.355pt x 545.03625pt>
+<Chapitre2/img1.png, id=343, 630.355pt x 545.03625pt>
 File: Chapitre2/img1.png Graphic file (type png)
 <use Chapitre2/img1.png>
 Package pdftex.def Info: Chapitre2/img1.png  used on input line 18.
@@ -1212,7 +1212,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14 <./Chapitre2/img1.png>]
-<Chapitre2/img2.png, id=327, 1798.0776pt x 391.2216pt>
+<Chapitre2/img2.png, id=357, 1798.0776pt x 391.2216pt>
 File: Chapitre2/img2.png Graphic file (type png)
 <use Chapitre2/img2.png>
 Package pdftex.def Info: Chapitre2/img2.png  used on input line 37.
@@ -1224,7 +1224,7 @@ LaTeX Warning: Citation `db4' on page 15 undefined on input line 38.
 
 LaTeX Warning: Citation `db4' on page 15 undefined on input line 38.
 
-<Chapitre2/img3.png, id=328, 620.3175pt x 198.7425pt>
+<Chapitre2/img3.png, id=358, 620.3175pt x 198.7425pt>
 File: Chapitre2/img3.png Graphic file (type png)
 <use Chapitre2/img3.png>
 Package pdftex.def Info: Chapitre2/img3.png  used on input line 47.
@@ -1238,7 +1238,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15 <./Chapitre2/img2.png>]
-<Chapitre2/img4.png, id=336, 2250.4075pt x 469.755pt>
+<Chapitre2/img4.png, id=366, 2250.4075pt x 469.755pt>
 File: Chapitre2/img4.png Graphic file (type png)
 <use Chapitre2/img4.png>
 Package pdftex.def Info: Chapitre2/img4.png  used on input line 57.
@@ -1248,7 +1248,7 @@ Overfull \hbox (68.54457pt too wide) in paragraph at lines 57--58
  [][] 
  []
 
-<Chapitre2/img5.png, id=337, 752.8125pt x 375.4025pt>
+<Chapitre2/img5.png, id=367, 752.8125pt x 375.4025pt>
 File: Chapitre2/img5.png Graphic file (type png)
 <use Chapitre2/img5.png>
 Package pdftex.def Info: Chapitre2/img5.png  used on input line 69.
@@ -1265,7 +1265,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: Citation `alex_paper' on page 17 undefined on input line 79.
 
-<Chapitre2/img6.png, id=345, 872.25874pt x 418.56375pt>
+<Chapitre2/img6.png, id=375, 872.25874pt x 418.56375pt>
 File: Chapitre2/img6.png Graphic file (type png)
 <use Chapitre2/img6.png>
 Package pdftex.def Info: Chapitre2/img6.png  used on input line 83.
@@ -1282,7 +1282,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: Citation `vgg_paper' on page 18 undefined on input line 89.
 
-<Chapitre2/img7.png, id=352, 2007.5pt x 768.8725pt>
+<Chapitre2/img7.png, id=382, 2007.5pt x 768.8725pt>
 File: Chapitre2/img7.png Graphic file (type png)
 <use Chapitre2/img7.png>
 Package pdftex.def Info: Chapitre2/img7.png  used on input line 93.
@@ -1299,7 +1299,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Warning: Citation `res_paper' on page 19 undefined on input line 99.
 
-<Chapitre2/img8.png, id=359, 239.89626pt x 376.40625pt>
+<Chapitre2/img8.png, id=389, 239.89626pt x 376.40625pt>
 File: Chapitre2/img8.png Graphic file (type png)
 <use Chapitre2/img8.png>
 Package pdftex.def Info: Chapitre2/img8.png  used on input line 105.
@@ -1317,7 +1317,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: Citation `googlenet_paper' on page 20 undefined on input line 11
 1.
 
-<Chapitre2/img9.png, id=366, 614.295pt x 346.29375pt>
+<Chapitre2/img9.png, id=397, 614.295pt x 346.29375pt>
 File: Chapitre2/img9.png Graphic file (type png)
 <use Chapitre2/img9.png>
 Package pdftex.def Info: Chapitre2/img9.png  used on input line 115.
@@ -1335,7 +1335,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: Citation `darknet_paper' on page 21 undefined on input line 121.
 
 
-<Chapitre2/img10.png, id=374, 373.395pt x 532.23843pt>
+<Chapitre2/img10.png, id=404, 373.395pt x 532.23843pt>
 File: Chapitre2/img10.png Graphic file (type png)
 <use Chapitre2/img10.png>
 Package pdftex.def Info: Chapitre2/img10.png  used on input line 125.
@@ -1350,20 +1350,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [21 <./Chapitre2/img9.png>]
 
-LaTeX Warning: Citation `db1' on page 22 undefined on input line 139.
+LaTeX Warning: Citation `rcnn_paper' on page 22 undefined on input line 138.
 
-
-LaTeX Warning: Citation `db2' on page 22 undefined on input line 141.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[22 <./Chapitre2/img10.png>]) (Bibliographie/references.tex
+<Chapitre2/img11.jpg, id=411, 4516.875pt x 1589.94pt>
+File: Chapitre2/img11.jpg Graphic file (type jpg)
+<use Chapitre2/img11.jpg>
+Package pdftex.def Info: Chapitre2/img11.jpg  used on input line 142.
+(pdftex.def)             Requested size: 426.76425pt x 142.26357pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1372,7 +1365,130 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23]
+[22 <./Chapitre2/img10.png>]
+<Chapitre2/img12.png, id=418, 1166.3575pt x 368.37625pt>
+File: Chapitre2/img12.png Graphic file (type png)
+<use Chapitre2/img12.png>
+Package pdftex.def Info: Chapitre2/img12.png  used on input line 148.
+(pdftex.def)             Requested size: 426.79369pt x 142.26091pt.
+
+
+LaTeX Warning: Citation `fast_rcnn_paper' on page 23 undefined on input line 15
+4.
+
+<Chapitre2/img13.png, id=419, 1116.17pt x 453.695pt>
+File: Chapitre2/img13.png Graphic file (type png)
+<use Chapitre2/img13.png>
+Package pdftex.def Info: Chapitre2/img13.png  used on input line 158.
+(pdftex.def)             Requested size: 426.78886pt x 142.26393pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23 <./Chapitre2/img11.jpg (PNG copy)> <./Chapitre2/img12.png>]
+
+LaTeX Warning: Citation `faster_rcnn_paper' on page 24 undefined on input line 
+164.
+
+<Chapitre2/img14.png, id=426, 515.9275pt x 933.4875pt>
+File: Chapitre2/img14.png Graphic file (type png)
+<use Chapitre2/img14.png>
+Package pdftex.def Info: Chapitre2/img14.png  used on input line 168.
+(pdftex.def)             Requested size: 199.16408pt x 398.34361pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24 <./Chapitre2/img13.png>]
+
+LaTeX Warning: Citation `yolo_paper' on page 25 undefined on input line 178.
+
+<Chapitre2/img15.png, id=432, 853.1875pt x 337.26pt>
+File: Chapitre2/img15.png Graphic file (type png)
+<use Chapitre2/img15.png>
+Package pdftex.def Info: Chapitre2/img15.png  used on input line 182.
+(pdftex.def)             Requested size: 398.34239pt x 199.17207pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25 <./Chapitre2/img14.png>]
+
+LaTeX Warning: Citation `yolov3_paper' on page 26 undefined on input line 188.
+
+<Chapitre2/img16_.jpg, id=439, 501.875pt x 201.75375pt>
+File: Chapitre2/img16_.jpg Graphic file (type jpg)
+<use Chapitre2/img16_.jpg>
+Package pdftex.def Info: Chapitre2/img16_.jpg  used on input line 192.
+(pdftex.def)             Requested size: 256.08304pt x 142.26411pt.
+<Chapitre2/img16.jpg, id=440, 853.1875pt x 238.8925pt>
+File: Chapitre2/img16.jpg Graphic file (type jpg)
+<use Chapitre2/img16.jpg>
+Package pdftex.def Info: Chapitre2/img16.jpg  used on input line 198.
+(pdftex.def)             Requested size: 398.34239pt x 170.7157pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26 <./Chapitre2/img15.png>]
+
+LaTeX Warning: Citation `ssd_paper' on page 27 undefined on input line 205.
+
+<Chapitre2/img17.png, id=449, 853.1875pt x 444.66125pt>
+File: Chapitre2/img17.png Graphic file (type png)
+<use Chapitre2/img17.png>
+Package pdftex.def Info: Chapitre2/img17.png  used on input line 209.
+(pdftex.def)             Requested size: 398.34239pt x 199.16617pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27 <./Chapitre2/img16_.jpg> <./Chapitre2/img16.jpg>]
+
+LaTeX Warning: Citation `db1' on page 28 undefined on input line 220.
+
+
+LaTeX Warning: Citation `db2' on page 28 undefined on input line 222.
+
+) (Bibliographie/references.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./Chapitre2/img17.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[29]
 No file Memoire.bbl.
 )
 Package minitoc Info: I0009
@@ -1404,48 +1520,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24
+[30
 
 ] (Memoire.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `Memoire.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Memoire.out':
-(rerunfilecheck)             Before: 1B634329A0C5A9ED20A7BCB1A2945D34;6364
-(rerunfilecheck)             After:  FE3ED3FDE5D84BD8F20C720355ABD1DD;6308.
+Package rerunfilecheck Info: File `Memoire.out' has not changed.
+(rerunfilecheck)             Checksum: 2384379812367DBA472C188B9B796C7A;6692.
  ) 
 Here is how much of TeX's memory you used:
- 27430 strings out of 478338
- 490374 string characters out of 2848897
- 785645 words of memory out of 3000000
- 45054 multiletter control sequences out of 15000+600000
- 489477 words of font info for 78 fonts, out of 8000000 for 9000
+ 27523 strings out of 478338
+ 492026 string characters out of 2848897
+ 788177 words of memory out of 3000000
+ 45114 multiletter control sequences out of 15000+600000
+ 489814 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,117p,1172b,663s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecss2488.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\ecss1728.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecsl1200.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecrm1728.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\User\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\User\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\User\AppData\Loc
-al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\User\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><G:/Programs/MikT
-ex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><G:/Programs/MikTex/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><G:/Programs/MikTex/fonts/type1/public/amsfonts/cm/c
-msy10.pfb>
-Output written on Memoire.pdf (29 pages, 13205216 bytes).
+eccc1200.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecss2488.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecss1728.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecsl1200.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\User\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\User\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\User\AppData\Loc
+al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\User\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\User\A
+ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><G:/Programs
+/MikTex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><G:/Programs/MikTex/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><G:/Programs/MikTex/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb>
+Output written on Memoire.pdf (36 pages, 17469990 bytes).
 PDF statistics:
- 806 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
- 391 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 893 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 447 words of extra memory for PDF output out of 10000 (max. 10000000)
 
