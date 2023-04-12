@@ -33,23 +33,34 @@
 \contentsline {subsubsection}{Pooling Layer}{15}{section*.19}%
 \contentsline {subsubsection}{Fully Connected Layer (FC)}{16}{section*.21}%
 \contentsline {subsection}{\numberline {2.2.2}L'apprentissage par transfert}{16}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Architectures CNN populaires}{17}{subsection.2.2.3}%
-\contentsline {subsubsection}{AlexNet}{17}{section*.24}%
-\contentsline {subsubsection}{VGG-16}{18}{section*.26}%
-\contentsline {subsubsection}{ResNet}{19}{section*.28}%
-\contentsline {subsubsection}{GoogLeNet}{20}{section*.30}%
-\contentsline {subsubsection}{Darknet-53}{21}{section*.32}%
-\contentsline {section}{\numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{22}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Détecteurs à Deux-étapes}{22}{subsection.2.3.1}%
-\contentsline {subsubsection}{RCNN}{22}{section*.34}%
-\contentsline {subsubsection}{Fast-RCNN}{23}{section*.37}%
-\contentsline {subsubsection}{Faster-RCNN}{24}{section*.39}%
-\contentsline {subsection}{\numberline {2.3.2}Détecteurs à Un-étapes}{25}{subsection.2.3.2}%
-\contentsline {subsubsection}{YOLO (You Only Look Once)}{26}{section*.41}%
-\contentsline {subsubsection}{YOLOv3}{26}{section*.43}%
-\contentsline {subsubsection}{SSD (Single Shot MultiBox Detector)}{27}{section*.46}%
-\contentsline {section}{\numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{28}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Bases de données d'évaluation}{28}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Conclusion}{29}{section.2.6}%
-\contentsline {chapter}{Bibliographie}{30}{section.2.6}%
-\contentsline {chapter}{Annexe}{30}{section.2.6}%
+\contentsline {subsection}{\numberline {2.2.3}Fonction de perte pour la détection d'objet}{17}{subsection.2.2.3}%
+\contentsline {subsubsection}{Perte de Classification}{18}{section*.24}%
+\contentsline {paragraph}{Hinge loss}{18}{section*.25}%
+\contentsline {paragraph}{Cross entropy loss}{18}{section*.26}%
+\contentsline {subsubsection}{Perte de Localistaion}{18}{section*.27}%
+\contentsline {paragraph}{Squared Loss}{18}{section*.28}%
+\contentsline {paragraph}{Residual Sum of Squares (RSS)}{18}{section*.29}%
+\contentsline {paragraph}{Mean Squared Error (MSE)}{19}{section*.30}%
+\contentsline {paragraph}{Absolute loss}{19}{section*.31}%
+\contentsline {paragraph}{Sum of Absolute Differences (SAD)}{19}{section*.32}%
+\contentsline {paragraph}{Mean Absolute Error (MAE)}{19}{section*.33}%
+\contentsline {subsection}{\numberline {2.2.4}Architectures CNN populaires}{19}{subsection.2.2.4}%
+\contentsline {subsubsection}{AlexNet}{20}{section*.34}%
+\contentsline {subsubsection}{VGG-16}{20}{section*.36}%
+\contentsline {subsubsection}{ResNet}{21}{section*.38}%
+\contentsline {subsubsection}{GoogLeNet}{22}{section*.40}%
+\contentsline {subsubsection}{Darknet-53}{23}{section*.42}%
+\contentsline {section}{\numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{24}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Détecteurs à Deux-étapes}{24}{subsection.2.3.1}%
+\contentsline {subsubsection}{RCNN}{24}{section*.44}%
+\contentsline {subsubsection}{Fast-RCNN}{25}{section*.47}%
+\contentsline {subsubsection}{Faster-RCNN}{26}{section*.49}%
+\contentsline {subsection}{\numberline {2.3.2}Détecteurs à Un-étapes}{27}{subsection.2.3.2}%
+\contentsline {subsubsection}{YOLO (You Only Look Once)}{28}{section*.51}%
+\contentsline {subsubsection}{YOLOv3}{28}{section*.53}%
+\contentsline {subsubsection}{SSD (Single Shot MultiBox Detector)}{29}{section*.56}%
+\contentsline {section}{\numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{30}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Bases de données d'évaluation}{30}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Conclusion}{31}{section.2.6}%
+\contentsline {chapter}{Bibliographie}{32}{section.2.6}%
+\contentsline {chapter}{Annexe}{32}{section.2.6}%

@@ -15,16 +15,16 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Max-pooling et Average-pooling.\relax }}{16}{figure.caption.20}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Exemple de structure de réseaux de neurones convolutionnels.\relax }}{16}{figure.caption.22}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Différence entre l'apprentissage traditionnel et l'apprentissage par transfert.\relax }}{17}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Architecture de AlexNet.\relax }}{18}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Architecture de VGG-16.\relax }}{19}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Structure d'un bloc résiduel.\relax }}{20}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Structure de Inception Block.\relax }}{21}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture de Darknet-53.\relax }}{22}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Architecture de RCNN\relax }}{23}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Suppression non maximale (NMS).\relax }}{23}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Architecture de Fast-RCNN\relax }}{24}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Architecture de Faster-RCNN\relax }}{25}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Architecture de YOLO (You Only Look Once)\relax }}{26}{figure.caption.42}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Feature Network Pyramid (FNP)\relax }}{27}{figure.caption.44}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Architecture de YOLOv3\relax }}{27}{figure.caption.45}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Architecture de SSD (Single Shot MultiBox Detector)\relax }}{28}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Architecture de AlexNet.\relax }}{20}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Architecture de VGG-16.\relax }}{21}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Structure d'un bloc résiduel.\relax }}{22}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Structure de Inception Block.\relax }}{23}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture de Darknet-53.\relax }}{24}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Architecture de RCNN\relax }}{25}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Suppression non maximale (NMS).\relax }}{25}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Architecture de Fast-RCNN\relax }}{26}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Architecture de Faster-RCNN\relax }}{27}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Architecture de YOLO (You Only Look Once)\relax }}{28}{figure.caption.52}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Feature Network Pyramid (FNP)\relax }}{29}{figure.caption.54}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Architecture de YOLOv3\relax }}{29}{figure.caption.55}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Architecture de SSD (Single Shot MultiBox Detector)\relax }}{30}{figure.caption.57}%

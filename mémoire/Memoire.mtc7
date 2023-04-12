@@ -5,21 +5,32 @@
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Pooling Layer}{\reset@font\mtcSSSfont 15}{section*.19}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Fully Connected Layer (FC)}{\reset@font\mtcSSSfont 16}{section*.21}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}L'apprentissage par transfert}{\reset@font\mtcSSfont 16}{subsection.2.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.3}Architectures CNN populaires}{\reset@font\mtcSSfont 17}{subsection.2.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode AlexNet}{\reset@font\mtcSSSfont 17}{section*.24}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode VGG-16}{\reset@font\mtcSSSfont 18}{section*.26}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode ResNet}{\reset@font\mtcSSSfont 19}{section*.28}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode GoogLeNet}{\reset@font\mtcSSSfont 20}{section*.30}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Darknet-53}{\reset@font\mtcSSSfont 21}{section*.32}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{\reset@font\mtcSfont 22}{section.2.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Détecteurs à Deux-étapes}{\reset@font\mtcSSfont 22}{subsection.2.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode RCNN}{\reset@font\mtcSSSfont 22}{section*.34}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Fast-RCNN}{\reset@font\mtcSSSfont 23}{section*.37}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Faster-RCNN}{\reset@font\mtcSSSfont 24}{section*.39}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Détecteurs à Un-étapes}{\reset@font\mtcSSfont 25}{subsection.2.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode YOLO (You Only Look Once)}{\reset@font\mtcSSSfont 26}{section*.41}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode YOLOv3}{\reset@font\mtcSSSfont 26}{section*.43}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode SSD (Single Shot MultiBox Detector)}{\reset@font\mtcSSSfont 27}{section*.46}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{\reset@font\mtcSfont 28}{section.2.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Bases de données d'évaluation}{\reset@font\mtcSfont 28}{section.2.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Conclusion}{\reset@font\mtcSfont 29}{section.2.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.3}Fonction de perte pour la détection d'objet}{\reset@font\mtcSSfont 17}{subsection.2.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Perte de Classification}{\reset@font\mtcSSSfont 18}{section*.24}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Hinge loss}{\reset@font\mtcPfont 18}{section*.25}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Cross entropy loss}{\reset@font\mtcPfont 18}{section*.26}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Perte de Localistaion}{\reset@font\mtcSSSfont 18}{section*.27}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Squared Loss}{\reset@font\mtcPfont 18}{section*.28}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Residual Sum of Squares (RSS)}{\reset@font\mtcPfont 18}{section*.29}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Mean Squared Error (MSE)}{\reset@font\mtcPfont 19}{section*.30}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Absolute loss}{\reset@font\mtcPfont 19}{section*.31}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Sum of Absolute Differences (SAD)}{\reset@font\mtcPfont 19}{section*.32}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Mean Absolute Error (MAE)}{\reset@font\mtcPfont 19}{section*.33}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.4}Architectures CNN populaires}{\reset@font\mtcSSfont 19}{subsection.2.2.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode AlexNet}{\reset@font\mtcSSSfont 20}{section*.34}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode VGG-16}{\reset@font\mtcSSSfont 20}{section*.36}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode ResNet}{\reset@font\mtcSSSfont 21}{section*.38}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode GoogLeNet}{\reset@font\mtcSSSfont 22}{section*.40}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Darknet-53}{\reset@font\mtcSSSfont 23}{section*.42}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{\reset@font\mtcSfont 24}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Détecteurs à Deux-étapes}{\reset@font\mtcSSfont 24}{subsection.2.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode RCNN}{\reset@font\mtcSSSfont 24}{section*.44}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Fast-RCNN}{\reset@font\mtcSSSfont 25}{section*.47}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Faster-RCNN}{\reset@font\mtcSSSfont 26}{section*.49}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Détecteurs à Un-étapes}{\reset@font\mtcSSfont 27}{subsection.2.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode YOLO (You Only Look Once)}{\reset@font\mtcSSSfont 28}{section*.51}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode YOLOv3}{\reset@font\mtcSSSfont 28}{section*.53}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode SSD (Single Shot MultiBox Detector)}{\reset@font\mtcSSSfont 29}{section*.56}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{\reset@font\mtcSfont 30}{section.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Bases de données d'évaluation}{\reset@font\mtcSfont 30}{section.2.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Conclusion}{\reset@font\mtcSfont 31}{section.2.6}}

@@ -1,5 +1,6 @@
 % TODO:
-%    - Loss functions for object detections
+%    - Proposal Generation 
+%    - Feature representation learning
 %    - Add seprate title for background cocepts "Deep learning": speak about deep neural network
 %
 %
@@ -76,6 +77,62 @@ D'autre part, la rétroporpagation où le modèle apprend, il fait que l'erreur 
           \caption{Différence entre l'apprentissage traditionnel et l'apprentissage par transfert.}
           \label{img5}
           \end{figure}
+
+% =========== Loss Functions ===========
+     \subsection{Fonction de perte pour la détection d'objet}
+     En Apprentissage profond, la fonction de perte est aussi appelée fonction de coût. L'objectif principal de la fonction de perte est de mesurer l'écart entre la valeur prédite du réseau et la valeur réelle de l'échantillon. Plus la valeur de la fonction de perte est petite, meilleur est l'apprentissage du modèle de réseau, ce qui prouve la convergence et la robustesse du modèle de réseau. La détection d'objet est divisée en classification d'objet et localisation d'objet. Par conséquent, la fonction de perte inclut la perte de classification et la perte de localisation. La perte de classification appartient à la classification et la perte de localisation appartient à la régression de la boîte englobante.
+
+     % =========== Classification Loss ===========
+     \subsubsection{Perte de Classification}
+          % =========== Hing Loss ===========
+          \paragraph{Hinge loss}
+          est une fonction proxy de la fonction de perte $0-1$. Il peut être utilisé comme perte pour le problème de marge maximale dans l'apprentissage automatique ou l'apprentissage en profondeur, et peut être étendu à la perte SVM multi-classes. Plus la valeur après sommation est petite, plus le score de la classe d'erreur sera.
+          \begin{center} $L(y)=\sum_{j \neq i}max(0,y_j-y_i+1)$ \end{center}
+
+          Où $y_j$ est le score des autres classes et $y_i$ le score réel declasse.	
+
+          % =========== Cross entropy loss ===========
+          \paragraph{Cross entropy loss}
+          est également appelée perte de log, qui est utilisée dans le classificateur softmax. La fonction de softmax est de convertir la caractéristique dimensionnelle $(k+1)\times1$ en distribution de probabilité dimensionnelle $(k+1)\times1$. La valeur d'indice de la probabilité maximale est l'étiquette de catégorie de l'échantillon prédit. Par conséquent, selon les caractéristiques de la fonction softmax.
+          \begin{center} $L(p,u)=-\sum_{i=0}^{k}u_i log p_i$ \end{center}
+          où $p=(p_0,..., p_k)$ est la distribution de probabilité de $K+1$ catégories calculées par le softmax, et u est la véritable étiquette de catégorie. La structure de la fonction montre que la perte d'entropie croisée est la distance entre la valeur prédite et la valeur réelle cible. La structure de la fonction a une optimisation convexe, qui a une bonne convergence lors de la descente du gradient. Il est plus adapté à la classification multi-catégories qu'à Hing loss.
+     
+     % =========== Localisation Loss ===========
+     \subsubsection{Perte de Localistaion}
+          % =========== Squared Loss ===========
+          \paragraph{Squared Loss}
+          est l'une des fonctions de perte de base de la régression de la boîte englobante, également connue sous le nom de perte $L_2$. Il représente la somme des carrés des différences entre la valeur cible et la valeur prédite.
+          \begin{center} $L(y, f(x)) = (y - f(x))^2$ \end{center}
+
+          % =========== RSS ===========
+          \paragraph{Residual Sum of Squares (RSS)}
+          également connue sous le nom de somme des carrés des résidus (SSR) ou somme des carrés de l'estimation des erreurs (SSE), est la somme des carrés des résidus (écarts prédits par rapport aux valeurs empiriques réelles des données). Il s'agit d'une mesure de l'écart entre les données et un modèle d'estimation, tel qu'une régression linéaire.
+          \begin{center} $L(Y, F(X)) = \sum_{i=1}^{n}(y_i - f(x_i))^2$ \end{center}
+
+          % =========== MSE ===========
+          \paragraph{Mean Squared Error (MSE)}
+          mesure la quantité d'erreur dans les modèles statistiques. Il évalue la différence quadratique moyenne entre les valeurs observées et prédites. Lorsqu'un modèle n'a pas d'erreur, le MSE est égal à zéro. À mesure que l'erreur du modèle augmente, sa valeur augmente. L'erreur quadratique moyenne est également appelée écart quadratique moyen (MSD).
+          \begin{center} $L(Y, F(X)) = \frac{1}{n}\sum_{i=1}^{n}(y_i - f(x_i))^2$ \end{center}
+
+          % =========== Absolute loss ===========
+          \paragraph{Absolute loss}
+          est la fonction de perte pour la régression de la boîte englobante, également appelée $L_1$. La différence entre la perte $L_1$ et la perte $L_2$ est que $L_1$ représente la somme des valeurs absolues de la différence entre la valeur cible et la valeur prédite.
+          \begin{center} $L(y, f(x))=|y-f(x)|$ \end{center}
+
+          % =========== SAD ===========
+          \paragraph{Sum of Absolute Differences (SAD)}
+          S'il y a n échantillons avec $L_1$, la fonction de perte prend la forme suivante
+          \begin{center} $L(Y, f(X))=\sum_{i=1}^{n}|y_i-f(x_i)|$ \end{center}
+
+          % =========== MAE ===========
+          \paragraph{Mean Absolute Error (MAE)}
+          La valeur moyenne de SAD est généralement utilisée comme perte de régression, appelée erreur absolue moyenne (MAE)
+          \begin{center} $L(Y, f(X))=\frac{1}{n}\sum_{i=1}^{n}|y_i-f(x_i)|$ \end{center}
+
+          La perte $L_1$ et la perte $L_2$ ont leurs propres avantages et inconvénients lorsqu'elles sont utilisées pour la régression de la boîte englobante.
+          La perte $L_1$ est plus robuste aux valeurs aberrantes, mais elle a des points où la dérivée ne peut pas être déduite, ce qui rend la descente de gradient inefficace.
+          La descente de gradient de la perte $L_2$ est plus précise et simple à calculer, mais plus sensible aux valeurs aberrantes.
+          Par conséquent, les avantages de la perte $L_1$ et de la perte $L_2$ sont combinés dans la conception de la fonction de perte de régression de la boîte englobante.
 
 % =========== Backbones =========== 
      \subsection{Architectures CNN populaires} 
