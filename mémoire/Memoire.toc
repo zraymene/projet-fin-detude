@@ -50,17 +50,26 @@
 \contentsline {subsubsection}{ResNet}{21}{section*.38}%
 \contentsline {subsubsection}{GoogLeNet}{22}{section*.40}%
 \contentsline {subsubsection}{Darknet-53}{23}{section*.42}%
-\contentsline {section}{\numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{24}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Détecteurs à Deux-étapes}{24}{subsection.2.3.1}%
-\contentsline {subsubsection}{RCNN}{24}{section*.44}%
-\contentsline {subsubsection}{Fast-RCNN}{25}{section*.47}%
-\contentsline {subsubsection}{Faster-RCNN}{26}{section*.49}%
-\contentsline {subsection}{\numberline {2.3.2}Détecteurs à Un-étapes}{27}{subsection.2.3.2}%
-\contentsline {subsubsection}{YOLO (You Only Look Once)}{28}{section*.51}%
-\contentsline {subsubsection}{YOLOv3}{28}{section*.53}%
-\contentsline {subsubsection}{SSD (Single Shot MultiBox Detector)}{29}{section*.56}%
-\contentsline {section}{\numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{30}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Bases de données d'évaluation}{30}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Conclusion}{31}{section.2.6}%
-\contentsline {chapter}{Bibliographie}{32}{section.2.6}%
-\contentsline {chapter}{Annexe}{32}{section.2.6}%
+\contentsline {subsection}{\numberline {2.2.5}Génération de proposition}{24}{subsection.2.2.5}%
+\contentsline {subsubsection}{Méthodes traditionnelles de vision par ordinateur}{24}{section*.44}%
+\contentsline {paragraph}{Objectness Score}{25}{section*.45}%
+\contentsline {paragraph}{Superpixels merging}{25}{section*.46}%
+\contentsline {paragraph}{Seed segmentation}{25}{section*.47}%
+\contentsline {subsubsection}{Méthodes basées sur des ancres}{25}{section*.48}%
+\contentsline {subsubsection}{Méthodes basées sur les points clés}{26}{section*.50}%
+\contentsline {paragraph}{Méthodes basées sur les coins}{26}{section*.51}%
+\contentsline {paragraph}{Méthodes basées sur le centre}{26}{section*.52}%
+\contentsline {section}{\numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{27}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Détecteurs à Deux-étapes}{27}{subsection.2.3.1}%
+\contentsline {subsubsection}{RCNN}{27}{section*.53}%
+\contentsline {subsubsection}{Fast-RCNN}{28}{section*.56}%
+\contentsline {subsubsection}{Faster-RCNN}{28}{section*.58}%
+\contentsline {subsection}{\numberline {2.3.2}Détecteurs à Un-étapes}{30}{subsection.2.3.2}%
+\contentsline {subsubsection}{YOLO (You Only Look Once)}{30}{section*.60}%
+\contentsline {subsubsection}{YOLOv3}{30}{section*.62}%
+\contentsline {subsubsection}{SSD (Single Shot MultiBox Detector)}{31}{section*.65}%
+\contentsline {section}{\numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{32}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Bases de données d'évaluation}{32}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Conclusion}{33}{section.2.6}%
+\contentsline {chapter}{Bibliographie}{34}{section.2.6}%
+\contentsline {chapter}{Annexe}{34}{section.2.6}%

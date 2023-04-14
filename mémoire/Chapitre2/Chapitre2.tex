@@ -1,5 +1,4 @@
 % TODO:
-%    - Proposal Generation 
 %    - Feature representation learning
 %    - Add seprate title for background cocepts "Deep learning": speak about deep neural network
 %
@@ -190,6 +189,37 @@ D'autre part, la rétroporpagation où le modèle apprend, il fait que l'erreur 
                 \label{img10}
                 \end{figure}
 
+
+% =========== Proposal generation ===========
+     \subsection{Génération de proposition}
+     La génération de proposition joue un rôle très important dans la détection d'objet. Un générateur de proposition génère un ensemble de rectangles englobants, qui sont potentiellement des objets. Ces propositions sont ensuite utilisées pour le raffinement de la classification et de la localisation. 
+     
+     Notamment, les détecteurs à un étage et les détecteurs à deux étages génèrent des propositions, la principale différence est que les détecteurs à deux étages génèrent un ensemble clairsemé de propositions avec uniquement des informations de premier plan ou d'arrière-plan, tandis que les détecteurs à un étage considèrent chaque région de l'image comme un potentiel. proposition, et estime en conséquence la classe et les coordonnées de la boîte englobante des objets potentiels à chaque emplacement.
+     
+          % =========== Traditional computer vision methods ===========
+          \subsubsection{Méthodes traditionnelles de vision par ordinateur}
+          Ces méthodes génèrent des propositions en images en utilisant les méthodes de vision par ordinateur basées sur des indices de bas niveau, tels que les bords, coins, couleur, etc. 
+
+          Le principal avantage de ces méthodes est qu'elles sont très simples et peuvent générer des propositions avec un rappel élevé. Cependant, ces méthodes sont principalement basées sur des repères visuels de bas niveau tels que la couleur ou les contours. Ils ne peuvent pas être optimisés conjointement avec l'ensemble du pipeline de détection. Ainsi, ils sont incapables d'exploiter la puissance des ensembles de données à grande échelle pour améliorer l'apprentissage de la représentation.
+
+          \paragraph{Objectness Score} les méthodes basées sur la prédiction d'un score d'objectivité de chaque boîte candidate mesurant la probabilité qu'elle contienne un objet.
+          \paragraph{Superpixels merging} est basé sur la fusion de superpixels générés à partir des résultats de segmentation. Selective Search \cite{selctive_paper} était un algorithme de génération de propositions basé sur la fusion de super-pixels. Il a calculé les multiples segments hiérarchiques générés par la méthode de segmentation \cite{selctive_paper} , qui ont été fusionnés en fonction de leurs facteurs visuels (couleur, zones, etc.), et enfin des cadres de délimitation ont été placés sur les segments fusionnés.
+          \paragraph{Seed segmentation} commence par plusieurs régions de départ, et pour chaque départ, des segments de premier plan et d'arrière-plan sont générés. Pour éviter de créer une segmentation hiérarchique, CPMC \cite{cpmc_paper} a généré un ensemble de segments superposés initialisés avec diverses graines. Chaque segment de proposition était la solution d'un problème de segmentation binaire (avant-plan ou arrière-plan).
+
+          % =========== Anchor-based methods ===========
+          \subsubsection{Méthodes basées sur des ancres}
+          Une grande famille de générateurs de propositions supervisés est celle des méthodes basées sur des ancres. Ils génèrent des propositions basées sur des hors pré-définis. Ren et al. propose un réseau de proposition de région (RPN) \cite{rpn_paper} pour générer des propositions de manière supervisée sur la base de cartes de caractéristiques convolutives profondes. Le réseau a glissé sur toute la carte des caractéristiques à l'aide de filtres de convolution 3 × 3. Pour chaque position, k ancres (ou estimations initiales des boîtes englobantes) de tailles et de rapports d'aspect variables ont été prises en compte. Ces tailles et ratios permettaient de faire correspondre des objets à différentes échelles dans l'ensemble de l'image. Sur la base des boîtes de liaison de vérité au sol, les emplacements des objets ont été mis en correspondance avec les ancres les plus appropriées pour obtenir le signal de supervision pour l'estimation de l'ancre. Un vecteur de caractéristiques à 256 dimensions a été extrait de chaque ancre et a été introduit dans deux branches sœurs : la couche de classification et la couche de régression. La branche de classification était responsable de la modélisation du score d'objectivité tandis que la branche de régression encodait quatre valeurs réelles pour affiner l'emplacement de la boîte englobante à partir de l'estimation d'origine de l'ancre. Sur la base de la vérité terrain, chaque ancre a été prédite comme étant soit un objet, soit simplement un arrière-plan par la branche de classification.
+          \begin{figure}[H]
+               \centering
+               \includegraphics[height=7cm,width=14cm]{Chapitre2/img18.png}
+               \caption{Réseau de proposition de région \cite{diagram_overflow}}
+               \label{img18}
+               \end{figure}
+
+          % =========== Keypoints-based methods ===========
+          \subsubsection{Méthodes basées sur les points clés}
+          \paragraph{Méthodes basées sur les coins} prédire les cadres de délimitation en fusionnant des paires de coins apprises à partir de la carte d'entités. Denet \cite{denet} a reformulé le problème de détection d'objets de manière probabiliste. Pour chaque point sur la carte des caractéristiques, Denet a modélisé la distribution d'être l'un des 4 types d'objets d'angle (en haut à gauche, en haut à droite, en bas à gauche, en bas à droite) et appliqué un classificateur bayésien naïf sur chaque coin des objets pour estimer le score de confiance d'une boîte englobante. Cet algorithme basé sur les coins a éliminé la conception des ancres et est devenu une méthode plus efficace pour produire des propositions de haute qualité.
+          \paragraph{Méthodes basées sur le centre} la probabilité d'être le centre des objets est prédite sur chaque position de la carte d'entités, et la hauteur et la largeur sont directement en régression sans aucun a priori d'ancrage.
 
 \section{Les méthodes de détections d'objets basées sur l'apprentissage profond} 
 Les méthodes actuelles de détection d'objets sont divisées en 2 catégories :
