@@ -1,0 +1,118 @@
+\begin{thebibliography}{10}
+
+\bibitem{cpmc_paper}
+Joao Carreira and Cristian Sminchisescu.
+\newblock Cpmc: Automatic object segmentation using constrained parametric
+  min-cuts.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  34(7):1312--1328, 2012.
+
+\bibitem{smn_paper}
+Xinlei Chen and Abhinav Gupta.
+\newblock Spatial memory for context reasoning in object detection, 2017.
+
+\bibitem{db2}
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li~Fei-Fei.
+\newblock Imagenet: A large-scale hierarchical image database.
+\newblock In {\em 2009 IEEE conference on computer vision and pattern
+  recognition}, pages 248--255. Ieee, 2009.
+
+\bibitem{fast_rcnn_paper}
+Ross Girshick.
+\newblock Fast r-cnn, 2015.
+
+\bibitem{rcnn_paper}
+Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik.
+\newblock Rich feature hierarchies for accurate object detection and semantic
+  segmentation, 2014.
+
+\bibitem{resnet_paper}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock {Deep Residual Learning for Image Recognition}.
+\newblock In {\em Proceedings of 2016 IEEE Conference on Computer Vision and
+  Pattern Recognition}, CVPR '16, pages 770--778. IEEE, June 2015.
+
+\bibitem{diagram_rpn_overflow}
+Tanay Karmarkar.
+\newblock Region proposal network (rpn) — backbone of faster r-cnn.
+\newblock medium.com.
+
+\bibitem{alexnet_paper}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In F.~Pereira, C.J. Burges, L.~Bottou, and K.Q. Weinberger, editors,
+  {\em Advances in Neural Information Processing Systems}, volume~25. Curran
+  Associates, Inc., 2012.
+
+\bibitem{fpn_paper}
+Tsung-Yi Lin, Piotr Dollár, Ross Girshick, Kaiming He, Bharath Hariharan, and
+  Serge Belongie.
+\newblock Feature pyramid networks for object detection, 2017.
+
+\bibitem{db1}
+Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva
+  Ramanan, Piotr Doll{\'a}r, and C~Lawrence Zitnick.
+\newblock Microsoft coco: Common objects in context.
+\newblock In {\em Computer Vision--ECCV 2014: 13th European Conference, Zurich,
+  Switzerland, September 6-12, 2014, Proceedings, Part V 13}, pages 740--755.
+  Springer, 2014.
+
+\bibitem{ssd_paper}
+Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed,
+  Cheng-Yang Fu, and Alexander~C. Berg.
+\newblock {SSD}: Single shot {MultiBox} detector.
+\newblock In {\em Computer Vision {\textendash} {ECCV} 2016}, pages 21--37.
+  Springer International Publishing, 2016.
+
+\bibitem{db3}
+Puttatida Mahapattanakul.
+\newblock From human vision to computer vision — convolutional neural
+  network(part3/4).
+\newblock Medium.com.
+
+\bibitem{yolo_paper}
+Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+\newblock You only look once: Unified, real-time object detection, 2016.
+
+\bibitem{yolov3_paper}
+Joseph Redmon and Ali Farhadi.
+\newblock Yolov3: An incremental improvement.
+\newblock 2018.
+\newblock cite arxiv:1804.02767Comment: Tech Report.
+
+\bibitem{faster_rcnn_paper}
+Shaoqing Ren, Kaiming He, Ross~B. Girshick, and Jian Sun.
+\newblock Faster r-cnn: Towards real-time object detection with region proposal
+  networks.
+\newblock In Corinna Cortes, Neil~D. Lawrence, Daniel~D. Lee, Masashi Sugiyama,
+  and Roman Garnett, editors, {\em NIPS}, pages 91--99, 2015.
+
+\bibitem{vgg_paper}
+Karen Simonyan and Andrew Zisserman.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock volume abs/1409.1556, 2014.
+
+\bibitem{googlenet_paper}
+Christian" "Szegedy, Wei" "Liu, Yangqing" "Jia, Pierre" "Sermanet, Scott"
+  "Reed, Dragomir" "Anguelov, Dumitru" "Erhan, Vincent" "Vanhoucke, and Andrew"
+  "Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock 2015.
+
+\bibitem{denet_paper}
+Lachlan Tychsen-Smith and Lars Petersson.
+\newblock Denet: Scalable real-time object detection with directed sparse
+  sampling, 2017.
+
+\bibitem{selctive_search_paper}
+Jasper R.~R. Uijlings, Koen E.~A. van~de Sande, Theo Gevers, and Arnold W.~M.
+  Smeulders.
+\newblock Selective search for object recognition.
+\newblock volume 104, pages 154--171, 2013.
+
+\bibitem{dpm_paper}
+Junjie Yan, Zhen Lei, Longyin Wen, and Stan Li.
+\newblock The fastest deformable part model for object detection.
+\newblock 06 2014.
+
+\end{thebibliography}

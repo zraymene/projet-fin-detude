@@ -52,9 +52,9 @@
 \contentsline {subsubsection}{Darknet-53}{23}{section*.42}%
 \contentsline {subsection}{\numberline {2.2.5}Génération de proposition}{24}{subsection.2.2.5}%
 \contentsline {subsubsection}{Méthodes traditionnelles de vision par ordinateur}{24}{section*.44}%
-\contentsline {paragraph}{Objectness Score}{25}{section*.45}%
-\contentsline {paragraph}{Superpixels merging}{25}{section*.46}%
-\contentsline {paragraph}{Seed segmentation}{25}{section*.47}%
+\contentsline {paragraph}{Score d'objectivité}{25}{section*.45}%
+\contentsline {paragraph}{Superpixels fusionnant}{25}{section*.46}%
+\contentsline {paragraph}{Segmentation des semences}{25}{section*.47}%
 \contentsline {subsubsection}{Méthodes basées sur des ancres}{25}{section*.48}%
 \contentsline {subsubsection}{Méthodes basées sur les points clés}{26}{section*.50}%
 \contentsline {paragraph}{Méthodes basées sur les coins}{26}{section*.51}%
@@ -83,4 +83,4 @@
 \contentsline {section}{\numberline {2.5}Bases de données d'évaluation}{36}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Conclusion}{37}{section.2.6}%
 \contentsline {chapter}{Bibliographie}{38}{section.2.6}%
-\contentsline {chapter}{Annexe}{38}{section.2.6}%
+\contentsline {chapter}{Annexe}{40}{chapter*.77}%

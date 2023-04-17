@@ -24,22 +24,33 @@
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Darknet-53}{\reset@font\mtcSSSfont 23}{section*.42}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.5}Génération de proposition}{\reset@font\mtcSSfont 24}{subsection.2.2.5}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Méthodes traditionnelles de vision par ordinateur}{\reset@font\mtcSSSfont 24}{section*.44}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Objectness Score}{\reset@font\mtcPfont 25}{section*.45}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Superpixels merging}{\reset@font\mtcPfont 25}{section*.46}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Seed segmentation}{\reset@font\mtcPfont 25}{section*.47}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Score d'objectivité}{\reset@font\mtcPfont 25}{section*.45}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Superpixels fusionnant}{\reset@font\mtcPfont 25}{section*.46}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Segmentation des semences}{\reset@font\mtcPfont 25}{section*.47}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Méthodes basées sur des ancres}{\reset@font\mtcSSSfont 25}{section*.48}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Méthodes basées sur les points clés}{\reset@font\mtcSSSfont 26}{section*.50}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Méthodes basées sur les coins}{\reset@font\mtcPfont 26}{section*.51}}
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Méthodes basées sur le centre}{\reset@font\mtcPfont 26}{section*.52}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{\reset@font\mtcSfont 27}{section.2.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Détecteurs à Deux-étapes}{\reset@font\mtcSSfont 27}{subsection.2.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode RCNN}{\reset@font\mtcSSSfont 27}{section*.53}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Fast-RCNN}{\reset@font\mtcSSSfont 28}{section*.56}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Faster-RCNN}{\reset@font\mtcSSSfont 28}{section*.58}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Détecteurs à Un-étapes}{\reset@font\mtcSSfont 30}{subsection.2.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode YOLO (You Only Look Once)}{\reset@font\mtcSSSfont 30}{section*.60}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode YOLOv3}{\reset@font\mtcSSSfont 30}{section*.62}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode SSD (Single Shot MultiBox Detector)}{\reset@font\mtcSSSfont 31}{section*.65}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{\reset@font\mtcSfont 32}{section.2.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Bases de données d'évaluation}{\reset@font\mtcSfont 32}{section.2.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Conclusion}{\reset@font\mtcSfont 33}{section.2.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.6}Apprentissage de la représentation des caractéristiques}{\reset@font\mtcSSfont 27}{subsection.2.2.6}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Apprentissage de fonctionnalités multi-échelles}{\reset@font\mtcSSSfont 27}{section*.53}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Pyramide d'images}{\reset@font\mtcPfont 27}{section*.54}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Fonctionnalités intégrées}{\reset@font\mtcPfont 27}{section*.55}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Pyramide de prédiction}{\reset@font\mtcPfont 28}{section*.56}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Pyramide des fonctionnalités}{\reset@font\mtcPfont 28}{section*.57}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Codage des caractéristiques régionales}{\reset@font\mtcSSSfont 28}{section*.58}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Raisonnement contextuel}{\reset@font\mtcSSSfont 29}{section*.59}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Raisonnement contextuel global}{\reset@font\mtcPfont 29}{section*.60}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Raisonnement du contexte de la région}{\reset@font\mtcPfont 29}{section*.61}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Apprentissage des caractéristiques déformables}{\reset@font\mtcSSSfont 30}{section*.62}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{\reset@font\mtcSfont 30}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Détecteurs à Deux-étapes}{\reset@font\mtcSSfont 30}{subsection.2.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode RCNN}{\reset@font\mtcSSSfont 30}{section*.63}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Fast-RCNN}{\reset@font\mtcSSSfont 31}{section*.66}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Faster-RCNN}{\reset@font\mtcSSSfont 32}{section*.68}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Détecteurs à Un-étapes}{\reset@font\mtcSSfont 33}{subsection.2.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode YOLO (You Only Look Once)}{\reset@font\mtcSSSfont 34}{section*.70}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode YOLOv3}{\reset@font\mtcSSSfont 34}{section*.72}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode SSD (Single Shot MultiBox Detector)}{\reset@font\mtcSSSfont 35}{section*.75}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{\reset@font\mtcSfont 36}{section.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Bases de données d'évaluation}{\reset@font\mtcSfont 36}{section.2.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Conclusion}{\reset@font\mtcSfont 37}{section.2.6}}

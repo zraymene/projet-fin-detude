@@ -20,7 +20,7 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Structure d'un bloc résiduel.\relax }}{22}{figure.caption.39}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Structure de Inception Block.\relax }}{23}{figure.caption.41}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture de Darknet-53.\relax }}{24}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Réseau de proposition de région \cite {diagram_overflow}\relax }}{26}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Réseau de proposition de région \cite {diagram_rpn_overflow}\relax }}{26}{figure.caption.49}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces Architecture de RCNN\relax }}{31}{figure.caption.64}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Suppression non maximale (NMS).\relax }}{31}{figure.caption.65}%
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Architecture de Fast-RCNN\relax }}{32}{figure.caption.67}%
