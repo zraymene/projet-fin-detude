@@ -21,11 +21,11 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Structure de Inception Block.\relax }}{23}{figure.caption.41}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture de Darknet-53.\relax }}{24}{figure.caption.43}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Réseau de proposition de région \cite {diagram_overflow}\relax }}{26}{figure.caption.49}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Architecture de RCNN\relax }}{27}{figure.caption.54}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Suppression non maximale (NMS).\relax }}{28}{figure.caption.55}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Architecture de Fast-RCNN\relax }}{28}{figure.caption.57}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Architecture de Faster-RCNN\relax }}{29}{figure.caption.59}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Architecture de YOLO (You Only Look Once)\relax }}{30}{figure.caption.61}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Feature Network Pyramid (FNP)\relax }}{31}{figure.caption.63}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Architecture de YOLOv3\relax }}{31}{figure.caption.64}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Architecture de SSD (Single Shot MultiBox Detector)\relax }}{32}{figure.caption.66}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Architecture de RCNN\relax }}{31}{figure.caption.64}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Suppression non maximale (NMS).\relax }}{31}{figure.caption.65}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Architecture de Fast-RCNN\relax }}{32}{figure.caption.67}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Architecture de Faster-RCNN\relax }}{33}{figure.caption.69}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Architecture de YOLO (You Only Look Once)\relax }}{34}{figure.caption.71}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Feature Network Pyramid (FNP)\relax }}{35}{figure.caption.73}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Architecture de YOLOv3\relax }}{35}{figure.caption.74}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Architecture de SSD (Single Shot MultiBox Detector)\relax }}{36}{figure.caption.76}%

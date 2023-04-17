@@ -59,17 +59,28 @@
 \contentsline {subsubsection}{Méthodes basées sur les points clés}{26}{section*.50}%
 \contentsline {paragraph}{Méthodes basées sur les coins}{26}{section*.51}%
 \contentsline {paragraph}{Méthodes basées sur le centre}{26}{section*.52}%
-\contentsline {section}{\numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{27}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Détecteurs à Deux-étapes}{27}{subsection.2.3.1}%
-\contentsline {subsubsection}{RCNN}{27}{section*.53}%
-\contentsline {subsubsection}{Fast-RCNN}{28}{section*.56}%
-\contentsline {subsubsection}{Faster-RCNN}{28}{section*.58}%
-\contentsline {subsection}{\numberline {2.3.2}Détecteurs à Un-étapes}{30}{subsection.2.3.2}%
-\contentsline {subsubsection}{YOLO (You Only Look Once)}{30}{section*.60}%
-\contentsline {subsubsection}{YOLOv3}{30}{section*.62}%
-\contentsline {subsubsection}{SSD (Single Shot MultiBox Detector)}{31}{section*.65}%
-\contentsline {section}{\numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{32}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Bases de données d'évaluation}{32}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Conclusion}{33}{section.2.6}%
-\contentsline {chapter}{Bibliographie}{34}{section.2.6}%
-\contentsline {chapter}{Annexe}{34}{section.2.6}%
+\contentsline {subsection}{\numberline {2.2.6}Apprentissage de la représentation des caractéristiques}{27}{subsection.2.2.6}%
+\contentsline {subsubsection}{Apprentissage de fonctionnalités multi-échelles}{27}{section*.53}%
+\contentsline {paragraph}{Pyramide d'images}{27}{section*.54}%
+\contentsline {paragraph}{Fonctionnalités intégrées}{27}{section*.55}%
+\contentsline {paragraph}{Pyramide de prédiction}{28}{section*.56}%
+\contentsline {paragraph}{Pyramide des fonctionnalités}{28}{section*.57}%
+\contentsline {subsubsection}{Codage des caractéristiques régionales}{28}{section*.58}%
+\contentsline {subsubsection}{Raisonnement contextuel}{29}{section*.59}%
+\contentsline {paragraph}{Raisonnement contextuel global}{29}{section*.60}%
+\contentsline {paragraph}{Raisonnement du contexte de la région}{29}{section*.61}%
+\contentsline {subsubsection}{Apprentissage des caractéristiques déformables}{30}{section*.62}%
+\contentsline {section}{\numberline {2.3}Les méthodes de détections d'objets basées sur l'apprentissage profond}{30}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Détecteurs à Deux-étapes}{30}{subsection.2.3.1}%
+\contentsline {subsubsection}{RCNN}{30}{section*.63}%
+\contentsline {subsubsection}{Fast-RCNN}{31}{section*.66}%
+\contentsline {subsubsection}{Faster-RCNN}{32}{section*.68}%
+\contentsline {subsection}{\numberline {2.3.2}Détecteurs à Un-étapes}{33}{subsection.2.3.2}%
+\contentsline {subsubsection}{YOLO (You Only Look Once)}{34}{section*.70}%
+\contentsline {subsubsection}{YOLOv3}{34}{section*.72}%
+\contentsline {subsubsection}{SSD (Single Shot MultiBox Detector)}{35}{section*.75}%
+\contentsline {section}{\numberline {2.4}Métriques pour l'évaluation des systèmes de détection d'objets}{36}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Bases de données d'évaluation}{36}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Conclusion}{37}{section.2.6}%
+\contentsline {chapter}{Bibliographie}{38}{section.2.6}%
+\contentsline {chapter}{Annexe}{38}{section.2.6}%
