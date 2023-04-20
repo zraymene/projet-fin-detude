@@ -14,84 +14,83 @@
 \contentsline {section}{\numberline {1.3}Historique}{7}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Etat de l'art des techniques de détection d'objets}{8}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Les applications de la détection d'objets}{8}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Reconnaissance optique de caractères}{8}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Voitures autonomes}{8}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Suivi des objets}{8}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Biométrie}{9}{subsection.1.5.4}%
-\contentsline {subsection}{\numberline {1.5.5}reconnaissance d'activités}{9}{subsection.1.5.5}%
-\contentsline {subsection}{\numberline {1.5.6}Tatouage numérique}{9}{subsection.1.5.6}%
-\contentsline {subsection}{\numberline {1.5.7}Imagerie médicale}{9}{subsection.1.5.7}%
-\contentsline {subsection}{\numberline {1.5.8}Robotique}{9}{subsection.1.5.8}%
-\contentsline {subsection}{\numberline {1.5.9}Production industrielle}{9}{subsection.1.5.9}%
-\contentsline {subsection}{\numberline {1.5.10}Surveillance et sécurité}{10}{subsection.1.5.10}%
-\contentsline {section}{\numberline {1.6}Conclusion}{11}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Détection d'objets et apprentissage profond}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Concepts de base}{14}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Les réseaux de neurones convolutifs (CNN)}{14}{subsection.2.2.1}%
-\contentsline {subsubsection}{Couche de convolution}{15}{section*.17}%
-\contentsline {subsubsection}{Pooling Layer}{15}{section*.19}%
-\contentsline {subsubsection}{Fully Connected Layer (FC)}{16}{section*.21}%
-\contentsline {subsection}{\numberline {2.2.2}L'apprentissage par transfert}{16}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Architectures CNN populaires}{17}{subsection.2.2.3}%
-\contentsline {subsubsection}{AlexNet}{17}{section*.24}%
-\contentsline {subsubsection}{VGG-16}{18}{section*.26}%
-\contentsline {subsubsection}{ResNet}{19}{section*.28}%
-\contentsline {subsubsection}{GoogLeNet}{20}{section*.30}%
-\contentsline {subsubsection}{Darknet-53}{21}{section*.32}%
-\contentsline {section}{\numberline {2.3}Fonction de perte pour la détection d'objet}{22}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Perte de Classification}{22}{subsection.2.3.1}%
-\contentsline {subsubsection}{Hinge loss}{22}{section*.34}%
-\contentsline {subsubsection}{Cross entropy loss}{23}{section*.35}%
-\contentsline {subsection}{\numberline {2.3.2}Perte de Localistaion}{23}{subsection.2.3.2}%
-\contentsline {subsubsection}{Squared Loss}{23}{section*.36}%
-\contentsline {subsubsection}{Residual Sum of Squares (RSS)}{23}{section*.37}%
-\contentsline {subsubsection}{Mean Squared Error (MSE)}{24}{section*.38}%
-\contentsline {subsubsection}{Absolute loss}{24}{section*.39}%
-\contentsline {subsubsection}{Sum of Absolute Differences (SAD)}{24}{section*.40}%
-\contentsline {subsubsection}{Mean Absolute Error (MAE)}{24}{section*.41}%
-\contentsline {section}{\numberline {2.4}Génération de proposition}{25}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Méthodes traditionnelles de vision par ordinateur}{25}{subsection.2.4.1}%
-\contentsline {subsubsection}{Score d'objectivité}{25}{section*.42}%
-\contentsline {subsubsection}{Superpixels fusionnant}{25}{section*.43}%
-\contentsline {subsubsection}{Segmentation des semences}{26}{section*.44}%
-\contentsline {subsection}{\numberline {2.4.2}Méthodes basées sur des ancres}{26}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Méthodes basées sur les points clés}{27}{subsection.2.4.3}%
-\contentsline {subsubsection}{Méthodes basées sur les coins}{27}{section*.46}%
-\contentsline {subsubsection}{Méthodes basées sur le centre}{27}{section*.47}%
-\contentsline {section}{\numberline {2.5}Apprentissage de la représentation des caractéristiques}{28}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Apprentissage de fonctionnalités multi-échelles}{28}{subsection.2.5.1}%
-\contentsline {subsubsection}{Pyramide d'images}{28}{section*.48}%
-\contentsline {subsubsection}{Fonctionnalités intégrées}{28}{section*.49}%
-\contentsline {subsubsection}{Pyramide de prédiction}{29}{section*.50}%
-\contentsline {subsubsection}{Pyramide des fonctionnalités}{29}{section*.51}%
-\contentsline {subsection}{\numberline {2.5.2}Codage des caractéristiques régionales}{29}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Raisonnement contextuel}{30}{subsection.2.5.3}%
-\contentsline {subsubsection}{Raisonnement contextuel global}{30}{section*.52}%
-\contentsline {subsubsection}{Raisonnement du contexte de la région}{30}{section*.53}%
-\contentsline {subsection}{\numberline {2.5.4}Apprentissage des caractéristiques déformables}{31}{subsection.2.5.4}%
-\contentsline {section}{\numberline {2.6}Les méthodes de détections d'objets basées sur l'apprentissage profond}{31}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Détecteurs à Deux-étapes}{31}{subsection.2.6.1}%
-\contentsline {subsubsection}{RCNN}{31}{section*.54}%
-\contentsline {subsubsection}{Fast-RCNN}{32}{section*.57}%
-\contentsline {subsubsection}{Faster-RCNN}{33}{section*.59}%
-\contentsline {subsection}{\numberline {2.6.2}Détecteurs à Un-étapes}{34}{subsection.2.6.2}%
-\contentsline {subsubsection}{YOLO (You Only Look Once)}{35}{section*.61}%
-\contentsline {subsubsection}{YOLOv3}{35}{section*.63}%
-\contentsline {subsubsection}{SSD (Single Shot MultiBox Detector)}{36}{section*.66}%
-\contentsline {section}{\numberline {2.7}Métriques pour l'évaluation des systèmes de détection d'objets}{37}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Intersection sur Union (IoU)}{37}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Matrice de confusion}{38}{subsection.2.7.2}%
-\contentsline {paragraph}{Vrai positif (TP):}{38}{section*.70}%
-\contentsline {paragraph}{Faux positif (FP):}{38}{section*.71}%
-\contentsline {paragraph}{Faux négatif (FN):}{39}{section*.72}%
-\contentsline {paragraph}{Vrai négatif (TN):}{39}{section*.73}%
-\contentsline {subsection}{\numberline {2.7.3}Précision}{39}{subsection.2.7.3}%
-\contentsline {subsection}{\numberline {2.7.4}Rappel}{39}{subsection.2.7.4}%
-\contentsline {subsection}{\numberline {2.7.5}Précision x Rappel courbe}{39}{subsection.2.7.5}%
-\contentsline {subsection}{\numberline {2.7.6}Précision moyenne (AP)}{40}{subsection.2.7.6}%
-\contentsline {subsection}{\numberline {2.7.7}Précision moyenne moyenne (mAP)}{40}{subsection.2.7.7}%
-\contentsline {section}{\numberline {2.8}Bases de données d'évaluation}{41}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Conclusion}{41}{section.2.9}%
-\contentsline {chapter}{Bibliographie}{42}{section.2.9}%
-\contentsline {chapter}{Annexe}{44}{chapter*.75}%
+\contentsline {subsection}{\numberline {1.5.1}Reconnaissance optique de caractères (OCR)}{8}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Voitures autonomes}{9}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Biométrie}{10}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}Reconnaissance d'activités}{11}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}Imagerie médicale}{12}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.5.6}Robotique}{13}{subsection.1.5.6}%
+\contentsline {subsection}{\numberline {1.5.7}Production industrielle}{14}{subsection.1.5.7}%
+\contentsline {subsection}{\numberline {1.5.8}Surveillance et sécurité}{14}{subsection.1.5.8}%
+\contentsline {subsection}{\numberline {1.5.9}Recherche visuelle}{15}{subsection.1.5.9}%
+\contentsline {section}{\numberline {1.6}Conclusion}{16}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Détection d'objets et apprentissage profond}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{18}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Concepts de base}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Les réseaux de neurones convolutifs (CNN)}{19}{subsection.2.2.1}%
+\contentsline {subsubsection}{Couche de convolution}{20}{section*.23}%
+\contentsline {subsubsection}{Pooling Layer}{20}{section*.25}%
+\contentsline {subsubsection}{Fully Connected Layer (FC)}{21}{section*.27}%
+\contentsline {subsection}{\numberline {2.2.2}L'apprentissage par transfert}{21}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Architectures CNN populaires}{22}{subsection.2.2.3}%
+\contentsline {subsubsection}{AlexNet}{22}{section*.30}%
+\contentsline {subsubsection}{VGG-16}{23}{section*.32}%
+\contentsline {subsubsection}{ResNet}{24}{section*.34}%
+\contentsline {subsubsection}{GoogLeNet}{25}{section*.36}%
+\contentsline {subsubsection}{Darknet-53}{26}{section*.38}%
+\contentsline {section}{\numberline {2.3}Fonction de perte pour la détection d'objet}{27}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Perte de Classification}{27}{subsection.2.3.1}%
+\contentsline {subsubsection}{Hinge loss}{27}{section*.40}%
+\contentsline {subsubsection}{Cross entropy loss}{28}{section*.41}%
+\contentsline {subsection}{\numberline {2.3.2}Perte de Localistaion}{28}{subsection.2.3.2}%
+\contentsline {subsubsection}{Squared Loss}{28}{section*.42}%
+\contentsline {subsubsection}{Residual Sum of Squares (RSS)}{28}{section*.43}%
+\contentsline {subsubsection}{Mean Squared Error (MSE)}{29}{section*.44}%
+\contentsline {subsubsection}{Absolute loss}{29}{section*.45}%
+\contentsline {subsubsection}{Sum of Absolute Differences (SAD)}{29}{section*.46}%
+\contentsline {subsubsection}{Mean Absolute Error (MAE)}{29}{section*.47}%
+\contentsline {section}{\numberline {2.4}Génération de proposition}{30}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Méthodes traditionnelles de vision par ordinateur}{30}{subsection.2.4.1}%
+\contentsline {subsubsection}{Score d'objectivité}{30}{section*.48}%
+\contentsline {subsubsection}{Superpixels fusionnant}{30}{section*.49}%
+\contentsline {subsubsection}{Segmentation des semences}{31}{section*.50}%
+\contentsline {subsection}{\numberline {2.4.2}Méthodes basées sur des ancres}{31}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Méthodes basées sur les points clés}{32}{subsection.2.4.3}%
+\contentsline {subsubsection}{Méthodes basées sur les coins}{32}{section*.52}%
+\contentsline {subsubsection}{Méthodes basées sur le centre}{32}{section*.53}%
+\contentsline {section}{\numberline {2.5}Apprentissage de la représentation des caractéristiques}{33}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Apprentissage de fonctionnalités multi-échelles}{33}{subsection.2.5.1}%
+\contentsline {subsubsection}{Pyramide d'images}{33}{section*.54}%
+\contentsline {subsubsection}{Fonctionnalités intégrées}{33}{section*.55}%
+\contentsline {subsubsection}{Pyramide de prédiction}{34}{section*.56}%
+\contentsline {subsubsection}{Pyramide des fonctionnalités}{34}{section*.57}%
+\contentsline {subsection}{\numberline {2.5.2}Codage des caractéristiques régionales}{34}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Raisonnement contextuel}{35}{subsection.2.5.3}%
+\contentsline {subsubsection}{Raisonnement contextuel global}{35}{section*.58}%
+\contentsline {subsubsection}{Raisonnement du contexte de la région}{35}{section*.59}%
+\contentsline {subsection}{\numberline {2.5.4}Apprentissage des caractéristiques déformables}{36}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.6}Les méthodes de détections d'objets basées sur l'apprentissage profond}{36}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Détecteurs à Deux-étapes}{36}{subsection.2.6.1}%
+\contentsline {subsubsection}{RCNN}{36}{section*.60}%
+\contentsline {subsubsection}{Fast-RCNN}{37}{section*.63}%
+\contentsline {subsubsection}{Faster-RCNN}{38}{section*.65}%
+\contentsline {subsection}{\numberline {2.6.2}Détecteurs à Un-étapes}{39}{subsection.2.6.2}%
+\contentsline {subsubsection}{YOLO (You Only Look Once)}{40}{section*.67}%
+\contentsline {subsubsection}{YOLOv3}{40}{section*.69}%
+\contentsline {subsubsection}{SSD (Single Shot MultiBox Detector)}{41}{section*.72}%
+\contentsline {section}{\numberline {2.7}Métriques pour l'évaluation des systèmes de détection d'objets}{42}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Intersection sur Union (IoU)}{42}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Matrice de confusion}{43}{subsection.2.7.2}%
+\contentsline {paragraph}{Vrai positif (TP):}{43}{section*.76}%
+\contentsline {paragraph}{Faux positif (FP):}{43}{section*.77}%
+\contentsline {paragraph}{Faux négatif (FN):}{44}{section*.78}%
+\contentsline {paragraph}{Vrai négatif (TN):}{44}{section*.79}%
+\contentsline {subsection}{\numberline {2.7.3}Précision}{44}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Rappel}{44}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5}Précision x Rappel courbe}{44}{subsection.2.7.5}%
+\contentsline {subsection}{\numberline {2.7.6}Précision moyenne (AP)}{45}{subsection.2.7.6}%
+\contentsline {subsection}{\numberline {2.7.7}Précision moyenne moyenne (mAP)}{45}{subsection.2.7.7}%
+\contentsline {section}{\numberline {2.8}Bases de données d'évaluation}{46}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Conclusion}{46}{section.2.9}%
+\contentsline {chapter}{Bibliographie}{47}{section.2.9}%
+\contentsline {chapter}{Annexe}{49}{chapter*.81}%

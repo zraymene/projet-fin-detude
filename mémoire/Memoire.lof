@@ -1,34 +1,40 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
 \contentsline {xchapter}{La détection d'objets}{3}{chapter.1}%
-\contentsline {figure}{\numberline {1.1}{\ignorespaces ---------.\relax }}{5}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces ---------.\relax }}{5}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces ---------.\relax }}{6}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces ---------.\relax }}{7}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces ---------.\relax }}{9}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces ---------.\relax }}{10}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces ---------.\relax }}{10}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Exemple de détection basée sur la boîte englobante.\relax }}{5}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Exemple de détection de segmentation sémantique.\relax }}{5}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces la segmentation d'instance.\relax }}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Détection d'objet basée sur la boîte englobante avec le nom de la classe.\relax }}{7}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Reconnaissance optique de caractères (OCR).\relax }}{9}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces carte de l'environnement des voitures autonomes générée à l'aide de la détection d'objets.\relax }}{10}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Identification de l'iris à l'aide de la détection d'objet.\relax }}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Reconnaissance d'activités.\relax }}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Détection de tumeurs cérébrales à l'aide de méthodes de détection d'objets.\relax }}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Mains robotiques utilisées dans la construction automobile.\relax }}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Détection d'objets utilisée pour détecter les pièces fabriquées mal formées.\relax }}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Détection d'objets utilisée dans la sécurité et la surveillance.\relax }}{15}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Shopping intelligent grâce à la détection d'objets.\relax }}{15}{figure.caption.21}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Détection d'objets et apprentissage profond}{12}{chapter.2}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Structure d'un réseaux de neurones.\relax }}{14}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Structure de Couche de convolution. \cite {db4}\relax }}{15}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Max-pooling et Average-pooling.\relax }}{16}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Exemple de structure de réseaux de neurones convolutionnels.\relax }}{16}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Différence entre l'apprentissage traditionnel et l'apprentissage par transfert.\relax }}{17}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Architecture de AlexNet.\relax }}{18}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Architecture de VGG-16.\relax }}{19}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Structure d'un bloc résiduel.\relax }}{20}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Structure de Inception Block.\relax }}{21}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture de Darknet-53.\relax }}{22}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Réseau de proposition de région \cite {diagram_rpn_overflow}\relax }}{27}{figure.caption.45}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Architecture de RCNN\relax }}{32}{figure.caption.55}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Suppression non maximale (NMS).\relax }}{32}{figure.caption.56}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Architecture de Fast-RCNN\relax }}{33}{figure.caption.58}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Architecture de Faster-RCNN\relax }}{34}{figure.caption.60}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Architecture de YOLO (You Only Look Once)\relax }}{35}{figure.caption.62}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Feature Network Pyramid (FNP)\relax }}{36}{figure.caption.64}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Architecture de YOLOv3\relax }}{36}{figure.caption.65}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Architecture de SSD (Single Shot MultiBox Detector)\relax }}{37}{figure.caption.67}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Intersection sur Union (IoU)\relax }}{38}{figure.caption.68}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Exemple de Intersection sur Union (IoU)\relax }}{38}{figure.caption.69}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Exemple de Précision x Rappel courbe d'un model\relax }}{40}{figure.caption.74}%
+\contentsline {xchapter}{Détection d'objets et apprentissage profond}{17}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Structure d'un réseaux de neurones.\relax }}{19}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Structure de Couche de convolution.\relax }}{20}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Max-pooling et Average-pooling.\relax }}{21}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Exemple de structure de réseaux de neurones convolutionnels.\relax }}{21}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Différence entre l'apprentissage traditionnel et l'apprentissage par transfert.\relax }}{22}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Architecture de AlexNet.\relax }}{23}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Architecture de VGG-16.\relax }}{24}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Structure d'un bloc résiduel.\relax }}{25}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Structure de Inception Block.\relax }}{26}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Architecture de Darknet-53.\relax }}{27}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Réseau de proposition de région \cite {diagram_rpn_overflow}\relax }}{32}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Architecture de RCNN\relax }}{37}{figure.caption.61}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Suppression non maximale (NMS).\relax }}{37}{figure.caption.62}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Architecture de Fast-RCNN\relax }}{38}{figure.caption.64}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Architecture de Faster-RCNN\relax }}{39}{figure.caption.66}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Architecture de YOLO (You Only Look Once)\relax }}{40}{figure.caption.68}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Feature Network Pyramid (FNP)\relax }}{41}{figure.caption.70}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Architecture de YOLOv3\relax }}{41}{figure.caption.71}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Architecture de SSD (Single Shot MultiBox Detector)\relax }}{42}{figure.caption.73}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Intersection sur Union (IoU)\relax }}{43}{figure.caption.74}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Exemple de Intersection sur Union (IoU)\relax }}{43}{figure.caption.75}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Exemple de Précision x Rappel courbe d'un model\relax }}{45}{figure.caption.80}%

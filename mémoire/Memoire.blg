@@ -7,7 +7,6 @@ Reallocating 'name_of_file' (item size: 1) to 25 items.
 Database file #1: Bibliographie/references.bib
 A bad cross reference---entry "faster_rcnn_paper"
 refers to entry "conf/nips/2015", which doesn't exist
-Warning--I didn't find a database entry for "db4"
 Warning--I didn't find a database entry for "conf/nips/2015"
 Warning--empty booktitle in diagram_rpn_overflow
 Warning--empty year in diagram_rpn_overflow
@@ -21,7 +20,7 @@ Warning--can't use both volume and number fields in selctive_search_paper
 Warning--empty booktitle in dpm_paper
 You've used 20 entries,
             2118 wiz_defined-function locations,
-            600 strings with 7520 characters,
+            599 strings with 7517 characters,
 and the built_in function-call counts, 7611 in all, are:
 = -- 678
 > -- 468
