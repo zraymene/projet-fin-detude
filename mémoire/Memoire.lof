@@ -38,3 +38,33 @@
 \contentsline {figure}{\numberline {2.20}{\ignorespaces Intersection sur Union (IoU)\relax }}{43}{figure.caption.74}%
 \contentsline {figure}{\numberline {2.21}{\ignorespaces Exemple de Intersection sur Union (IoU)\relax }}{43}{figure.caption.75}%
 \contentsline {figure}{\numberline {2.22}{\ignorespaces Exemple de Précision x Rappel courbe d'un model\relax }}{45}{figure.caption.80}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Implemnetation de détection d'objets et apprentissage profond}{47}{chapter.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Étapes de numérisation d'une URL.\relax }}{49}{figure.caption.81}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Structure d'un URL.\relax }}{51}{figure.caption.85}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diffrence d'ecritue de la lettre 'A'.\relax }}{52}{figure.caption.86}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Exemple de documents générés.\relax }}{53}{figure.caption.87}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Étapes des génération de données synthétiques.\relax }}{54}{figure.caption.88}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Structure de fichier du format d'annotation YOLO.\relax }}{56}{figure.caption.95}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Commandes pour télécharger l'ensemble de données depuis Roboflow.\relax }}{58}{figure.caption.101}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Script Python pour créer le fichier \(train.txt\).\relax }}{58}{figure.caption.103}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Script Python pour monter Google Drive sur l'instance actuelle.\relax }}{58}{figure.caption.105}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Télécharger et compiler Darknet.\relax }}{59}{figure.caption.107}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Creation de fichier \(obj.data\).\relax }}{60}{figure.caption.113}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Creation de fichier \(obj.names\).\relax }}{60}{figure.caption.114}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Script pour modifier le fichier de configuration $cfg/yolov4-custom.cfg$.\relax }}{61}{figure.caption.121}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Téléchargés les poids pré-formés.\relax }}{61}{figure.caption.123}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Commencez l'entraînement en sélectionnant les poids pré-entraînés.\relax }}{61}{figure.caption.125}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Continue la formation.\relax }}{62}{figure.caption.127}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Commandes pour télécharger YOLOv5 et installer Python requis\relax }}{62}{figure.caption.129}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Commandes pour télécharger l'ensemble de données depuis Roboflow.\relax }}{62}{figure.caption.131}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Lancer l'entraînement de YOLOv5.\relax }}{63}{figure.caption.137}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces YOLOv4 : Test des URL écrites en police Arial.\relax }}{65}{figure.caption.146}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces YOLOv4 : Test des URL écrites dans différentes polices.\relax }}{66}{figure.caption.147}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces YOLOv4 : test des URL écrites dans différentes couleurs.\relax }}{67}{figure.caption.148}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces YOLOv4 : test des URL écrites dans différentes rotations.\relax }}{68}{figure.caption.149}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces YOLOv5 : Test des URL écrites en police Arial.\relax }}{69}{figure.caption.151}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces YOLOv5: Test des URL écrites dans différentes polices.\relax }}{70}{figure.caption.152}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces YOLOv5 : test des URL écrites dans différentes couleurs.\relax }}{71}{figure.caption.153}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces YOLOv5: test des URL écrites dans différentes rotations.\relax }}{72}{figure.caption.154}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces YOLOv5 : Test des URL écrites en manuscrit.\relax }}{73}{figure.caption.155}%
