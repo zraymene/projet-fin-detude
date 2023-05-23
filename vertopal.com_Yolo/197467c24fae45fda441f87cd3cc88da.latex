@@ -1,0 +1,297 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\usepackage[normalem]{ulem}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\textbf{\uline{1-Yolo-v3}}
+
+\textbf{\uline{1.1-training yolo-v3~:}}
+
+-dans cette étude nous sommes appuyés sur des méthodes
+d\textquotesingle apprentissage automatique {[}1{]}.
+
+-Yolo-v3 est implémenté sur darkent
+
+-Nous utilisons Google colab car il offre un accès gratuit, puissant et
+rapide au GPU {[}1{]}.
+
+-
+
+\uline{Les étapes~:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Nous commençons par préparer l\textquotesingle ensemble des données
+  pour entraîner le modèle yolo-v3.
+\item
+  Créer un fichier zip contenant toutes les images et classes.txt
+\end{enumerate}
+
+\begin{quote}
+\includegraphics[width=2.98352in,height=2.97337in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image1.png}
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\item
+  Ouvrez git hub, créez un nouveau dossier "yolov3" et téléchargez le
+  dossier images.zip à l\textquotesingle intérieur.
+\item
+  \uline{Configuration de Google Colab~:}
+\end{enumerate}
+
+-Ouvrez Google Colab et téléchargez le fichier
+YOLOv3\_Custom\_Object\_Detection\_2.ipynb.{[}1{]}.\includegraphics[width=3.92174in,height=1.86581in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image2.png}
+
+- Vérifiez si le GPU NVIDIA est activé pour
+l\textquotesingle entraînement.
+
+\includegraphics[width=5in,height=3.1044in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image3.png}
+
+- Montez votre github sur Google Colab.:Il s\textquotesingle agit de
+donner accès à l\textquotesingle ensemble de données images.zip stocké
+sur votre github, et créer fichier main.zip
+
+\includegraphics[width=5.53926in,height=2.48696in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image4.png}
+
+-unzip ``main.zip''
+
+\includegraphics[width=3.51304in,height=3.50874in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image5.png}
+
+- Copier, configurer et compiler Darknet.
+
+\includegraphics[width=4.7913in,height=3.88612in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image6.png}
+
+-Créé yolov3\_training.cfg à partir du fichier yolov3.cfg
+
+Toutes les modifications et configurations que nous apporterons à notre
+modèle personnalisé soient reflétées dans le fichier
+yolov3\_training.cfg
+
+\# Make a copy of yolov3.cfg
+
+!cp cfg/yolov3.cfg cfg/yolov3\_training.cfg
+
+Il y a un seul classe donc~{[}1{]}~:
+
+For n = 1: max\_batches = 2000, classes=1, filters=18
+
+max\_batches = 2000 * n and filters = (n + 5) * 3
+
+For n = 2: max\_batches = 4000, classes=2, filters=21
+
+For n = 3: max\_batches = 8000, classes=3, filters=24
+
+\includegraphics[width=6.17934in,height=2.22458in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image7.png}
+
+- crée les fichiers obj.names et obj.data dans le répertoire
+darknet/data/obj
+
+Ces fichiers contiennent des métadonnées telles que les noms des classes
+et le nombre de classes nécessaires à la formation
+\includegraphics[width=6.11922in,height=0.92986in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image8.png}
+
+-Enregistrer les fichiers yolov3\_training.cfg et obj.names dans Google
+Drive et
+darkent\includegraphics[width=6.53194in,height=1.34861in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image9.png}
+
+- création du fichier train.txt
+
+Il contient l\textquotesingle emplacement de toutes les images
+
+Récupération des images pour traitement
+
+\includegraphics[width=6.53194in,height=1.15625in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image10.png}
+
+- Télécharger les poids pré-entraînés pour le fichier des couches
+convolutives
+
+On utilise darknet53.conv.74.~: est un modèle d'apprentissage déjà
+formé. C'est utilisé pour forme à notre modèle.
+
+Gagner du temps et économiser des calculs dans le processus
+d\textquotesingle apprentissage.
+
+\includegraphics[width=6.53194in,height=2.90694in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image11.png}
+
+- ont commencé le processus d\textquotesingle apprentissage
+
+L\textquotesingle apprentissage du modèle prendra un certain temps (7
+H:43 Min).
+
+\includegraphics[width=6.57725in,height=2.15652in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image12.png}
+
+À la fin de la formation, il donne 3 fichiers (1-
+yolov3\_training\_2000.weights /2- yolov3\_training\_last.weights/3-
+yolov3\_training\_final.weights)
+
+\includegraphics[width=6.53194in,height=1.38333in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image13.png}
+
+Téléchargez et sauvegardez (yolov3\_training\_last.weight, classes.txt ,
+yolov3\_testing.cfg) dans le dossier YOLOv3-Custom-Object-Detection.
+
+6-Création d\textquotesingle un nouvel ensemble de données
+(test\_images) pour tester le modèle.
+
+\includegraphics[width=6.53194in,height=1.47014in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image14.png}
+
+7-Ouvrir le fichier yolo-v3.py.
+
+\includegraphics[width=2.5125in,height=3.45278in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image15.png}
+
+Après toutes les étapes, le programme fonctionne et est efficace
+
+\textbf{\uline{Discuter les résultats~:}}
+
+Dans cette étude, nous allons créer une nouvelle base de données
+
+La nouvelle base de données contient des images modifiées :
+
+-Type de police
+
+-Couleurs
+
+-Link (http:)
+
+-La rotation
+
+- Manuscrits
+
+\textbf{\uline{1.1-police~:}}
+
+\includegraphics[width=3.12153in,height=4.11667in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image16.png}
+Il y 3 types des polices et nous allons faites des tests par yolo-v3 et
+afficher les résultats.
+\includegraphics[width=2.84273in,height=4.21569in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image17.png}
+
+jokerman bradleyhand itc
+
+Type 1: il détecte 3/4 éléments, le score 80.33\% Type 2: il détecte 4/4
+éléments, le score99\%
+
+\includegraphics[width=3.53889in,height=4.57847in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image18.png}
+
+Type 3~: il détecte 3/4 éléments, le score 72.21\%
+
+Le résultat
+
+L'efficacité d'algorithme yolo-v3 dans cette partie est 72\%-\/-99\%
+selon chaque type des polices
+
+\textbf{\uline{1.2-couleur~:}}
+
+On utilise 13 éléments ont couleurs
+
+Le résultat qui nous avons détecté et trouver est 6 éléments le score =
+46.23\%
+
+Nous utilisons 13 éléments qui ont des couleurs
+
+Le résultat que nous avons détecté et trouvé est un score de 6 éléments
+
+\includegraphics[width=3.10062in,height=4.32353in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image19.png}\includegraphics[width=3.36528in,height=4.3506in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image20.png}
+
+\includegraphics[width=3.06111in,height=4.24265in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image21.png}
+
+\textbf{\uline{1.3-Link (https)~:}}
+
+\includegraphics[width=3.22549in,height=3.92607in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image22.png}\includegraphics[width=3.14706in,height=3.92161in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image23.png}
+
+Dans cette étude, nous constatons que le score est faible
+(15\%\textasciitilde20\%) et nous avons remarqué que dans certains cas,
+nous avons détecté le modèle (www) dans le modèle (https).
+
+\textbf{\uline{1.4-la rotation~:}}
+
+Pour la rotation de 90 ne donne aucun résultat.
+
+\includegraphics[width=3.02869in,height=2.23529in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image24.png}\includegraphics[width=3.19124in,height=2.27451in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image25.png}
+
+\includegraphics[width=2.98848in,height=4.12695in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image26.png}
+
+Pour une rotation de 180, le score est 80\%.
+
+\textbf{\uline{1.5- Manuscrits~:}}
+
+Dans cette étude, nous n\textquotesingle avons pas obtenu de résultats
+
+\includegraphics[width=2.03921in,height=3.03351in]{vertopal_197467c24fae45fda441f87cd3cc88da/media/image27.png}
+
+\textbf{\uline{Conclusion~:}}
+
+Ces résultats nous permettent de dire que Yolov3 a été capable
+d\textquotesingle obtenir d\textquotesingle excellents résultats malgré
+les changements dans les images.
+
+{[}1{]} N. T. NSTiwari, ``NSTIWARI/Yolov3-custom-object-detection: An
+E2E tutorial on custom object detection using yolov3 with transfer
+learning on Google Colab.,'' GitHub,
+https://github.com/NSTiwari/YOLOv3-Custom-Object-Detection (accessed May
+23, 2023).
+
+\end{document}
