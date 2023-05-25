@@ -1,1 +1,3 @@
 dataset/
+weights/yolov4_best.weights
+predictions/yolov4/manuscript_0.PNG
