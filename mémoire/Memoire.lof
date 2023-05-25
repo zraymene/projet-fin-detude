@@ -46,25 +46,46 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Exemple de documents générés.\relax }}{53}{figure.caption.87}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Étapes des génération de données synthétiques.\relax }}{54}{figure.caption.88}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Structure de fichier du format d'annotation YOLO.\relax }}{56}{figure.caption.95}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Commandes pour télécharger l'ensemble de données depuis Roboflow.\relax }}{58}{figure.caption.101}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Script Python pour créer le fichier \(train.txt\).\relax }}{58}{figure.caption.103}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Script Python pour monter Google Drive sur l'instance actuelle.\relax }}{58}{figure.caption.105}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Télécharger et compiler Darknet.\relax }}{59}{figure.caption.107}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Creation de fichier \(obj.data\).\relax }}{60}{figure.caption.113}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Creation de fichier \(obj.names\).\relax }}{60}{figure.caption.114}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Script pour modifier le fichier de configuration $cfg/yolov4-custom.cfg$.\relax }}{61}{figure.caption.121}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Téléchargés les poids pré-formés.\relax }}{61}{figure.caption.123}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Commencez l'entraînement en sélectionnant les poids pré-entraînés.\relax }}{61}{figure.caption.125}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Continue la formation.\relax }}{62}{figure.caption.127}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Commandes pour télécharger YOLOv5 et installer Python requis\relax }}{62}{figure.caption.129}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Commandes pour télécharger l'ensemble de données depuis Roboflow.\relax }}{62}{figure.caption.131}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Lancer l'entraînement de YOLOv5.\relax }}{63}{figure.caption.137}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces YOLOv4 : Test des URL écrites en police Arial.\relax }}{65}{figure.caption.146}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces YOLOv4 : Test des URL écrites dans différentes polices.\relax }}{66}{figure.caption.147}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces YOLOv4 : test des URL écrites dans différentes couleurs.\relax }}{67}{figure.caption.148}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces YOLOv4 : test des URL écrites dans différentes rotations.\relax }}{68}{figure.caption.149}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces YOLOv5 : Test des URL écrites en police Arial.\relax }}{69}{figure.caption.151}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces YOLOv5: Test des URL écrites dans différentes polices.\relax }}{70}{figure.caption.152}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces YOLOv5 : test des URL écrites dans différentes couleurs.\relax }}{71}{figure.caption.153}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces YOLOv5: test des URL écrites dans différentes rotations.\relax }}{72}{figure.caption.154}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces YOLOv5 : Test des URL écrites en manuscrit.\relax }}{73}{figure.caption.155}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces les images et classes.txt\relax }}{58}{figure.caption.102}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces NVIDIA GPU\relax }}{59}{figure.caption.108}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Créer le fichier main.zip\relax }}{60}{figure.caption.110}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces unzip le fichier main.zip\relax }}{61}{figure.caption.112}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Darkent\relax }}{62}{figure.caption.114}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces obj.names et obj.data\relax }}{63}{figure.caption.120}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces fichier train.txt \relax }}{63}{figure.caption.124}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Préparer et télécharger darknet53.conv.74\relax }}{64}{figure.caption.126}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces le processus d'apprentissage \relax }}{65}{figure.caption.128}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces YOLO-v3 \relax }}{66}{figure.caption.135}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces NVIDIA GPU\relax }}{67}{figure.caption.141}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Créer le fichier main.zip\relax }}{68}{figure.caption.143}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces unzip le fichier main.zip\relax }}{69}{figure.caption.145}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Darkent\relax }}{70}{figure.caption.147}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces obj.names et obj.data\relax }}{71}{figure.caption.153}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces fichier train.txt \relax }}{71}{figure.caption.157}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Préparer et télécharger darknet53.conv.74\relax }}{72}{figure.caption.159}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces le processus d'apprentissage \relax }}{73}{figure.caption.161}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces YOLO-v3 \relax }}{74}{figure.caption.168}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Commandes pour télécharger l'ensemble de données depuis Roboflow.\relax }}{75}{figure.caption.170}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Script Python pour créer le fichier \(train.txt\).\relax }}{75}{figure.caption.172}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Script Python pour monter Google Drive sur l'instance actuelle.\relax }}{75}{figure.caption.174}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Télécharger et compiler Darknet.\relax }}{76}{figure.caption.176}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Creation de fichier \(obj.data\).\relax }}{77}{figure.caption.182}%
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Creation de fichier \(obj.names\).\relax }}{77}{figure.caption.183}%
+\contentsline {figure}{\numberline {3.44}{\ignorespaces Script pour modifier le fichier de configuration $cfg/yolov4-custom.cfg$.\relax }}{78}{figure.caption.190}%
+\contentsline {figure}{\numberline {3.45}{\ignorespaces Téléchargés les poids pré-formés.\relax }}{78}{figure.caption.192}%
+\contentsline {figure}{\numberline {3.46}{\ignorespaces Commencez l'entraînement en sélectionnant les poids pré-entraînés.\relax }}{78}{figure.caption.194}%
+\contentsline {figure}{\numberline {3.47}{\ignorespaces Continue la formation.\relax }}{79}{figure.caption.196}%
+\contentsline {figure}{\numberline {3.48}{\ignorespaces Commandes pour télécharger YOLOv5 et installer Python requis\relax }}{79}{figure.caption.198}%
+\contentsline {figure}{\numberline {3.49}{\ignorespaces Commandes pour télécharger l'ensemble de données depuis Roboflow.\relax }}{79}{figure.caption.200}%
+\contentsline {figure}{\numberline {3.50}{\ignorespaces Lancer l'entraînement de YOLOv5.\relax }}{80}{figure.caption.206}%
+\contentsline {figure}{\numberline {3.51}{\ignorespaces yolov3 : Test des URL écrites en police "jokerman"et "bradleyhand itc".\relax }}{82}{figure.caption.218}%
+\contentsline {figure}{\numberline {3.52}{\ignorespaces yolov3 : Test des URL écrites en police "algerian".\relax }}{83}{figure.caption.220}%
+\contentsline {figure}{\numberline {3.53}{\ignorespaces YOLOv4 : Test des URL écrites en police Arial.\relax }}{84}{figure.caption.223}%
+\contentsline {figure}{\numberline {3.54}{\ignorespaces YOLOv4 : Test des URL écrites dans différentes polices.\relax }}{85}{figure.caption.224}%
+\contentsline {figure}{\numberline {3.55}{\ignorespaces YOLOv4 : test des URL écrites dans différentes couleurs.\relax }}{86}{figure.caption.225}%
+\contentsline {figure}{\numberline {3.56}{\ignorespaces YOLOv4 : test des URL écrites dans différentes rotations.\relax }}{87}{figure.caption.226}%
+\contentsline {figure}{\numberline {3.57}{\ignorespaces YOLOv5 : Test des URL écrites en police Arial.\relax }}{88}{figure.caption.228}%
+\contentsline {figure}{\numberline {3.58}{\ignorespaces YOLOv5: Test des URL écrites dans différentes polices.\relax }}{89}{figure.caption.229}%
+\contentsline {figure}{\numberline {3.59}{\ignorespaces YOLOv5 : test des URL écrites dans différentes couleurs.\relax }}{90}{figure.caption.230}%
+\contentsline {figure}{\numberline {3.60}{\ignorespaces YOLOv5: test des URL écrites dans différentes rotations.\relax }}{91}{figure.caption.231}%
+\contentsline {figure}{\numberline {3.61}{\ignorespaces YOLOv5 : Test des URL écrites en manuscrit.\relax }}{92}{figure.caption.232}%

@@ -112,7 +112,164 @@
      
      % ------------ YOLOv3 -------------
      \subsection{YOLOv3}
+     dans cette étude nous sommes appuyés sur  des méthodes d'apprentissage automatique .
+     
+     Yolo-v3 est implémenté sur darkent.
       
+     Nous utilisons Google colab car il offre un accès gratuit, puissant et rapide au GPU.
+     
+      \paragraph{1-} Nous commençons par préparer l'ensemble des données pour entraîner le modèle yolo-v3. 
+      \paragraph{2-} Créer un fichier zip contenant toutes les images et classes.txt.
+      \begin{figure}[H]
+           \centering
+           \includegraphics[height=9cm,width=9cm]{Chapitre3/y3-1.png}
+           \caption{les images et classes.txt}
+           \label{y3-1}
+           \end{figure}  
+                    
+      
+      \paragraph{3-} Ouvrez git hub, créez un nouveau dossier "yolov3" et téléchargez le dossier images.zip à l'intérieur.
+      \paragraph{4-} Configuration de Google Colab
+      \paragraph{-} Ouvrez Google Colab et téléchargez le fichier YOLOv3 Custom Object Detection 2.ipynb.\cite{yolo_collab}.
+      \begin{figure}[H]
+           \centering
+           \includegraphics[height=9cm,width=9cm]{Chapitre3/y3-2.png}
+           \caption{le fichier YOLOv3_Custom_Object_Detection_2.ipynb}
+           \label{y3-2}
+           \end{figure}  
+
+      \paragraph{-} Vérifiez si le GPU NVIDIA est activé pour l'entraînement.
+         \begin{figure}[H]
+              \centering
+              \includegraphics[height=11cm,width=11cm]{Chapitre3/y3-3.png}
+              \caption{NVIDIA GPU}
+              \label{y3-3}
+              \end{figure} 
+          
+         \paragraph{-} Montez votre github sur Google Colab.:Il s'agit de donner accès à l'ensemble de données images.zip stocké sur  votre github, et créer fichier main.zip .  
+         \begin{figure}[H]
+               \centering
+               \includegraphics[height=14cm,width=10cm]{Chapitre3/y3-4.png}
+               \caption{ Créer le fichier main.zip}
+               \label{y3-4}
+               \end{figure} 
+          
+      \paragraph{-} unzip “main.zip” 
+      \begin{figure}[H]
+           \centering
+           \includegraphics[height=11cm,width=10cm]{Chapitre3/y3-5.png}
+           \caption{ unzip le fichier main.zip}
+           \label{y3-5}
+           \end{figure} 
+          
+      \paragraph{-}  Copier, configurer et compiler Darknet.
+      \begin{figure}[H]
+           \centering
+           \includegraphics[height=13cm,width=12cm]{Chapitre3/y3-6.png}
+           \caption{Darkent}
+           \label{y3-6}
+           \end{figure}  
+
+      \paragraph{-} Créé  yolov3_training.cfg à partir du fichier yolov3.cfg Toutes les modifications et configurations que nous apporterons à notre modèle personnalisé soient reflétées dans le fichier yolov3_training.cfg
+      \begin{figure}[H]
+           \centering
+           \includegraphics[height=10cm,width=10cm]{Chapitre3/y3-7.png}
+           \caption{Créé  yolov3_training.cfg}
+           \label{y3-7}
+           \end{figure}
+      \paragraph{-}  Il y a un seul classe donc [1] : 
+
+      For n = 1: max_batches = 2000, classes=1, filters=18 
+
+      max_batches = 2000 * n and filters = (n + 5) * 3 
+
+      For n = 2: max_batches = 4000, classes=2, filters=21
+
+      For n = 3: max_batches = 8000, classes=3, filters=24
+      \paragraph{}
+      \begin{figure}[H]
+           \centering
+           \includegraphics[height=10cm,width=10cm]{Chapitre3/y3-8.png}
+           \caption{classes,filters,max_batches }
+           \label{y3-8}
+           \end{figure} 
+
+
+      \paragraph{-}  crée les fichiers obj.names et obj.data dans le répertoire darknet/data/obj
+      Ces fichiers contiennent des métadonnées telles que les noms des classes et le nombre de classes nécessaires à la formation.       
+      \begin{figure}[H]
+           \centering
+           \includegraphics[height=9cm,width=4cm]{Chapitre3/y3-9.png}
+           \caption{obj.names et obj.data}
+           \label{y3-9}
+           \end{figure} 
+
+      \paragraph{-} Enregistrer les fichiers yolov3 training.cfg et  obj.names dans Google Drive et darkent.
+      \begin{figure}[H]
+           \centering
+           \includegraphics[height=10cm,width=4cm]{Chapitre3/y3-10.png}
+           \caption{save yolov3_training.cfg & obj.names }
+           \label{y3-10}
+           \end{figure} 
+
+      \paragraph{-} création du fichier train.txt  
+      Il contient l'emplacement de toutes les images  
+      Récupération des images pour traitement
+      \begin{figure}[H]
+           \centering
+           \includegraphics[height=12cm,width=4cm]{Chapitre3/y3-11.png}
+           \caption{ fichier train.txt }
+           \label{y3-11}
+           \end{figure}
+
+      \paragraph{-} Télécharger les poids pré-entraînés pour le fichier des couches convolutives On utilise darknet53.conv.74. : 
+      est un  modèle d’apprentissage  déjà formé. C’est utilisé pour forme  à notre modèle.
+      Gagner du temps et économiser des calculs dans le processus d'apprentissage.
+      \begin{figure}[H]
+           \centering
+           \includegraphics[height=6cm,width=12cm]{Chapitre3/y3-12.png}
+           \caption{ Préparer et télécharger  darknet53.conv.74}
+           \label{y3-12}
+           \end{figure} 
+
+      \paragraph{-} ont commencé le processus d'apprentissage
+      L'apprentissage du modèle prendra un certain temps (7 H:43 Min).
+      \begin{figure}[H]
+            \centering
+            \includegraphics[height=9cm,width=11cm]{Chapitre3/y3-13.png}
+            \caption{ le processus d'apprentissage }
+            \label{y3-13}
+           \end{figure} 
+     
+      \paragraph{-} À la fin de la formation, il donne 3 fichiers ( yolov3_training _ 2000.weights \ yolov3 _ training _ last.weights /  yolov3 _ training _ final.weights).
+      \begin{figure}[H]
+           \centering
+           \includegraphics[height=10cm,width=10cm]{Chapitre3/y3-14.png}
+           \caption{ le processus d'apprentissage est terminé}
+           \label{y3-14}
+           \end{figure}
+
+      \paragraph{-} Téléchargez et sauvegardez (yolov3-training-last.weight, classes.txt , yolov3-testing.cfg) dans le dossier YOLOv3-Custom-Object-Detection.
+      \paragraph{5-} Création d'un nouvel ensemble de données (test-images) pour tester le modèle .
+      \begin{figure}[H]
+          \centering
+          \includegraphics[height=7cm,width=7cm]{Chapitre3/y3-15.png}
+          \caption{ "test_images"}
+          \label{y3-15}
+          \end{figure}
+
+      \paragraph{6-} Ouvrir le fichier "yolo-v3.py." dans visual studio code.
+      \begin{figure}[H]
+          \centering
+          \includegraphics[height=13cm,width=12cm]{Chapitre3/y3-16.png}
+          \caption{YOLO-v3 }
+          \label{y3-16}
+          \end{figure}
+      
+
+      
+ 
+
      % ------------ YOLOv4 -------------
      \subsection{YOLOv4}
      \paragraph{1-} Nous chargeons d'abord notre jeu de données, cette fois il est chargé depuis Roboflow car il est beaucoup plus facile de le télécharger directement depuis github puis de le décompresser. Roboflow télécharge, décompresse et crée des variables globales python liées à l'ensemble de données, ce qui facilite la configuration de la formation.
@@ -260,6 +417,85 @@
      
      % ---------- YOLOv3 -------------
      \subsection{YOLOv3}
+      \paragraph{1-} Police de caractère.
+         Il y  3 types des polices  et nous allons faites des tests par yolo-v3 et afficher les résultats.
+        \paragraph{-}Type 1(jokerman): il détecte 3/4 éléments, le score $80.33\%$
+        \paragraph{-}Type 2(bradleyhand itc): il détecte 4/4 éléments, le score $100\%$
+
+        \begin{figure}[H]
+              \centering
+               \includegraphics[height=10cm,width=17cm]{Chapitre3/y3-t1.png}
+               \caption{yolov3 : Test des URL écrites en police "jokerman"et "bradleyhand itc".}
+               \label{y3_t1}
+               \end{figure}
+        \paragraph{-}Type 3(algerian):il détecte 3/4 éléments, le score $72.21\%$
+        \begin{figure}[H]
+          \centering
+           \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t2.png}
+           \caption{yolov3 : Test des URL écrites en police "algerian".}
+           \label{y3_t2}
+           \end{figure}
+        \paragraph{-}Le résultat 
+         L’efficacité d’algorithme yolo-v3 dans cette partie est$72\%$--$100\%$ selon chaque type des polices
+
+
+      \paragraph{2-} Couleur.
+      \paragraph{-}  On utilise 13 éléments ont couleurs
+      Le résultat qui nous avons détecté et trouver est 6 éléments le score = $46.23\%$
+      \begin{figure}[H]
+          \centering
+           \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t3.png}
+           \caption{yolov3 : test des URL écrites dans différentes couleurs".}
+           \label{y3_t3}
+           \end{figure}
+     
+      \paragraph{3-} Transformation (Rotation).
+      \paragraph{-} Pour la rotation de 90 ne donne aucun résultat.
+      \begin{figure}[H]
+          \centering
+           \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t5.png}
+           \caption{yolov3 : test des URL écrites en rotation 90  .}
+           \label{y3_t5}
+           \end{figure}
+     
+      \paragraph{-} Pour une rotation de 180, le score est $80\%$.
+      \begin{figure}[H]
+          \centering
+           \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t6.png}
+           \caption{yolov3 : test des URL écrites en rotation 180 .}
+           \label{y3_t6}
+           \end{figure}
+
+      \paragraph{3-}Link (https)
+      \paragraph{-} Dans cette étude, nous constatons que le score est faible ($15\%$~$20\%$.) et nous avons remarqué que dans certains cas, nous avons détecté le modèle (www) dans le modèle (https).
+      
+      \begin{figure}[H]
+          \centering
+           \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t4.png}
+           \caption{yolov3 : tester les URL écrites sous forme http .}
+           \label{y3_t4}
+           \end{figure}
+
+
+      \paragraph{4-} Manuscrits.
+      \paragraph{-} Dans cette étude, nous n'avons pas obtenu de résultats.
+
+      \begin{figure}[H]
+          \centering
+           \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t7.png}
+           \caption{yolov3 : Test des URL écrites en manuscrit .}
+           \label{y3_t7}
+           \end{figure}
+
+      \paragraph{Conclusion:} Ces résultats nous permettent de dire que Yolov3 a été capable d'obtenir d'excellents résultats malgré les changements dans les images.
+
+
+     
+         
+
+     
+
+     
 
      % ---------- YOLOv4 -------------
      \subsection{YOLOv4}
