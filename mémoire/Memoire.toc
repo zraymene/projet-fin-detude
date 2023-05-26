@@ -171,25 +171,23 @@
 \contentsline {paragraph}{-}{73}{section*.177}%
 \contentsline {paragraph}{-}{73}{section*.178}%
 \contentsline {subsection}{\numberline {3.5.1}YOLOv3}{73}{subsection.3.5.1}%
-\contentsline {paragraph}{1-}{73}{section*.179}%
-\contentsline {paragraph}{-}{73}{section*.180}%
-\contentsline {paragraph}{-}{73}{section*.181}%
-\contentsline {paragraph}{-}{74}{section*.183}%
+\contentsline {paragraph}{-le résultat général :}{73}{section*.179}%
+\contentsline {paragraph}{1-}{74}{section*.181}%
+\contentsline {paragraph}{-}{75}{section*.183}%
+\contentsline {paragraph}{2-}{75}{section*.184}%
 \contentsline {paragraph}{-}{75}{section*.185}%
-\contentsline {paragraph}{2-}{75}{section*.186}%
-\contentsline {paragraph}{-}{75}{section*.187}%
-\contentsline {paragraph}{3-}{76}{section*.189}%
+\contentsline {paragraph}{3-}{75}{section*.187}%
+\contentsline {paragraph}{-}{75}{section*.188}%
 \contentsline {paragraph}{-}{76}{section*.190}%
-\contentsline {paragraph}{-}{77}{section*.192}%
-\contentsline {paragraph}{3-}{78}{section*.194}%
-\contentsline {paragraph}{-}{78}{section*.195}%
-\contentsline {paragraph}{4-}{79}{section*.197}%
-\contentsline {paragraph}{-}{79}{section*.198}%
-\contentsline {paragraph}{Conclusion:}{80}{section*.200}%
-\contentsline {subsection}{\numberline {3.5.2}YOLOv4}{80}{subsection.3.5.2}%
-\contentsline {paragraph}{Conclusion:}{85}{section*.207}%
-\contentsline {subsection}{\numberline {3.5.3}YOLOv5}{85}{subsection.3.5.3}%
-\contentsline {paragraph}{Conclusion:}{92}{section*.215}%
-\contentsline {section}{\numberline {3.6}Conclusion Géneral}{92}{section.3.6}%
-\contentsline {chapter}{Bibliographie}{93}{section.3.6}%
-\contentsline {chapter}{Annexe}{95}{chapter*.216}%
+\contentsline {paragraph}{3-}{77}{section*.192}%
+\contentsline {paragraph}{-}{77}{section*.193}%
+\contentsline {paragraph}{4-}{78}{section*.195}%
+\contentsline {paragraph}{-}{78}{section*.196}%
+\contentsline {paragraph}{Conclusion:}{79}{section*.198}%
+\contentsline {subsection}{\numberline {3.5.2}YOLOv4}{79}{subsection.3.5.2}%
+\contentsline {paragraph}{Conclusion:}{84}{section*.205}%
+\contentsline {subsection}{\numberline {3.5.3}YOLOv5}{84}{subsection.3.5.3}%
+\contentsline {paragraph}{Conclusion:}{91}{section*.213}%
+\contentsline {section}{\numberline {3.6}Conclusion Géneral}{91}{section.3.6}%
+\contentsline {chapter}{Bibliographie}{92}{section.3.6}%
+\contentsline {chapter}{Annexe}{94}{chapter*.214}%

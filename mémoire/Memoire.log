@@ -1,14 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.7)  26 MAY 2023 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.24)  26 MAY 2023 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./Memoire.tex
 (Memoire.tex
-LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-07-04> (G:\Programs\MikTex\tex/latex/base\book.cls
-Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
-(G:\Programs\MikTex\tex/latex/base\bk12.clo
-File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-03-30>
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@chapter=\count186
@@ -19,36 +20,38 @@ File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count191
 \c@figure=\count192
 \c@table=\count193
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(G:\Programs\MikTex\tex/latex/base\inputenc.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-(G:\Programs\MikTex\tex/latex/base\fontenc.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(G:\Programs\MikTex\tex/generic/babel\babel.sty
-Package: babel 2022/06/26 3.77 The Babel package
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/03/28 3.87 The Babel package
 \babel@savecnt=\count194
-\U@D=\dimen139
+\U@D=\dimen141
 \l@unhyphenated=\language79
 
-(G:\Programs\MikTex\tex/generic/babel\txtbabel.def)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def
+)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count195
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(G:\Programs\MikTex\tex/latex/arabi\bblopts.cfg
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(G:\Programs\MikTex\tex/generic/babel-french\francais.ldf
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\franc
+ais.ldf
 Language: francais 2023/03/08 v3.5q French support from the babel system
 
 
@@ -56,7 +59,9 @@ Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
 (francais.ldf)                it might be removed sooner or later. Please
 (francais.ldf)                use `french' instead; reported on input line 31.
 
-(G:\Programs\MikTex\tex/generic/babel-french\french.ldf
+
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\frenc
+h.ldf
 Language: french 2023/03/08 v3.5q French support from the babel system
 Package babel Info: Hyphen rules for 'acadian' set to \l@french
 (babel)             (\language22). Reported on input line 91.
@@ -69,44 +74,43 @@ Package babel Info: Making ! an active character on input line 397.
 Package babel Info: Making ? an active character on input line 398.
 \FBguill@level=\count197
 \FBold@everypar=\toks18
-\FB@Mht=\dimen140
+\FB@Mht=\dimen142
 \mc@charclass=\count198
 \mc@charfam=\count199
 \mc@charslot=\count266
 \std@mcc=\count267
 \dec@mcc=\count268
-\FB@parskip=\dimen141
-\listindentFB=\dimen142
-\descindentFB=\dimen143
-\labelindentFB=\dimen144
-\labelwidthFB=\dimen145
-\leftmarginFB=\dimen146
-\parindentFFN=\dimen147
-\FBfnindent=\dimen148
+\FB@parskip=\dimen143
+\listindentFB=\dimen144
+\descindentFB=\dimen145
+\labelindentFB=\dimen146
+\labelwidthFB=\dimen147
+\leftmarginFB=\dimen148
+\parindentFFN=\dimen149
+\FBfnindent=\dimen150
 )))
-(G:\Programs\MikTex\tex/latex/carlisle\scalefnt.sty)
-(G:\Programs\MikTex\tex/latex/graphics\keyval.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.st
+y)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-)
-(G:\Programs\MikTex\tex/latex/amsmath\amsmath.sty
+) (C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.st
+y
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip49
-
+\@mathmargin=\skip50
 For additional information on amsmath, use the `?' option.
-(G:\Programs\MikTex\tex/latex/amsmath\amstext.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(G:\Programs\MikTex\tex/latex/amsmath\amsgen.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
-\ex@=\dimen149
-))
-(G:\Programs\MikTex\tex/latex/amsmath\amsbsy.sty
+\ex@=\dimen151
+)) (C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
+y
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen150
-)
-(G:\Programs\MikTex\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen152
+) (C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count269
@@ -126,7 +130,7 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen151
+\big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count274
@@ -144,20 +148,21 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \column@=\count279
 \maxfields@=\count280
 \andhelp@=\toks22
-\eqnshift@=\dimen152
-\alignsep@=\dimen153
-\tagshift@=\dimen154
-\tagwidth@=\dimen155
-\totwidth@=\dimen156
-\lineht@=\dimen157
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
 \@envbody=\toks23
-\multlinegap=\skip50
-\multlinetaggap=\skip51
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(G:\Programs\MikTex\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.st
+y
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -165,10 +170,9 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(G:\Programs\MikTex\tex/latex/amsfonts\amssymb.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-)
-(G:\Programs\MikTex\tex/latex/float\float.sty
+) (C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count281
 \float@exts=\toks25
@@ -176,78 +180,92 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks26
 \@floatcapt=\box54
 )
-(G:\Programs\MikTex\tex/latex/graphics\graphicx.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+y
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(G:\Programs\MikTex\tex/latex/graphics\graphics.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
+y
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(G:\Programs\MikTex\tex/latex/graphics\trig.sty
+ (C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(G:\Programs\MikTex\tex/latex/graphics-cfg\graphics.cfg
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
+s.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(G:\Programs\MikTex\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
+def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen158
-\Gin@req@width=\dimen159
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
 )
-(G:\Programs\MikTex\tex/latex/amscls\amsthm.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks27
 \thm@bodyfont=\toks28
 \thm@headfont=\toks29
 \thm@notefont=\toks30
 \thm@headpunct=\toks31
-\thm@preskip=\skip52
-\thm@postskip=\skip53
-\thm@headsep=\skip54
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
 \dth@everypar=\toks32
 )
-(G:\Programs\MikTex\tex/latex/pgf/frontendlayer\tikz.sty
-(G:\Programs\MikTex\tex/latex/pgf/basiclayer\pgf.sty
-(G:\Programs\MikTex\tex/latex/pgf/utilities\pgfrcs.sty
-(G:\Programs\MikTex\tex/generic/pgf/utilities\pgfutil-common.tex
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\ti
+kz.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.s
+ty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs
+.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
+til-common.tex
 \pgfutil@everybye=\toks33
-\pgfutil@tempdima=\dimen160
-\pgfutil@tempdimb=\dimen161
-
-(G:\Programs\MikTex\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
-(G:\Programs\MikTex\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@tempdima=\dimen162
+\pgfutil@tempdimb=\dimen163
+)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
+til-latex.def
 \pgfutil@abb=\box55
 )
-(G:\Programs\MikTex\tex/generic/pgf/utilities\pgfrcs.code.tex
-(G:\Programs\MikTex\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfr
+cs.code.tex
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.t
+ex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
-(G:\Programs\MikTex\tex/latex/pgf/basiclayer\pgfcore.sty
-(G:\Programs\MikTex\tex/latex/pgf/systemlayer\pgfsys.sty
-(G:\Programs\MikTex\tex/generic/pgf/systemlayer\pgfsys.code.tex
-Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfco
+re.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfs
+ys.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
-(G:\Programs\MikTex\tex/generic/pgf/utilities\pgfkeys.code.tex
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
+eys.code.tex
 \pgfkeys@pathtoks=\toks34
 \pgfkeys@temptoks=\toks35
 
-(G:\Programs\MikTex\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
+eyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks36
 ))
-\pgf@x=\dimen162
-\pgf@y=\dimen163
-\pgf@xa=\dimen164
-\pgf@ya=\dimen165
-\pgf@xb=\dimen166
-\pgf@yb=\dimen167
-\pgf@xc=\dimen168
-\pgf@yc=\dimen169
-\pgf@xd=\dimen170
-\pgf@yd=\dimen171
+\pgf@x=\dimen164
+\pgf@y=\dimen165
+\pgf@xa=\dimen166
+\pgf@ya=\dimen167
+\pgf@xb=\dimen168
+\pgf@yb=\dimen169
+\pgf@xc=\dimen170
+\pgf@yc=\dimen171
+\pgf@xd=\dimen172
+\pgf@yd=\dimen173
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
 \c@pgf@counta=\count282
@@ -259,34 +277,41 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \t@pgf@tokc=\toks39
 \pgf@sys@id@count=\count286
 
-(G:\Programs\MikTex\tex/generic/pgf/systemlayer\pgf.cfg
-File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+f.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(G:\Programs\MikTex\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 
-(G:\Programs\MikTex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
-(G:\Programs\MikTex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count287
 \pgfsyssoftpath@bigbuffer@items=\count288
 )
-(G:\Programs\MikTex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
+fsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(G:\Programs\MikTex\tex/latex/xcolor\xcolor.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(G:\Programs\MikTex\tex/latex/graphics-cfg\color.cfg
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
+fg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(G:\Programs\MikTex\tex/latex-dev/graphics\mathcolor.ltx)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.l
+tx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -297,159 +322,203 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcore.code.tex
-Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+core.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmath.code.tex
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmathcalc.code.tex
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmathutil.code.tex)
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen172
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
+ode.tex
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathut
+il.code.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpa
+rser.code.tex
+\pgfmath@dimen=\dimen174
 \pgfmath@count=\count289
 \pgfmath@box=\box56
 \pgfmath@toks=\toks40
 \pgfmath@stack@operand=\toks41
 \pgfmath@stack@operation=\toks42
 )
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmathfunctions.code.tex
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.te
-x) (G:\Programs\MikTex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex)
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.co
-de.tex))) (G:\Programs\MikTex\tex/generic/pgf/math\pgfmathfloat.code.tex
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.code.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.basic.code.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.trigonometric.code.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.random.code.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.comparison.code.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.base.code.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.round.code.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.misc.code.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
+nctions.integerarithmetics.code.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathca
+lc.code.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfl
+oat.code.tex
 \c@pgfmathroundto@lastzeros=\count290
 ))
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfint.code.tex)
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen173
-\pgf@picmaxx=\dimen174
-\pgf@picminy=\dimen175
-\pgf@picmaxy=\dimen176
-\pgf@pathminx=\dimen177
-\pgf@pathmaxx=\dimen178
-\pgf@pathminy=\dimen179
-\pgf@pathmaxy=\dimen180
-\pgf@xx=\dimen181
-\pgf@xy=\dimen182
-\pgf@yx=\dimen183
-\pgf@yy=\dimen184
-\pgf@zx=\dimen185
-\pgf@zy=\dimen186
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.co
+de.tex)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen175
+\pgf@picmaxx=\dimen176
+\pgf@picminy=\dimen177
+\pgf@picmaxy=\dimen178
+\pgf@pathminx=\dimen179
+\pgf@pathmaxx=\dimen180
+\pgf@pathminy=\dimen181
+\pgf@pathmaxy=\dimen182
+\pgf@xx=\dimen183
+\pgf@xy=\dimen184
+\pgf@yx=\dimen185
+\pgf@yy=\dimen186
+\pgf@zx=\dimen187
+\pgf@zy=\dimen188
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen187
-\pgf@path@lasty=\dimen188
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen189
+\pgf@path@lasty=\dimen190
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen189
-\pgf@shorten@start@additional=\dimen190
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen191
+\pgf@shorten@start@additional=\dimen192
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box57
 \pgf@hbox=\box58
 \pgf@layerbox@main=\box59
 \pgf@picture@serial@count=\count291
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen191
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen193
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen192
-\pgf@pt@y=\dimen193
-\pgf@pt@temp=\dimen194
-) (G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen194
+\pgf@pt@y=\dimen195
+\pgf@pt@temp=\dimen196
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen195
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen196
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen197
+)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen198
 \pgf@sys@shading@range@num=\count292
 \pgf@shadingcount=\count293
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box60
-))
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+coretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(G:\Programs\MikTex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
+corerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(G:\Programs\MikTex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+uleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box61
 )
-(G:\Programs\MikTex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+uleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(G:\Programs\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen197
-\pgf@nodesepend=\dimen198
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
+fcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen199
+\pgf@nodesepend=\dimen256
 )
-(G:\Programs\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
+fcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 ))
-(G:\Programs\MikTex\tex/latex/pgf/utilities\pgffor.sty
-(G:\Programs\MikTex\tex/latex/pgf/utilities\pgfkeys.sty
-(G:\Programs\MikTex\tex/generic/pgf/utilities\pgfkeys.code.tex))
-(G:\Programs\MikTex\tex/latex/pgf/math\pgfmath.sty
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmath.code.tex))
-(G:\Programs\MikTex\tex/generic/pgf/utilities\pgffor.code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor
+.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkey
+s.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
+eys.code.tex))
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
 
-(G:\Programs\MikTex\tex/generic/pgf/math\pgfmath.code.tex)
-\pgffor@iter=\dimen199
-\pgffor@skip=\dimen256
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
+ode.tex))
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgff
+or.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen257
+\pgffor@skip=\dimen258
 \pgffor@stack=\toks43
 \pgffor@toks=\toks44
 ))
-(G:\Programs\MikTex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
-Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 
-(G:\Programs\MikTex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
+ibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count294
-\pgfplotmarksize=\dimen257
+\pgfplotmarksize=\dimen259
 )
-\tikz@lastx=\dimen258
-\tikz@lasty=\dimen259
-\tikz@lastxsaved=\dimen260
-\tikz@lastysaved=\dimen261
-\tikz@lastmovetox=\dimen262
-\tikz@lastmovetoy=\dimen263
-\tikzleveldistance=\dimen264
-\tikzsiblingdistance=\dimen265
+\tikz@lastx=\dimen260
+\tikz@lasty=\dimen261
+\tikz@lastxsaved=\dimen262
+\tikz@lastysaved=\dimen263
+\tikz@lastmovetox=\dimen264
+\tikz@lastmovetoy=\dimen265
+\tikzleveldistance=\dimen266
+\tikzsiblingdistance=\dimen267
 \tikz@figbox=\box62
 \tikz@figbox@bg=\box63
 \tikz@tempbox=\box64
@@ -459,81 +528,86 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikznumberofcurrentchild=\count297
 \tikz@fig@count=\count298
 
-(G:\Programs\MikTex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
+ulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count299
 \pgfmatrixcurrentcolumn=\count300
 \pgf@matrix@numberofcolumns=\count301
 )
 \tikz@expandcount=\count302
 
-(G:\Programs\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytop
-aths.code.tex
-File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (G:\Programs\MikTex\tex/latex/geometry\geometry.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
+tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.st
+y
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(G:\Programs\MikTex\tex/generic/iftex\ifvtex.sty
+ (C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(G:\Programs\MikTex\tex/generic/iftex\iftex.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count303
 \Gm@cntv=\count304
 \c@Gm@tempcnt=\count305
-\Gm@bindingoffset=\dimen266
-\Gm@wd@mp=\dimen267
-\Gm@odd@mp=\dimen268
-\Gm@even@mp=\dimen269
-\Gm@layoutwidth=\dimen270
-\Gm@layoutheight=\dimen271
-\Gm@layouthoffset=\dimen272
-\Gm@layoutvoffset=\dimen273
+\Gm@bindingoffset=\dimen268
+\Gm@wd@mp=\dimen269
+\Gm@odd@mp=\dimen270
+\Gm@even@mp=\dimen271
+\Gm@layoutwidth=\dimen272
+\Gm@layoutheight=\dimen273
+\Gm@layouthoffset=\dimen274
+\Gm@layoutvoffset=\dimen275
 \Gm@dimlist=\toks45
 
-(G:\Programs\MikTex\tex/latex/geometry\geometry.cfg))
-(G:\Programs\MikTex\tex/latex/appendix\appendix.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cf
+g))
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.st
+y
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@pps=\count306
 \c@@ppsavesec=\count307
 \c@@ppsaveapp=\count308
 )
-(G:\Programs\MikTex\tex/latex/fncychap\fncychap.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/fncychap\fncychap.st
+y
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
-\RW=\skip55
-\mylen=\skip56
-\myhi=\skip57
-\px=\skip58
-\py=\skip59
-\pyy=\skip60
-\pxx=\skip61
-\backskip=\skip62
+\RW=\skip56
+\mylen=\skip57
+\myhi=\skip58
+\px=\skip59
+\py=\skip60
+\pyy=\skip61
+\pxx=\skip62
+\backskip=\skip63
 )
-(G:\Programs\MikTex\tex/latex/fancyhdr\fancyhdr.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.st
+y
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip63
-\f@nch@O@elh=\skip64
-\f@nch@O@erh=\skip65
-\f@nch@O@olh=\skip66
-\f@nch@O@orh=\skip67
-\f@nch@O@elf=\skip68
-\f@nch@O@erf=\skip69
-\f@nch@O@olf=\skip70
-\f@nch@O@orf=\skip71
+\f@nch@headwidth=\skip64
+\f@nch@O@elh=\skip65
+\f@nch@O@erh=\skip66
+\f@nch@O@olh=\skip67
+\f@nch@O@orh=\skip68
+\f@nch@O@elf=\skip69
+\f@nch@O@erf=\skip70
+\f@nch@O@olf=\skip71
+\f@nch@O@orf=\skip72
 )
-(G:\Programs\MikTex\tex/latex/minitoc\minitoc.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\minitoc.sty
 Package: minitoc 2018/07/12 v62 Package minitoc
 
-(G:\Programs\MikTex\tex/latex/minitoc\mtcmess.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\mtcmess.sty
 Package: mtcmess 2006/03/14
 )
 Package minitoc Info: I0001
 (minitoc)             *** minitoc package, version 62 ***.
 \tf@mtc=\write4
-\mtcindent=\skip72
-\mtcskipamount=\skip73
+\mtcindent=\skip73
+\mtcskipamount=\skip74
 Package minitoc Info: I0005
 (minitoc)             compatible with hyperref.
 Package minitoc Info: I0023
@@ -549,7 +623,7 @@ Package minitoc Info: I0002
 
 \openout4 = `Memoire.mtc'.
 
- (Memoire.mtc0)
+(Memoire.mtc0)
 Package minitoc Info: I0012
 (minitoc)             Long extensions (Unix-like) will be used.
 Package minitoc Info: I0031
@@ -563,255 +637,271 @@ Package minitoc Info: I0031
 \c@minitocdepth=\count310
 \c@ptc=\count311
 \c@parttocdepth=\count312
-\ptcindent=\skip74
+\ptcindent=\skip75
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
 (minitoc)              on input line 4910.
 
-(G:\Programs\MikTex\tex/latex/minitoc\english.mld
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
 File: english.mld 2006/01/13
-)
-(G:\Programs\MikTex\tex/latex/minitoc\english.mld
+) (C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.ml
+d
 File: english.mld 2006/01/13
-))
-(G:\Programs\MikTex\tex/latex/tools\array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen274
+)) (C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen276
 \ar@mcellbox=\box68
-\extrarowheight=\dimen275
+\extrarowheight=\dimen277
 \NC@list=\toks47
-\extratabsurround=\skip75
-\backup@length=\skip76
+\extratabsurround=\skip76
+\backup@length=\skip77
 \ar@cellbox=\box69
 )
-(G:\Programs\MikTex\tex/latex/multirow\multirow.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.st
+y
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip77
+\multirow@colwidth=\skip78
 \multirow@cntb=\count313
-\multirow@dima=\skip78
-\bigstrutjot=\dimen276
+\multirow@dima=\skip79
+\bigstrutjot=\dimen278
 )
-(G:\Programs\MikTex\tex/latex/makecell\makecell.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.st
+y
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen277
+\rotheadsize=\dimen279
 \c@nlinenum=\count314
 \TeXr@lab=\toks48
 )
-(G:\Programs\MikTex\tex/latex/lettrine\lettrine.sty
-File: lettrine.sty 2022-09-25 v2.30 (Daniel Flipo)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.st
+y
+File: lettrine.sty 2023-04-18 v2.40 (Daniel Flipo)
 
-(G:\Programs\MikTex\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp\xfp.s
+ty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-03-30 L3 programming layer (loader) 
 
-(G:\Programs\MikTex\tex/generic/xkeyval\xkeyval.tex
-(G:\Programs\MikTex\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks49
-\XKV@tempa@toks=\toks50
-)
-\XKV@depth=\count315
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
+pdftex.def
+File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count315
+\l__pdf_internal_box=\box70
 ))
-(G:\Programs\MikTex\tex/generic/minifp\minifp.sty
-Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
--based programing language.
-\MFP@loopctr=\count316
+Package: xfp 2023-02-02 L3 Floating point unit
 )
-\c@DefaultLines=\count317
-\c@DefaultDepth=\count318
-\DefaultFindent=\dimen278
-\DefaultNindent=\dimen279
-\DefaultSlope=\dimen280
-\DiscardVskip=\dimen281
+\c@DefaultLines=\count316
+\c@DefaultDepth=\count317
+\DefaultFindent=\dimen280
+\DefaultNindent=\dimen281
+\DefaultSlope=\dimen282
+\DiscardVskip=\dimen283
+\L@lbox=\box71
+\L@tbox=\box72
+\c@L@lines=\count318
+\c@L@depth=\count319
+\L@Pindent=\dimen284
+\L@Findent=\dimen285
+\L@Nindent=\dimen286
+\L@lraise=\dimen287
+\L@first=\dimen288
+\L@next=\dimen289
+\L@slope=\dimen290
+\L@height=\dimen291
+\L@novskip=\dimen292
+\L@target@ht=\dimen293
+\L@target@dp=\dimen294
+\L@target@tht=\dimen295
+\LettrineWidth=\dimen296
+\LettrineHeight=\dimen297
+\LettrineDepth=\dimen298
 
 Loading lettrine.cfg
-(G:\Programs\MikTex\tex/latex/lettrine\lettrine.cfg)
-\L@lbox=\box70
-\L@tbox=\box71
-\c@L@lines=\count319
-\c@L@depth=\count320
-\L@Pindent=\dimen282
-\L@Findent=\dimen283
-\L@Nindent=\dimen284
-\L@lraise=\dimen285
-\L@first=\dimen286
-\L@next=\dimen287
-\L@slope=\dimen288
-\L@height=\dimen289
-\L@novskip=\dimen290
-\L@target@ht=\dimen291
-\L@target@dp=\dimen292
-\L@target@tht=\dimen293
-\LettrineWidth=\dimen294
-\LettrineHeight=\dimen295
-\LettrineDepth=\dimen296
-\Llist@everypar=\toks51
-)
-(G:\Programs\MikTex\tex/latex/caption\caption.sty
-Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
-(G:\Programs\MikTex\tex/latex/caption\caption3.sty
-Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen297
-\captionmargin=\dimen298
-\caption@leftmargin=\dimen299
-\caption@rightmargin=\dimen300
-\caption@width=\dimen301
-\caption@indent=\dimen302
-\caption@parindent=\dimen303
-\caption@hangindent=\dimen304
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cf
+g)
+\Llist@everypar=\toks49
+)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen299
+\captionmargin=\dimen300
+\caption@leftmargin=\dimen301
+\caption@rightmargin=\dimen302
+\caption@width=\dimen303
+\caption@indent=\dimen304
+\caption@parindent=\dimen305
+\caption@hangindent=\dimen306
 Package caption Info: Standard document class detected.
 Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count321
-\c@continuedfloat=\count322
+\c@caption@flags=\count320
+\c@continuedfloat=\count321
 Package caption Info: float package is loaded.
 )
-(G:\Programs\MikTex\tex/latex/setspace\setspace.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.st
+y
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(G:\Programs\MikTex\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
+y
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
 
-(G:\Programs\MikTex\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
+y
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(G:\Programs\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
+mds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(G:\Programs\MikTex\tex/generic/infwarerr\infwarerr.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarer
+r.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(G:\Programs\MikTex\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.
+sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(G:\Programs\MikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdef
+inekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(G:\Programs\MikTex\tex/generic/pdfescape\pdfescape.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescap
+e.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(G:\Programs\MikTex\tex/latex/hycolor\hycolor.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(G:\Programs\MikTex\tex/latex/letltxmacro\letltxmacro.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxma
+cro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(G:\Programs\MikTex\tex/latex/auxhook\auxhook.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(G:\Programs\MikTex\tex/latex/hyperref\nameref.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
 
-(G:\Programs\MikTex\tex/latex/refcount\refcount.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.st
+y
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(G:\Programs\MikTex\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\get
+titlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(G:\Programs\MikTex\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.
+sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count323
+\c@section@level=\count322
 )
-\@linkdim=\dimen305
-\Hy@linkcounter=\count324
-\Hy@pagecounter=\count325
+\@linkdim=\dimen307
+\Hy@linkcounter=\count323
+\Hy@pagecounter=\count324
 
-(G:\Programs\MikTex\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(G:\Programs\MikTex\tex/generic/intcalc\intcalc.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.st
+y
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(G:\Programs\MikTex\tex/generic/etexcmds\etexcmds.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.
+sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count326
+\Hy@SavedSpaceFactor=\count325
 
-(G:\Programs\MikTex\tex/latex/hyperref\puenc.def
-File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4408.
-\c@Hy@tempcnt=\count327
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count326
 
-(G:\Programs\MikTex\tex/latex/url\url.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4746.
-\XeTeXLinkMargin=\dimen306
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen308
 
-(G:\Programs\MikTex\tex/generic/bitset\bitset.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(G:\Programs\MikTex\tex/generic/bigintcalc\bigintcalc.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintc
+alc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count328
-\Field@Width=\dimen307
-\Fld@charsize=\dimen308
-Package hyperref Info: Hyper figures OFF on input line 6024.
-Package hyperref Info: Link nesting OFF on input line 6029.
-Package hyperref Info: Hyper index ON on input line 6032.
-Package hyperref Info: backreferencing OFF on input line 6039.
-Package hyperref Info: Link coloring OFF on input line 6044.
-Package hyperref Info: Link coloring with OCG OFF on input line 6049.
-Package hyperref Info: PDF/A mode OFF on input line 6054.
+\Fld@menulength=\count327
+\Field@Width=\dimen309
+\Fld@charsize=\dimen310
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
 
-(G:\Programs\MikTex\tex/latex/base\atbegshi-ltx.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.st
+y
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count329
-\c@Item=\count330
-\c@Hfootnote=\count331
+\Hy@abspage=\count328
+\c@Item=\count329
+\c@Hfootnote=\count330
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(G:\Programs\MikTex\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
 
-(G:\Programs\MikTex\tex/latex/base\atveryend-ltx.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.s
+ty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count332
-\c@bookmark@seq@number=\count333
+\Fld@listcount=\count331
+\c@bookmark@seq@number=\count332
 
-(G:\Programs\MikTex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerun
+filecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(G:\Programs\MikTex\tex/generic/uniquecounter\uniquecounter.sty
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniq
+uecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip79
-)
-(G:\Programs\MikTex\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count334
-\l__pdf_internal_box=\box72
+\Hy@SectionHShift=\skip80
 ) (Memoire.aux
-(G:\Programs\MikTex\tex/generic/babel/locale/fr\babel-french.tex
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\ba
+bel-french.tex
 Package babel Info: Importing font and identification data for french
 (babel)             from babel-fr.ini. Reported on input line 11.
 )
@@ -877,25 +967,30 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Info: Redefining \degres on input line 33.
 LaTeX Info: Redefining \up on input line 33.
- (G:\Programs\MikTex\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
+.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count335
-\scratchdimen=\dimen309
+\scratchcounter=\count333
+\scratchdimen=\dimen311
 \scratchbox=\box73
-\nofMPsegments=\count336
-\nofMParguments=\count337
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count338
-\MPscratchDim=\dimen310
-\MPnumerator=\count339
-\makeMPintoPDFobject=\count340
-\everyMPtoPDFconversion=\toks53
-) (G:\Programs\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+\nofMPsegments=\count334
+\nofMParguments=\count335
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count336
+\MPscratchDim=\dimen312
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
+\everyMPtoPDFconversion=\toks51
+)
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
+f-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(G:\Programs\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
+s.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -971,13 +1066,13 @@ Package hyperref Info: Link coloring OFF on input line 33.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
 
 
-(G:\Programs\MikTex\tex/latex/amsfonts\umsa.fd
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
 
 
-(G:\Programs\MikTex\tex/latex/amsfonts\umsb.fd
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <PageDeGarde/lg.png, id=294, 358.2183pt x 514.8033pt>
@@ -998,8 +1093,8 @@ Overfull \hbox (41.31546pt too wide) in paragraph at lines 10--15
 
 
 
-{C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./PageDeGarde
-/lg.png>]) (Memoire.lot)
+{C:/Users/Legion 5/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./PageDeG
+arde/lg.png>]) (Memoire.lot)
 \tf@lot=\write6
 \openout6 = `Memoire.lot'.
 
@@ -1083,12 +1178,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Chapitre 1.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
 .
-(G:\Programs\MikTex\tex/latex/base\t1cmss.fd
-File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+(C:\Users\Legion 5\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
+File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 Package minitoc Info: I0006
 (minitoc)             Memoire.mtc1 is empty on input line 3.
- [3
+
+[3
 
 ]
 <Chapitre1/im4.png, id=612, 913.011pt x 316.7835pt>
@@ -2215,13 +2311,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [72 <./Chapitre3/y5_3.png>]
-<Chapitre3/y3-t1.png, id=1171, 523.9575pt x 360.59718pt>
-File: Chapitre3/y3-t1.png Graphic file (type png)
-<use Chapitre3/y3-t1.png>
-Package pdftex.def Info: Chapitre3/y3-t1.png  used on input line 412.
-(pdftex.def)             Requested size: 483.7097pt x 284.52751pt.
+<Chapitre3/yolov3-pr-Global.png, id=1171, 462.528pt x 346.896pt>
+File: Chapitre3/yolov3-pr-Global.png Graphic file (type png)
+<use Chapitre3/yolov3-pr-Global.png>
+Package pdftex.def Info: Chapitre3/yolov3-pr-Global.png  used on input line 409
+.
+(pdftex.def)             Requested size: 483.72083pt x 284.54124pt.
 
-Overfull \hbox (40.13123pt too wide) in paragraph at lines 412--413
+Overfull \hbox (40.14235pt too wide) in paragraph at lines 409--410
  [][] 
  []
 
@@ -2234,11 +2331,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [73]
-<Chapitre3/y3-t2.png, id=1185, 305.64188pt x 401.24907pt>
+<Chapitre3/y3-t2.png, id=1183, 472.01344pt x 200.24812pt>
 File: Chapitre3/y3-t2.png Graphic file (type png)
 <use Chapitre3/y3-t2.png>
-Package pdftex.def Info: Chapitre3/y3-t2.png  used on input line 419.
-(pdftex.def)             Requested size: 341.4491pt x 284.54596pt.
+Package pdftex.def Info: Chapitre3/y3-t2.png  used on input line 418.
+(pdftex.def)             Requested size: 398.34679pt x 227.6344pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2248,26 +2345,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[74 <./Chapitre3/y3-t1.png>]
-<Chapitre3/y3-t3.png, id=1192, 434.37282pt x 569.87906pt>
+[74 <./Chapitre3/yolov3-pr-Global.png> <./Chapitre3/y3-t2.png>]
+<Chapitre3/y3-t3.png, id=1191, 465.99094pt x 624.83438pt>
 File: Chapitre3/y3-t3.png Graphic file (type png)
 <use Chapitre3/y3-t3.png>
-Package pdftex.def Info: Chapitre3/y3-t3.png  used on input line 432.
-(pdftex.def)             Requested size: 341.454pt x 284.52142pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[75 <./Chapitre3/y3-t2.png>]
-<Chapitre3/y3-t5.png, id=1201, 543.53062pt x 197.98969pt>
+Package pdftex.def Info: Chapitre3/y3-t3.png  used on input line 431.
+(pdftex.def)             Requested size: 398.35529pt x 284.5289pt.
+<Chapitre3/y3-t5.png, id=1192, 543.53062pt x 197.98969pt>
 File: Chapitre3/y3-t5.png Graphic file (type png)
 <use Chapitre3/y3-t5.png>
-Package pdftex.def Info: Chapitre3/y3-t5.png  used on input line 441.
+Package pdftex.def Info: Chapitre3/y3-t5.png  used on input line 440.
 (pdftex.def)             Requested size: 341.44745pt x 284.55508pt.
 
 
@@ -2278,11 +2365,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[76 <./Chapitre3/y3-t3.png>]
-<Chapitre3/y3-t6.png, id=1209, 275.52937pt x 362.10281pt>
+[75 <./Chapitre3/y3-t3.png>]
+<Chapitre3/y3-t6.png, id=1203, 275.52937pt x 362.10281pt>
 File: Chapitre3/y3-t6.png Graphic file (type png)
 <use Chapitre3/y3-t6.png>
-Package pdftex.def Info: Chapitre3/y3-t6.png  used on input line 449.
+Package pdftex.def Info: Chapitre3/y3-t6.png  used on input line 448.
 (pdftex.def)             Requested size: 341.46788pt x 284.53311pt.
 
 
@@ -2293,11 +2380,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[77 <./Chapitre3/y3-t5.png>]
-<Chapitre3/y3-t4.png, id=1217, 557.83406pt x 346.29375pt>
+[76 <./Chapitre3/y3-t5.png>]
+<Chapitre3/y3-t4.png, id=1210, 557.83406pt x 346.29375pt>
 File: Chapitre3/y3-t4.png Graphic file (type png)
 <use Chapitre3/y3-t4.png>
-Package pdftex.def Info: Chapitre3/y3-t4.png  used on input line 459.
+Package pdftex.def Info: Chapitre3/y3-t4.png  used on input line 458.
 (pdftex.def)             Requested size: 341.4444pt x 284.53337pt.
 
 
@@ -2308,11 +2395,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[78 <./Chapitre3/y3-t6.png>]
-<Chapitre3/y3-t7.png, id=1225, 183.68625pt x 266.49562pt>
+[77 <./Chapitre3/y3-t6.png>]
+<Chapitre3/y3-t7.png, id=1219, 183.68625pt x 266.49562pt>
 File: Chapitre3/y3-t7.png Graphic file (type png)
 <use Chapitre3/y3-t7.png>
-Package pdftex.def Info: Chapitre3/y3-t7.png  used on input line 470.
+Package pdftex.def Info: Chapitre3/y3-t7.png  used on input line 469.
 (pdftex.def)             Requested size: 341.48747pt x 284.5538pt.
 
 
@@ -2323,15 +2410,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[79 <./Chapitre3/y3-t4.png>]
-<Chapitre3/yolov4_pr_global.png, id=1233, 433.62pt x 289.08pt>
+[78 <./Chapitre3/y3-t4.png>]
+<Chapitre3/yolov4_pr_global.png, id=1227, 433.62pt x 289.08pt>
 File: Chapitre3/yolov4_pr_global.png Graphic file (type png)
 <use Chapitre3/yolov4_pr_global.png>
-Package pdftex.def Info: Chapitre3/yolov4_pr_global.png  used on input line 484
+Package pdftex.def Info: Chapitre3/yolov4_pr_global.png  used on input line 483
 .
 (pdftex.def)             Requested size: 483.71907pt x 284.54036pt.
 
-Overfull \hbox (40.1406pt too wide) in paragraph at lines 484--485
+Overfull \hbox (40.1406pt too wide) in paragraph at lines 483--484
  [][] 
  []
 
@@ -2343,14 +2430,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[80 <./Chapitre3/y3-t7.png>]
-<Chapitre3/y4_t1.png, id=1240, 2181.14874pt x 1136.245pt>
+[79 <./Chapitre3/y3-t7.png>]
+<Chapitre3/y4_t1.png, id=1234, 2181.14874pt x 1136.245pt>
 File: Chapitre3/y4_t1.png Graphic file (type png)
 <use Chapitre3/y4_t1.png>
-Package pdftex.def Info: Chapitre3/y4_t1.png  used on input line 492.
+Package pdftex.def Info: Chapitre3/y4_t1.png  used on input line 491.
 (pdftex.def)             Requested size: 483.6816pt x 227.60905pt.
 
-Overfull \hbox (40.10312pt too wide) in paragraph at lines 492--493
+Overfull \hbox (40.10312pt too wide) in paragraph at lines 491--492
  [][] 
  []
 
@@ -2362,24 +2449,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[81 <./Chapitre3/yolov4_pr_global.png>]
-<Chapitre3/y4_t2.png, id=1246, 2449.15pt x 1045.9075pt>
+[80 <./Chapitre3/yolov4_pr_global.png>]
+<Chapitre3/y4_t2.png, id=1240, 2449.15pt x 1045.9075pt>
 File: Chapitre3/y4_t2.png Graphic file (type png)
 <use Chapitre3/y4_t2.png>
-Package pdftex.def Info: Chapitre3/y4_t2.png  used on input line 500.
+Package pdftex.def Info: Chapitre3/y4_t2.png  used on input line 499.
 (pdftex.def)             Requested size: 483.69249pt x 227.61072pt.
 
-Overfull \hbox (40.11401pt too wide) in paragraph at lines 500--501
+Overfull \hbox (40.11401pt too wide) in paragraph at lines 499--500
  [][] 
  []
 
-<Chapitre3/y4_t3.png, id=1247, 2443.1275pt x 1046.91125pt>
+<Chapitre3/y4_t3.png, id=1241, 2443.1275pt x 1046.91125pt>
 File: Chapitre3/y4_t3.png Graphic file (type png)
 <use Chapitre3/y4_t3.png>
-Package pdftex.def Info: Chapitre3/y4_t3.png  used on input line 508.
+Package pdftex.def Info: Chapitre3/y4_t3.png  used on input line 507.
 (pdftex.def)             Requested size: 483.69601pt x 256.07217pt.
 
-Overfull \hbox (40.11754pt too wide) in paragraph at lines 508--509
+Overfull \hbox (40.11754pt too wide) in paragraph at lines 507--508
  [][] 
  []
 
@@ -2391,22 +2478,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[82 <./Chapitre3/y4_t1.png> <./Chapitre3/y4_t2.png>]
+[81 <./Chapitre3/y4_t1.png> <./Chapitre3/y4_t2.png>]
 
-LaTeX Warning: Command \' invalid in math mode on input line 513.
-
-Missing character: There is no é in font cmr12!
-
-LaTeX Warning: Command \' invalid in math mode on input line 513.
+LaTeX Warning: Command \' invalid in math mode on input line 512.
 
 Missing character: There is no é in font cmr12!
-<Chapitre3/y4_t4.png, id=1254, 1896.08376pt x 1982.40625pt>
+
+LaTeX Warning: Command \' invalid in math mode on input line 512.
+
+Missing character: There is no é in font cmr12!
+<Chapitre3/y4_t4.png, id=1248, 1896.08376pt x 1982.40625pt>
 File: Chapitre3/y4_t4.png Graphic file (type png)
 <use Chapitre3/y4_t4.png>
-Package pdftex.def Info: Chapitre3/y4_t4.png  used on input line 516.
+Package pdftex.def Info: Chapitre3/y4_t4.png  used on input line 515.
 (pdftex.def)             Requested size: 455.243pt x 341.42096pt.
 
-Overfull \hbox (11.66452pt too wide) in paragraph at lines 516--517
+Overfull \hbox (11.66452pt too wide) in paragraph at lines 515--516
  [][] 
  []
 
@@ -2418,14 +2505,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[83 <./Chapitre3/y4_t3.png>]
-<Chapitre3/yolov4_https.png, id=1261, 1182.4175pt x 520.94624pt>
+[82 <./Chapitre3/y4_t3.png>]
+<Chapitre3/yolov4_https.png, id=1254, 1182.4175pt x 520.94624pt>
 File: Chapitre3/yolov4_https.png Graphic file (type png)
 <use Chapitre3/yolov4_https.png>
-Package pdftex.def Info: Chapitre3/yolov4_https.png  used on input line 524.
+Package pdftex.def Info: Chapitre3/yolov4_https.png  used on input line 523.
 (pdftex.def)             Requested size: 483.69374pt x 256.07669pt.
 
-Overfull \hbox (40.11526pt too wide) in paragraph at lines 524--525
+Overfull \hbox (40.11526pt too wide) in paragraph at lines 523--524
  [][] 
  []
 
@@ -2437,27 +2524,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[84 <./Chapitre3/y4_t4.png
+[83 <./Chapitre3/y4_t4.png
 
 pdfTeX warning: pdflatex.exe (file ./Chapitre3/y4_t4.png): large interlaced PNG
  might cause out of memory (use non-interlaced PNG to fix this)
 >]
 
-LaTeX Warning: Command \' invalid in math mode on input line 530.
+LaTeX Warning: Command \' invalid in math mode on input line 529.
 
 Missing character: There is no é in font cmr12!
 
-LaTeX Warning: Command \' invalid in math mode on input line 530.
+LaTeX Warning: Command \' invalid in math mode on input line 529.
 
 Missing character: There is no é in font cmr12!
-<Chapitre3/yolov5_pr_global.png, id=1267, 433.62pt x 289.08pt>
+<Chapitre3/yolov5_pr_global.png, id=1261, 433.62pt x 289.08pt>
 File: Chapitre3/yolov5_pr_global.png Graphic file (type png)
 <use Chapitre3/yolov5_pr_global.png>
-Package pdftex.def Info: Chapitre3/yolov5_pr_global.png  used on input line 539
+Package pdftex.def Info: Chapitre3/yolov5_pr_global.png  used on input line 538
 .
 (pdftex.def)             Requested size: 483.71907pt x 284.54036pt.
 
-Overfull \hbox (40.1406pt too wide) in paragraph at lines 539--540
+Overfull \hbox (40.1406pt too wide) in paragraph at lines 538--539
  [][] 
  []
 
@@ -2469,14 +2556,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[85 <./Chapitre3/yolov4_https.png>]
-<Chapitre3/y5_t1.png, id=1274, 1949.2825pt x 647.41875pt>
+[84 <./Chapitre3/yolov4_https.png>]
+<Chapitre3/y5_t1.png, id=1268, 1949.2825pt x 647.41875pt>
 File: Chapitre3/y5_t1.png Graphic file (type png)
 <use Chapitre3/y5_t1.png>
-Package pdftex.def Info: Chapitre3/y5_t1.png  used on input line 548.
+Package pdftex.def Info: Chapitre3/y5_t1.png  used on input line 547.
 (pdftex.def)             Requested size: 483.6907pt x 284.52925pt.
 
-Overfull \hbox (40.11223pt too wide) in paragraph at lines 548--549
+Overfull \hbox (40.11223pt too wide) in paragraph at lines 547--548
  [][] 
  []
 
@@ -2488,14 +2575,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[86 <./Chapitre3/yolov5_pr_global.png>]
-<Chapitre3/y5_t2.png, id=1280, 1965.3425pt x 648.4225pt>
+[85 <./Chapitre3/yolov5_pr_global.png>]
+<Chapitre3/y5_t2.png, id=1274, 1965.3425pt x 648.4225pt>
 File: Chapitre3/y5_t2.png Graphic file (type png)
 <use Chapitre3/y5_t2.png>
-Package pdftex.def Info: Chapitre3/y5_t2.png  used on input line 556.
+Package pdftex.def Info: Chapitre3/y5_t2.png  used on input line 555.
 (pdftex.def)             Requested size: 483.68732pt x 284.52515pt.
 
-Overfull \hbox (40.10884pt too wide) in paragraph at lines 556--557
+Overfull \hbox (40.10884pt too wide) in paragraph at lines 555--556
  [][] 
  []
 
@@ -2507,14 +2594,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[87 <./Chapitre3/y5_t1.png>]
-<Chapitre3/y5_t3.png, id=1286, 1953.2975pt x 647.41875pt>
+[86 <./Chapitre3/y5_t1.png>]
+<Chapitre3/y5_t3.png, id=1280, 1953.2975pt x 647.41875pt>
 File: Chapitre3/y5_t3.png Graphic file (type png)
 <use Chapitre3/y5_t3.png>
-Package pdftex.def Info: Chapitre3/y5_t3.png  used on input line 564.
+Package pdftex.def Info: Chapitre3/y5_t3.png  used on input line 563.
 (pdftex.def)             Requested size: 483.67361pt x 284.52925pt.
 
-Overfull \hbox (40.09514pt too wide) in paragraph at lines 564--565
+Overfull \hbox (40.09514pt too wide) in paragraph at lines 563--564
  [][] 
  []
 
@@ -2526,18 +2613,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[88 <./Chapitre3/y5_t2.png>]
+[87 <./Chapitre3/y5_t2.png>]
 
-LaTeX Warning: Command \' invalid in math mode on input line 569.
+LaTeX Warning: Command \' invalid in math mode on input line 568.
 
 Missing character: There is no é in font cmr12!
-<Chapitre3/y5_t4.png, id=1292, 1959.32pt x 647.41875pt>
+<Chapitre3/y5_t4.png, id=1286, 1959.32pt x 647.41875pt>
 File: Chapitre3/y5_t4.png Graphic file (type png)
 <use Chapitre3/y5_t4.png>
-Package pdftex.def Info: Chapitre3/y5_t4.png  used on input line 572.
+Package pdftex.def Info: Chapitre3/y5_t4.png  used on input line 571.
 (pdftex.def)             Requested size: 483.67007pt x 284.52925pt.
 
-Overfull \hbox (40.0916pt too wide) in paragraph at lines 572--573
+Overfull \hbox (40.0916pt too wide) in paragraph at lines 571--572
  [][] 
  []
 
@@ -2549,14 +2636,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[89 <./Chapitre3/y5_t3.png>]
-<Chapitre3/yolov5_https.png, id=1299, 1938.24126pt x 646.415pt>
+[88 <./Chapitre3/y5_t3.png>]
+<Chapitre3/yolov5_https.png, id=1292, 1938.24126pt x 646.415pt>
 File: Chapitre3/yolov5_https.png Graphic file (type png)
 <use Chapitre3/yolov5_https.png>
-Package pdftex.def Info: Chapitre3/yolov5_https.png  used on input line 580.
+Package pdftex.def Info: Chapitre3/yolov5_https.png  used on input line 579.
 (pdftex.def)             Requested size: 483.67188pt x 256.07582pt.
 
-Overfull \hbox (40.0934pt too wide) in paragraph at lines 580--581
+Overfull \hbox (40.0934pt too wide) in paragraph at lines 579--580
  [][] 
  []
 
@@ -2568,11 +2655,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[90 <./Chapitre3/y5_t4.png>]
-<Chapitre3/y5_t5.jpg, id=1305, 642.4pt x 642.4pt>
+[89 <./Chapitre3/y5_t4.png>]
+<Chapitre3/y5_t5.jpg, id=1299, 642.4pt x 642.4pt>
 File: Chapitre3/y5_t5.jpg Graphic file (type jpg)
 <use Chapitre3/y5_t5.jpg>
-Package pdftex.def Info: Chapitre3/y5_t5.jpg  used on input line 589.
+Package pdftex.def Info: Chapitre3/y5_t5.jpg  used on input line 588.
 (pdftex.def)             Requested size: 341.4408pt x 312.98495pt.
 
 
@@ -2583,7 +2670,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[91 <./Chapitre3/yolov5_https.png>]) (Bibliographie/references.tex
+[90 <./Chapitre3/yolov5_https.png>]) (Bibliographie/references.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2592,7 +2679,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[92 <./Chapitre3/y5_t5.jpg>] (Memoire.bbl [93
+[91 <./Chapitre3/y5_t5.jpg>] (Memoire.bbl [92
 
 ]))
 
@@ -2603,7 +2690,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[94]
+[93]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Memoire.maf file.
@@ -2633,47 +2720,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[95
+[94
 
 ] (Memoire.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Memoire.out' has not changed.
-(rerunfilecheck)             Checksum: 528FC53D2F2F440513BDA14DB776D688;12958.
+(rerunfilecheck)             Checksum: EADBEA379A5F5011F56471BE96572A71;12958.
  ) 
 Here is how much of TeX's memory you used:
- 28378 strings out of 478338
- 507183 string characters out of 2848897
- 799334 words of memory out of 3000000
- 45611 multiletter control sequences out of 15000+600000
- 489814 words of font info for 79 fonts, out of 8000000 for 9000
+ 27985 strings out of 476331
+ 515275 string characters out of 5786313
+ 1866660 words of memory out of 5000000
+ 47243 multiletter control sequences out of 15000+600000
+ 532842 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,117p,1670b,690s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
-200.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-eccc1200.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\ecss2488.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecss1728.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecsl1200.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\User\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\User\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\User\AppData\Loc
-al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\User\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\User\A
-ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><G:/Programs
-/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><G:/Programs/MikTex/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb><G:/Programs/MikTex/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb><G:/Programs/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><G:
-/Programs/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><G:/Programs/MikTex/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><G:/Programs/MikTex/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><G:/Programs/MikTex/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb>
-Output written on Memoire.pdf (103 pages, 33263829 bytes).
+ 84i,12n,89p,1670b,694s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Legion 5\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
+crm1200.pk> <C:\Users\Legion 5\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\eccc1200.pk> <C:\Users\Legion 5\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecss2488.pk> <C:\Users\Legion 5\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecss1728.pk> <C:\Users\Legion 5\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\Legion 5\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\Legion 5\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Leg
+ion 5\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\
+Users\Legion 5\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200
+.pk> <C:\Users\Legion 5\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecrm1200.pk> <C:\Users\Legion 5\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx2488.pk> <C:\Users\Legion 5\AppData\Local\MiKTeX\fonts/pk/ljfour/
+jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Legion 5\AppData\Local\MiKTeX\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/Legion 5/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Legion 5/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Legio
+n 5/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/
+Users/Legion 5/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i8.pfb><C:/Users/Legion 5/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Users/Legion 5/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Users/Legion 5/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Legion 5/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Memoire.pdf (102 pages, 33381280 bytes).
 PDF statistics:
- 1904 PDF objects out of 2073 (max. 8388607)
- 406 named destinations out of 1000 (max. 500000)
+ 1897 PDF objects out of 2073 (max. 8388607)
+ 403 named destinations out of 1000 (max. 500000)
  1042 words of extra memory for PDF output out of 10000 (max. 10000000)
 

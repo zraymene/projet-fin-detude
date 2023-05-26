@@ -73,23 +73,23 @@
 \contentsline {figure}{\numberline {3.31}{\ignorespaces Commandes pour télécharger YOLOv5 et installer Python requis\relax }}{71}{figure.caption.161}%
 \contentsline {figure}{\numberline {3.32}{\ignorespaces Commandes pour télécharger l'ensemble de données depuis Roboflow.\relax }}{71}{figure.caption.163}%
 \contentsline {figure}{\numberline {3.33}{\ignorespaces Lancer l'entraînement de YOLOv5.\relax }}{72}{figure.caption.169}%
-\contentsline {figure}{\numberline {3.34}{\ignorespaces yolov3 : Test des URL écrites en police "jokerman"et "bradleyhand itc".\relax }}{74}{figure.caption.182}%
-\contentsline {figure}{\numberline {3.35}{\ignorespaces yolov3 : Test des URL écrites en police "algerian".\relax }}{75}{figure.caption.184}%
-\contentsline {figure}{\numberline {3.36}{\ignorespaces yolov3 : test des URL écrites dans différentes couleurs".\relax }}{76}{figure.caption.188}%
-\contentsline {figure}{\numberline {3.37}{\ignorespaces yolov3 : test des URL écrites en rotation 90 .\relax }}{77}{figure.caption.191}%
-\contentsline {figure}{\numberline {3.38}{\ignorespaces yolov3 : test des URL écrites en rotation 180 .\relax }}{78}{figure.caption.193}%
-\contentsline {figure}{\numberline {3.39}{\ignorespaces yolov3 : tester les URL écrites sous forme http .\relax }}{79}{figure.caption.196}%
-\contentsline {figure}{\numberline {3.40}{\ignorespaces yolov3 : Test des URL écrites en manuscrit .\relax }}{80}{figure.caption.199}%
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Courbe Précision-Rappel et Précision Moyenne de modele YOLOv4.\relax }}{81}{figure.caption.201}%
-\contentsline {figure}{\numberline {3.42}{\ignorespaces YOLOv4 : Test des URL écrites en police Arial.\relax }}{82}{figure.caption.202}%
-\contentsline {figure}{\numberline {3.43}{\ignorespaces YOLOv4 : Test des URL écrites dans différentes polices.\relax }}{82}{figure.caption.203}%
-\contentsline {figure}{\numberline {3.44}{\ignorespaces YOLOv4 : test des URL écrites dans différentes couleurs.\relax }}{83}{figure.caption.204}%
-\contentsline {figure}{\numberline {3.45}{\ignorespaces YOLOv4 : test des URL écrites dans différentes rotations.\relax }}{84}{figure.caption.205}%
-\contentsline {figure}{\numberline {3.46}{\ignorespaces YOLOv4 : test des URL écrites avec prefixe protocol HTTPS.\relax }}{85}{figure.caption.206}%
-\contentsline {figure}{\numberline {3.47}{\ignorespaces Courbe Précision-Rappel et Précision Moyenne de modéle YOLOv5.\relax }}{86}{figure.caption.208}%
-\contentsline {figure}{\numberline {3.48}{\ignorespaces YOLOv5 : Test des URL écrites en police Arial.\relax }}{87}{figure.caption.209}%
-\contentsline {figure}{\numberline {3.49}{\ignorespaces YOLOv5: Test des URL écrites dans différentes polices.\relax }}{88}{figure.caption.210}%
-\contentsline {figure}{\numberline {3.50}{\ignorespaces YOLOv5 : test des URL écrites dans différentes couleurs.\relax }}{89}{figure.caption.211}%
-\contentsline {figure}{\numberline {3.51}{\ignorespaces YOLOv5: test des URL écrites dans différentes rotations.\relax }}{90}{figure.caption.212}%
-\contentsline {figure}{\numberline {3.52}{\ignorespaces YOLOv5 : test des URL écrites avec prefixe protocol HTTPS.\relax }}{91}{figure.caption.213}%
-\contentsline {figure}{\numberline {3.53}{\ignorespaces YOLOv5 : Test des URL écrites en manuscrit.\relax }}{92}{figure.caption.214}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Courbe Précision-Rappel et Précision Moyenne de modele Yolov3.\relax }}{74}{figure.caption.180}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces yolov3 : Test des URL écrites en police .\relax }}{74}{figure.caption.182}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces yolov3 : test des URL écrites dans différentes couleurs".\relax }}{75}{figure.caption.186}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces yolov3 : test des URL écrites en rotation 90 .\relax }}{76}{figure.caption.189}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces yolov3 : test des URL écrites en rotation 180 .\relax }}{77}{figure.caption.191}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces yolov3 : tester les URL écrites sous forme http .\relax }}{78}{figure.caption.194}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces yolov3 : Test des URL écrites en manuscrit .\relax }}{79}{figure.caption.197}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Courbe Précision-Rappel et Précision Moyenne de modele YOLOv4.\relax }}{80}{figure.caption.199}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces YOLOv4 : Test des URL écrites en police Arial.\relax }}{81}{figure.caption.200}%
+\contentsline {figure}{\numberline {3.43}{\ignorespaces YOLOv4 : Test des URL écrites dans différentes polices.\relax }}{81}{figure.caption.201}%
+\contentsline {figure}{\numberline {3.44}{\ignorespaces YOLOv4 : test des URL écrites dans différentes couleurs.\relax }}{82}{figure.caption.202}%
+\contentsline {figure}{\numberline {3.45}{\ignorespaces YOLOv4 : test des URL écrites dans différentes rotations.\relax }}{83}{figure.caption.203}%
+\contentsline {figure}{\numberline {3.46}{\ignorespaces YOLOv4 : test des URL écrites avec prefixe protocol HTTPS.\relax }}{84}{figure.caption.204}%
+\contentsline {figure}{\numberline {3.47}{\ignorespaces Courbe Précision-Rappel et Précision Moyenne de modéle YOLOv5.\relax }}{85}{figure.caption.206}%
+\contentsline {figure}{\numberline {3.48}{\ignorespaces YOLOv5 : Test des URL écrites en police Arial.\relax }}{86}{figure.caption.207}%
+\contentsline {figure}{\numberline {3.49}{\ignorespaces YOLOv5: Test des URL écrites dans différentes polices.\relax }}{87}{figure.caption.208}%
+\contentsline {figure}{\numberline {3.50}{\ignorespaces YOLOv5 : test des URL écrites dans différentes couleurs.\relax }}{88}{figure.caption.209}%
+\contentsline {figure}{\numberline {3.51}{\ignorespaces YOLOv5: test des URL écrites dans différentes rotations.\relax }}{89}{figure.caption.210}%
+\contentsline {figure}{\numberline {3.52}{\ignorespaces YOLOv5 : test des URL écrites avec prefixe protocol HTTPS.\relax }}{90}{figure.caption.211}%
+\contentsline {figure}{\numberline {3.53}{\ignorespaces YOLOv5 : Test des URL écrites en manuscrit.\relax }}{91}{figure.caption.212}%
