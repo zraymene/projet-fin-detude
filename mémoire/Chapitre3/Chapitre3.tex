@@ -173,7 +173,7 @@
       \paragraph{-} Créé  yolov3-training.cfg à partir du fichier yolov3.cfg Toutes les modifications et configurations que nous apporterons à notre modèle personnalisé soient reflétées dans le fichier yolov3-training.cfg
       \begin{figure}[H]
            \centering
-           \includegraphics[height=2cm,width=5cm]{Chapitre3/y3-7.png}
+           \includegraphics[height=2cm,width=15cm]{Chapitre3/y3-7.png}
            \caption{Créé  yolov3-training.cfg}
            \label{y3-7}
            \end{figure}
@@ -188,7 +188,7 @@
       For n = 3: max-batches = 8000, classes=3, filters=24
       \begin{figure}[H]
            \centering
-           \includegraphics[height=10cm,width=16cm]{Chapitre3/y3-8.png}
+           \includegraphics[height=7cm,width=16cm]{Chapitre3/y3-8.png}
            \caption{classes,filters,max-batches }
            \label{y3-8}
            \end{figure} 
@@ -402,12 +402,11 @@
 
      % ---------- YOLOv3 -------------
      \subsection{YOLOv3}
-      \paragraph{-le résultat général :} 
-          dans cette étude, le modèle a donné $43.12\%$ comme précision moyenne (AP) 
+     En général,, le modèle a donné $43.12\%$ comme précision moyenne (AP). 
       \begin{figure}[H]
                \centering
                 \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov3-pr-Global.png}
-                \caption{Courbe Précision-Rappel et Précision Moyenne de modele Yolov3.}
+                \caption{YOLOv3: Courbe Précision-Rappel et Précision Moyenne de modele.}
                 \label{y3_t0}
                 \end{figure}
 
@@ -416,20 +415,20 @@
       \begin{figure}[H]
               \centering
                \includegraphics[height=8cm,width=14cm]{Chapitre3/y3-t2.png}
-               \caption{yolov3 : Test des URL écrites en police .}
+               \caption{YOLOv3: Test des URL écrites en police Arial.}
                \label{y3_t1}
                \end{figure}
        
       \paragraph{-}Le résultat 
-      la précision moyenne de l'algorithme yolo-v3 dans cette partie  est$72.73\%$.
+      la précision moyenne de l'algorithme yolo-v3 dans cette partie est $72.73\%$.
 
       \paragraph{2-} Couleur.
       \paragraph{-}  On utilise 15 éléments ont couleurs
-       Le résultat qui nous avons détecté et trouver est 7 éléments,  la précision moyenne est de  $31.17\%$
+       Le résultat qui nous avons détecté et trouver est 7 éléments,  la précision moyenne est de $31.17\%$
       \begin{figure}[H]
           \centering
            \includegraphics[height=10cm,width=14cm]{Chapitre3/y3-t3.png}
-           \caption{yolov3 : test des URL écrites dans différentes couleurs".}
+           \caption{YOLOv3: test des URL écrites dans différentes couleurs.}
            \label{y3_t3}
            \end{figure}
      
@@ -438,7 +437,7 @@
       \begin{figure}[H]
           \centering
            \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t5.png}
-           \caption{yolov3 : test des URL écrites en rotation 90  .}
+           \caption{YOLOv3: test des URL écrites en rotation $90°$.}
            \label{y3_t5}
            \end{figure}
      
@@ -446,17 +445,17 @@
       \begin{figure}[H]
           \centering
            \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t6.png}
-           \caption{yolov3 : test des URL écrites en rotation 180 .}
+           \caption{YOLOv3: test des URL écrites en rotation $180°$.}
            \label{y3_t6}
            \end{figure}
 
       \paragraph{3-}Link (https)
-      \paragraph{-} Dans cette étude, nous constatons que  la précision moyenne  est faible $12.12\%$ et nous avons remarqué que dans certains cas, nous avons détecté le modèle (www) dans le modèle (https).
+      \paragraph{-} Dans cette étude, nous constatons que  la précision moyenne  est faible $12.12\%$ et nous avons remarqué que dans certains cas, nous avons détecté le modèle $www$ dans le modèle $http$.
       
       \begin{figure}[H]
           \centering
            \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t4.png}
-           \caption{yolov3 : tester les URL écrites sous forme http .}
+           \caption{yolov3 : tester les URL écrites avec prefixe protocol HTTPS.}
            \label{y3_t4}
            \end{figure}
 
@@ -467,7 +466,7 @@
       \begin{figure}[H]
           \centering
            \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t7.png}
-           \caption{yolov3 : Test des URL écrites en manuscrit .}
+           \caption{YOLOv3: Test des URL écrites en manuscrit.}
            \label{y3_t7}
            \end{figure}
 
@@ -481,7 +480,7 @@
      \begin{figure}[H]
                \centering
                \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov4_pr_global.png}
-               \caption{Courbe Précision-Rappel et Précision Moyenne de modele YOLOv4.}
+               \caption{YOLOv4: Courbe Précision-Rappel et Précision Moyenne de modele.}
                \label{y4_pr}
                \end{figure}
      
@@ -509,7 +508,7 @@
                \label{y4_t3}
                \end{figure}
 
-     Dans le cas des rotations, les modèles échouent totalement lorsque l'entrée est tournée de $90 degrés$, d'autre part, une rotation de $180 degrés$ n'affecte pas la précision du modèle.
+     Dans le cas des rotations, les modèles échouent totalement lorsque l'entrée est tournée de $90°$, d'autre part, une rotation de $180°$ n'affecte pas la précision du modèle.
      \begin{figure}[H]
                \centering
                \includegraphics[height=12cm,width=16cm]{Chapitre3/y4_t4.png}
@@ -536,7 +535,7 @@
      \begin{figure}[H]
                \centering
                \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov5_pr_global.png}
-               \caption{Courbe Précision-Rappel et Précision Moyenne de modéle YOLOv5.}
+               \caption{YOLOv5: Courbe Précision-Rappel et Précision Moyenne de modéle.}
                \label{y4_pr}
                \end{figure}
      
@@ -565,7 +564,7 @@
                \label{y5_t3}
                \end{figure}
 
-     Pour les transformations, la mise à l'échelle n'affecte pas les résultats, par contre, les rotations affectent grandement la précision des modèles. Dans les rotations à $90 degrés$, le modèle échoue totalement à détecter les URL avec $0\%$ de précision, mais à 180 degrés, le modèle détecte les URL correctement, comme si la rotation ne s'était jamais produite.
+     Pour les transformations, la mise à l'échelle n'affecte pas les résultats, par contre, les rotations affectent grandement la précision des modèles. Dans les rotations à $90 °$, le modèle échoue totalement à détecter les URL avec $0\%$ de précision, mais à $180 °$, le modèle détecte les URL correctement, comme si la rotation ne s'était jamais produite.
      \begin{figure}[H]
                \centering
                \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t4.png}
