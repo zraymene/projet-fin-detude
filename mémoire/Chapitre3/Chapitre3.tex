@@ -133,15 +133,15 @@
       \paragraph{-} Ouvrez Google Colab et téléchargez le fichier YOLOv3 Custom Object Detection 2.ipynb.\cite{yolo_collab}.
       \begin{figure}[H]
            \centering
-           \includegraphics[height=9cm,width=9cm]{Chapitre3/y3-2.png}
-           \caption{le fichier YOLOv3_Custom_Object_Detection_2.ipynb}
+           \includegraphics[height=9cm,width=14cm]{Chapitre3/y3-2.png}
+           \caption{le fichier YOLOv3-Custom-Object-Detection-2.ipynb}
            \label{y3-2}
            \end{figure}  
 
       \paragraph{-} Vérifiez si le GPU NVIDIA est activé pour l'entraînement.
          \begin{figure}[H]
               \centering
-              \includegraphics[height=11cm,width=11cm]{Chapitre3/y3-3.png}
+              \includegraphics[height=11cm,width=14cm]{Chapitre3/y3-3.png}
               \caption{NVIDIA GPU}
               \label{y3-3}
               \end{figure} 
@@ -149,7 +149,7 @@
          \paragraph{-} Montez votre github sur Google Colab.:Il s'agit de donner accès à l'ensemble de données images.zip stocké sur  votre github, et créer fichier main.zip .  
          \begin{figure}[H]
                \centering
-               \includegraphics[height=14cm,width=10cm]{Chapitre3/y3-4.png}
+               \includegraphics[height=11cm,width=14cm]{Chapitre3/y3-4.png}
                \caption{ Créer le fichier main.zip}
                \label{y3-4}
                \end{figure} 
@@ -170,27 +170,26 @@
            \label{y3-6}
            \end{figure}  
 
-      \paragraph{-} Créé  yolov3_training.cfg à partir du fichier yolov3.cfg Toutes les modifications et configurations que nous apporterons à notre modèle personnalisé soient reflétées dans le fichier yolov3_training.cfg
+      \paragraph{-} Créé  yolov3-training.cfg à partir du fichier yolov3.cfg Toutes les modifications et configurations que nous apporterons à notre modèle personnalisé soient reflétées dans le fichier yolov3-training.cfg
       \begin{figure}[H]
            \centering
-           \includegraphics[height=10cm,width=10cm]{Chapitre3/y3-7.png}
-           \caption{Créé  yolov3_training.cfg}
+           \includegraphics[height=2cm,width=5cm]{Chapitre3/y3-7.png}
+           \caption{Créé  yolov3-training.cfg}
            \label{y3-7}
            \end{figure}
       \paragraph{-}  Il y a un seul classe donc [1] : 
 
-      For n = 1: max_batches = 2000, classes=1, filters=18 
+      For n = 1: max-batches = 2000, classes=1, filters=18 
 
-      max_batches = 2000 * n and filters = (n + 5) * 3 
+      max-batches = 2000 * n and filters = (n + 5) * 3 
 
-      For n = 2: max_batches = 4000, classes=2, filters=21
+      For n = 2: max-batches = 4000, classes=2, filters=21
 
-      For n = 3: max_batches = 8000, classes=3, filters=24
-      \paragraph{}
+      For n = 3: max-batches = 8000, classes=3, filters=24
       \begin{figure}[H]
            \centering
-           \includegraphics[height=10cm,width=10cm]{Chapitre3/y3-8.png}
-           \caption{classes,filters,max_batches }
+           \includegraphics[height=10cm,width=16cm]{Chapitre3/y3-8.png}
+           \caption{classes,filters,max-batches }
            \label{y3-8}
            \end{figure} 
 
@@ -199,7 +198,7 @@
       Ces fichiers contiennent des métadonnées telles que les noms des classes et le nombre de classes nécessaires à la formation.       
       \begin{figure}[H]
            \centering
-           \includegraphics[height=9cm,width=4cm]{Chapitre3/y3-9.png}
+           \includegraphics[height=2cm,width=16cm]{Chapitre3/y3-9.png}
            \caption{obj.names et obj.data}
            \label{y3-9}
            \end{figure} 
@@ -207,8 +206,8 @@
       \paragraph{-} Enregistrer les fichiers yolov3 training.cfg et  obj.names dans Google Drive et darkent.
       \begin{figure}[H]
            \centering
-           \includegraphics[height=10cm,width=4cm]{Chapitre3/y3-10.png}
-           \caption{save yolov3_training.cfg & obj.names }
+           \includegraphics[height=3cm,width=16cm]{Chapitre3/y3-10.png}
+           \caption{save yolov3-training.cfg et obj.names }
            \label{y3-10}
            \end{figure} 
 
@@ -217,7 +216,7 @@
       Récupération des images pour traitement
       \begin{figure}[H]
            \centering
-           \includegraphics[height=12cm,width=4cm]{Chapitre3/y3-11.png}
+           \includegraphics[height=3cm,width=16cm]{Chapitre3/y3-11.png}
            \caption{ fichier train.txt }
            \label{y3-11}
            \end{figure}
@@ -236,38 +235,20 @@
       L'apprentissage du modèle prendra un certain temps (7 H:43 Min).
       \begin{figure}[H]
             \centering
-            \includegraphics[height=9cm,width=11cm]{Chapitre3/y3-13.png}
+            \includegraphics[height=9cm,width=15cm]{Chapitre3/y3-13.png}
             \caption{ le processus d'apprentissage }
             \label{y3-13}
            \end{figure} 
      
-      \paragraph{-} À la fin de la formation, il donne 3 fichiers ( yolov3_training _ 2000.weights \ yolov3 _ training _ last.weights /  yolov3 _ training _ final.weights).
+      \paragraph{-} À la fin de la formation, il donne 3 fichiers ( yolov3-training - 2000.weights \ yolov3 - training - last.weights /  yolov3 - training - final.weights).
       \begin{figure}[H]
            \centering
-           \includegraphics[height=10cm,width=10cm]{Chapitre3/y3-14.png}
+           \includegraphics[height=6cm,width=16cm]{Chapitre3/y3-14.png}
            \caption{ le processus d'apprentissage est terminé}
            \label{y3-14}
            \end{figure}
 
-      \paragraph{-} Téléchargez et sauvegardez (yolov3-training-last.weight, classes.txt , yolov3-testing.cfg) dans le dossier YOLOv3-Custom-Object-Detection.
-      \paragraph{5-} Création d'un nouvel ensemble de données (test-images) pour tester le modèle .
-      \begin{figure}[H]
-          \centering
-          \includegraphics[height=7cm,width=7cm]{Chapitre3/y3-15.png}
-          \caption{ "test_images"}
-          \label{y3-15}
-          \end{figure}
-
-      \paragraph{6-} Ouvrir le fichier "yolo-v3.py." dans visual studio code.
-      \begin{figure}[H]
-          \centering
-          \includegraphics[height=13cm,width=12cm]{Chapitre3/y3-16.png}
-          \caption{YOLO-v3 }
-          \label{y3-16}
-          \end{figure}
-      
-
-      
+      \paragraph{-} Téléchargez et sauvegardez (yolov3-training-last.weight, classes.txt , yolov3-testing.cfg).
  
 
      % ------------ YOLOv4 -------------
@@ -413,8 +394,12 @@
      \paragraph{-} Police de caractère.
      \paragraph{-} Couleur.
      \paragraph{-} Transformation (Rotation).
+     \paragraph{-} URL avec préfixe de protocole https
      \paragraph{-} Manuscrits.
      
+     La métrique d'évaluation finale est la précision moyenne (AP) qui donne des performances précises du modèle qui est calculé à partir de la courbe de rappel de précision
+     Le seuil d'intersection sur union (IoU) est $0.5$.
+
      % ---------- YOLOv3 -------------
      \subsection{YOLOv3}
       \paragraph{1-} Police de caractère.
@@ -487,36 +472,37 @@
            \label{y3_t7}
            \end{figure}
 
-      \paragraph{Conclusion:} Ces résultats nous permettent de dire que Yolov3 a été capable d'obtenir d'excellents résultats malgré les changements dans les images.
-
-
-     
-         
-
-     
-
-     
+      \paragraph{Conclusion:} Ces résultats nous permettent de dire que Yolov3 a été capable d'obtenir d'excellents résultats malgré les changements dans les images.     
 
      % ---------- YOLOv4 -------------
      \subsection{YOLOv4}
      Ce modèle est formé en utilisant 16 images par lot et 2000 lots maximum.
-     Le modèle atteint une précision de $78\%$ sur les ULR écrits en police Arial. L'épaisseur des lettres n'affecte pas les résultats. Cependant, plus l'image est réduite à une taille plus petite, plus la précision diminue.
+
+     Généralement, le modèle a atteint $53,12\%$ en tant que précision moyenne (AP)
      \begin{figure}[H]
                \centering
-               \includegraphics[height=10cm,width=17cm]{Chapitre3/y4_t1.png}
+               \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov4_pr_global.png}
+               \caption{Courbe Précision-Rappel et Précision Moyenne de modele YOLOv4.}
+               \label{y4_pr}
+               \end{figure}
+     
+     Le modèle atteint une précision de moyenne $100.00\%$ sur les ULR écrits en police Arial. L'épaisseur des lettres n'affecte pas les résultats. Cependant, plus l'image est réduite à une taille plus petite, plus la précision diminue.
+     \begin{figure}[H]
+               \centering
+               \includegraphics[height=8cm,width=17cm]{Chapitre3/y4_t1.png}
                \caption{YOLOv4 : Test des URL écrites en police Arial.}
                \label{y4_t1}
                \end{figure}
      
-     Le modèle atteint une précision de $75\%$ sur les URL écrites dans différentes polices.
+     Le modèle atteint une précision moyenne de $84.29\%$ sur les URL écrites dans différentes polices.
      \begin{figure}[H]
                \centering
-               \includegraphics[height=10cm,width=17cm]{Chapitre3/y4_t2.png}
+               \includegraphics[height=8cm,width=17cm]{Chapitre3/y4_t2.png}
                \caption{YOLOv4 : Test des URL écrites dans différentes polices.}
                \label{y4_t2}
                \end{figure}
 
-     Le modèle atteint une précision de $40\%$ avec des URL de couleurs différentes (lettres et arrière-plan).
+     Le modèle atteint une précision moyenne de $54.44\%$ avec des URL de couleurs différentes (lettres et arrière-plan).
      \begin{figure}[H]
                \centering
                \includegraphics[height=9cm,width=17cm]{Chapitre3/y4_t3.png}
@@ -532,13 +518,31 @@
                \label{y4_t4}
                \end{figure}
      
+     Dans le cas d'URL avec le protocole de préfixe https, le modèle ne parvient pas à donner des prédictions précises avec $28.9\%$ précision moyenne
+     \begin{figure}[H]
+               \centering
+               \includegraphics[height=9cm,width=17cm]{Chapitre3/yolov4_https.png}
+               \caption{YOLOv4 : test des URL écrites avec prefixe protocol HTTPS.}
+               \label{y4_https}
+               \end{figure}
+     
      Enfin, le modèle ne parvient pas à détecter les URL écrites en manuscrit.
      \paragraph{Conclusion:} Le modèle est fortement affecté par la mise à l'échelle, plus la taille est petite, plus la précision du modèle est faible. Différentes polices réduisent la précision du modèle, mais en plus petites quantités $~ 5\%$. Les couleurs affectent fortement la précision des modèles à la fois en cas de lettres colorées et de couleur de fond. Pour la rotation, les rotations à $90 degrés$ cassent le modèle à $180 degrés$, la précision n'est pas affectée. Enfin, les URL des manuscrits ne sont pas reconnaissables par le modèle, même les faux objets de vérité n'ont pas été détectés.
      
      % ---------- YOLOv5 -------------
      \subsection{YOLOv5}
      Ce modèle a été formé avec 640x640 comme image d'entrée et 30 époques.
-     Le modèle réussit à détecter les URL écrites à l'aide de la police Arial de couleur noire avec $100\%$ de précision, l'épaisseur de la police n'affecte pas les résultats. 
+     
+     Généralement, le modèle a atteint $44,19\%$ en tant que précision moyenne (AP)
+     \begin{figure}[H]
+               \centering
+               \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov5_pr_global.png}
+               \caption{Courbe Précision-Rappel et Précision Moyenne de modéle YOLOv5.}
+               \label{y4_pr}
+               \end{figure}
+     
+     
+     Le modèle réussit à détecter les URL écrites à l'aide de la police Arial de couleur noire avec $100\%$ de précision moyenne, l'épaisseur de la police n'affecte pas les résultats. 
      \begin{figure}[H]
                \centering
                \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t1.png}
@@ -546,7 +550,7 @@
                \label{y5_t1}
                \end{figure}
 
-     Le modèle fait un excellent travail en détectant les URL écrites dans une police différente avec $80\%$ de précision.
+     Le modèle fait un excellent travail en détectant les URL écrites dans une police différente avec $88.05\%$ de précision moyenne.
      \begin{figure}[H]
                \centering
                \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t2.png}
@@ -554,7 +558,7 @@
                \label{y5_t2}
                \end{figure}
 
-     Pour les lettres d'URL colorées et les URL de couleur d'arrière-plan, le modèle ne parvient pas à les détecter correctement.
+     Pour les lettres d'URL colorées et les URL de couleur d'arrière-plan, le modèle ne parvient pas à les détecter correctement avec $27.27\%$ précision moyenne.
      \begin{figure}[H]
                \centering
                \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t3.png}
@@ -569,6 +573,15 @@
                \caption{YOLOv5: test des URL écrites dans différentes rotations.}
                \label{y5_t4}
                \end{figure}
+     
+     Dans le cas d'URL avec le protocole de préfixe https, le modèle ne parvient pas à donner des prédictions précises avec $13.6\%$ précision moyenne
+     \begin{figure}[H]
+               \centering
+               \includegraphics[height=9cm,width=17cm]{Chapitre3/yolov5_https.png}
+               \caption{YOLOv5 : test des URL écrites avec prefixe protocol HTTPS.}
+               \label{y5_https}
+               \end{figure}
+     
 
      Enfin, pour les URL manuscrites, le modèle échoue totalement à effectuer une détection correcte. Cependant, il a détecté la première partie de l'URL $www.$ mais ne parvient pas à détecter l'intégralité de l'URL.
      \begin{figure}[H]

@@ -70,6 +70,10 @@ Puttatida Mahapattanakul.
   network(part3/4).
 \newblock Medium.com.
 
+\bibitem{yolo_collab}
+Nitin~Tiwari "NSTiwari".
+\newblock Yolov3 custom object detection with transfer learning, 05 2021.
+
 \bibitem{yolo_paper}
 Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
 \newblock You only look once: Unified, real-time object detection, 2016.

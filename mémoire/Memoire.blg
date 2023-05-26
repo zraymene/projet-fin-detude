@@ -7,7 +7,6 @@ Reallocating 'name_of_file' (item size: 1) to 25 items.
 Database file #1: Bibliographie/references.bib
 A bad cross reference---entry "faster_rcnn_paper"
 refers to entry "conf/nips/2015", which doesn't exist
-Warning--I didn't find a database entry for "yolov3_colab"
 Warning--I didn't find a database entry for "conf/nips/2015"
 Warning--empty booktitle in diagram_rpn_overflow
 Warning--empty year in diagram_rpn_overflow
@@ -19,45 +18,45 @@ Warning--empty booktitle in googlenet_paper
 Warning--empty booktitle in selctive_search_paper
 Warning--can't use both volume and number fields in selctive_search_paper
 Warning--empty booktitle in dpm_paper
-You've used 20 entries,
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            600 strings with 7529 characters,
-and the built_in function-call counts, 7611 in all, are:
-= -- 678
-> -- 468
+            605 strings with 7620 characters,
+and the built_in function-call counts, 7810 in all, are:
+= -- 695
+> -- 475
 < -- 9
-+ -- 182
-- -- 161
-* -- 517
-:= -- 1234
-add.period$ -- 60
-call.type$ -- 20
-change.case$ -- 136
++ -- 185
+- -- 163
+* -- 525
+:= -- 1266
+add.period$ -- 62
+call.type$ -- 21
+change.case$ -- 140
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 279
-empty$ -- 586
-format.name$ -- 161
-if$ -- 1615
+cite$ -- 31
+duplicate$ -- 286
+empty$ -- 608
+format.name$ -- 163
+if$ -- 1658
 int.to.chr$ -- 0
-int.to.str$ -- 20
+int.to.str$ -- 21
 missing$ -- 14
-newline$ -- 98
-num.names$ -- 44
-pop$ -- 212
+newline$ -- 102
+num.names$ -- 46
+pop$ -- 221
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 119
 quote$ -- 0
-skip$ -- 214
+skip$ -- 222
 stack$ -- 0
-substring$ -- 296
-swap$ -- 79
+substring$ -- 301
+swap$ -- 80
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 80
+type$ -- 84
 warning$ -- 10
-while$ -- 59
-width$ -- 22
-write$ -- 201
+while$ -- 61
+width$ -- 23
+write$ -- 209
 (There was 1 error message)

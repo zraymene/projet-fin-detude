@@ -119,87 +119,77 @@
 \contentsline {paragraph}{3-}{58}{section*.103}%
 \contentsline {paragraph}{4-}{58}{section*.104}%
 \contentsline {paragraph}{-}{58}{section*.105}%
-\contentsline {paragraph}{-}{58}{section*.107}%
-\contentsline {paragraph}{-}{59}{section*.109}%
-\contentsline {paragraph}{-}{60}{section*.111}%
-\contentsline {paragraph}{-}{61}{section*.113}%
-\contentsline {paragraph}{-}{62}{section*.115}%
-\contentsline {paragraph}{-}{62}{section*.117}%
-\contentsline {paragraph}{-}{62}{section*.119}%
-\contentsline {paragraph}{-}{63}{section*.121}%
-\contentsline {paragraph}{-}{63}{section*.123}%
-\contentsline {paragraph}{-}{63}{section*.125}%
-\contentsline {paragraph}{-}{64}{section*.127}%
-\contentsline {paragraph}{-}{65}{section*.129}%
-\contentsline {paragraph}{-}{65}{section*.131}%
-\contentsline {paragraph}{5-}{65}{section*.132}%
-\contentsline {paragraph}{6-}{65}{section*.134}%
-\contentsline {paragraph}{3-}{66}{section*.136}%
-\contentsline {paragraph}{4-}{66}{section*.137}%
-\contentsline {paragraph}{-}{66}{section*.138}%
-\contentsline {paragraph}{-}{66}{section*.140}%
-\contentsline {paragraph}{-}{67}{section*.142}%
-\contentsline {paragraph}{-}{68}{section*.144}%
-\contentsline {paragraph}{-}{69}{section*.146}%
-\contentsline {paragraph}{-}{70}{section*.148}%
-\contentsline {paragraph}{-}{70}{section*.150}%
+\contentsline {paragraph}{-}{59}{section*.107}%
+\contentsline {paragraph}{-}{60}{section*.109}%
+\contentsline {paragraph}{-}{61}{section*.111}%
+\contentsline {paragraph}{-}{62}{section*.113}%
+\contentsline {paragraph}{-}{63}{section*.115}%
+\contentsline {paragraph}{-}{63}{section*.117}%
+\contentsline {paragraph}{-}{64}{section*.119}%
+\contentsline {paragraph}{-}{64}{section*.121}%
+\contentsline {paragraph}{-}{65}{section*.123}%
+\contentsline {paragraph}{-}{65}{section*.125}%
+\contentsline {paragraph}{-}{66}{section*.127}%
+\contentsline {paragraph}{-}{66}{section*.129}%
+\contentsline {paragraph}{-}{66}{section*.131}%
+\contentsline {subsection}{\numberline {3.4.2}YOLOv4}{67}{subsection.3.4.2}%
+\contentsline {paragraph}{1-}{67}{section*.132}%
+\contentsline {paragraph}{2-}{67}{section*.134}%
+\contentsline {paragraph}{3-}{67}{section*.136}%
+\contentsline {paragraph}{4-}{68}{section*.138}%
+\contentsline {paragraph}{5-}{68}{section*.140}%
+\contentsline {paragraph}{-}{68}{section*.141}%
+\contentsline {paragraph}{-}{68}{section*.142}%
+\contentsline {paragraph}{-}{68}{section*.143}%
+\contentsline {paragraph}{-}{69}{section*.144}%
+\contentsline {paragraph}{6-}{69}{section*.147}%
+\contentsline {paragraph}{-}{69}{section*.148}%
+\contentsline {paragraph}{-}{69}{section*.149}%
+\contentsline {paragraph}{-}{69}{section*.150}%
+\contentsline {paragraph}{-}{70}{section*.151}%
 \contentsline {paragraph}{-}{70}{section*.152}%
-\contentsline {paragraph}{-}{71}{section*.154}%
-\contentsline {paragraph}{-}{71}{section*.156}%
-\contentsline {paragraph}{-}{71}{section*.158}%
-\contentsline {paragraph}{-}{72}{section*.160}%
-\contentsline {paragraph}{-}{73}{section*.162}%
-\contentsline {paragraph}{-}{73}{section*.164}%
-\contentsline {paragraph}{5-}{73}{section*.165}%
-\contentsline {paragraph}{6-}{73}{section*.167}%
-\contentsline {subsection}{\numberline {3.4.2}YOLOv4}{74}{subsection.3.4.2}%
-\contentsline {paragraph}{1-}{74}{section*.169}%
-\contentsline {paragraph}{2-}{75}{section*.171}%
-\contentsline {paragraph}{3-}{75}{section*.173}%
-\contentsline {paragraph}{4-}{75}{section*.175}%
-\contentsline {paragraph}{5-}{76}{section*.177}%
-\contentsline {paragraph}{-}{76}{section*.178}%
-\contentsline {paragraph}{-}{76}{section*.179}%
-\contentsline {paragraph}{-}{76}{section*.180}%
-\contentsline {paragraph}{-}{76}{section*.181}%
-\contentsline {paragraph}{6-}{77}{section*.184}%
-\contentsline {paragraph}{-}{77}{section*.185}%
-\contentsline {paragraph}{-}{77}{section*.186}%
-\contentsline {paragraph}{-}{77}{section*.187}%
-\contentsline {paragraph}{-}{77}{section*.188}%
-\contentsline {paragraph}{-}{78}{section*.189}%
-\contentsline {paragraph}{7-}{78}{section*.191}%
-\contentsline {paragraph}{8-}{78}{section*.193}%
-\contentsline {paragraph}{Condition spéciale :}{78}{section*.195}%
-\contentsline {subsection}{\numberline {3.4.3}YOLOv5}{79}{subsection.3.4.3}%
-\contentsline {paragraph}{1-}{79}{section*.197}%
-\contentsline {paragraph}{2-}{79}{section*.199}%
-\contentsline {paragraph}{3-}{79}{section*.201}%
-\contentsline {paragraph}{-}{79}{section*.202}%
-\contentsline {paragraph}{-}{79}{section*.203}%
-\contentsline {paragraph}{-}{80}{section*.204}%
-\contentsline {paragraph}{-}{80}{section*.205}%
-\contentsline {subsection}{\numberline {3.4.4}Outil Utiliser}{80}{subsection.3.4.4}%
-\contentsline {subsubsection}{Google Collab:}{80}{section*.207}%
-\contentsline {subsubsection}{Python:}{80}{section*.208}%
-\contentsline {subsubsection}{Darknet:}{80}{section*.209}%
-\contentsline {subsubsection}{PyTorch:}{80}{section*.210}%
-\contentsline {section}{\numberline {3.5}Testing}{81}{section.3.5}%
-\contentsline {paragraph}{-}{81}{section*.211}%
-\contentsline {paragraph}{-}{81}{section*.212}%
-\contentsline {paragraph}{-}{81}{section*.213}%
-\contentsline {paragraph}{-}{81}{section*.214}%
-\contentsline {subsection}{\numberline {3.5.1}YOLOv3}{81}{subsection.3.5.1}%
-\contentsline {paragraph}{1-}{81}{section*.215}%
-\contentsline {paragraph}{-}{81}{section*.216}%
-\contentsline {paragraph}{-}{81}{section*.217}%
-\contentsline {paragraph}{-}{82}{section*.219}%
-\contentsline {paragraph}{-}{83}{section*.221}%
-\contentsline {paragraph}{2-}{83}{section*.222}%
-\contentsline {subsection}{\numberline {3.5.2}YOLOv4}{83}{subsection.3.5.2}%
-\contentsline {paragraph}{Conclusion:}{87}{section*.227}%
-\contentsline {subsection}{\numberline {3.5.3}YOLOv5}{87}{subsection.3.5.3}%
-\contentsline {paragraph}{Conclusion:}{92}{section*.233}%
+\contentsline {paragraph}{7-}{70}{section*.154}%
+\contentsline {paragraph}{8-}{70}{section*.156}%
+\contentsline {paragraph}{Condition spéciale :}{71}{section*.158}%
+\contentsline {subsection}{\numberline {3.4.3}YOLOv5}{71}{subsection.3.4.3}%
+\contentsline {paragraph}{1-}{71}{section*.160}%
+\contentsline {paragraph}{2-}{71}{section*.162}%
+\contentsline {paragraph}{3-}{71}{section*.164}%
+\contentsline {paragraph}{-}{71}{section*.165}%
+\contentsline {paragraph}{-}{72}{section*.166}%
+\contentsline {paragraph}{-}{72}{section*.167}%
+\contentsline {paragraph}{-}{72}{section*.168}%
+\contentsline {subsection}{\numberline {3.4.4}Outil Utiliser}{72}{subsection.3.4.4}%
+\contentsline {subsubsection}{Google Collab:}{72}{section*.170}%
+\contentsline {subsubsection}{Python:}{72}{section*.171}%
+\contentsline {subsubsection}{Darknet:}{72}{section*.172}%
+\contentsline {subsubsection}{PyTorch:}{73}{section*.173}%
+\contentsline {section}{\numberline {3.5}Testing}{73}{section.3.5}%
+\contentsline {paragraph}{-}{73}{section*.174}%
+\contentsline {paragraph}{-}{73}{section*.175}%
+\contentsline {paragraph}{-}{73}{section*.176}%
+\contentsline {paragraph}{-}{73}{section*.177}%
+\contentsline {paragraph}{-}{73}{section*.178}%
+\contentsline {subsection}{\numberline {3.5.1}YOLOv3}{73}{subsection.3.5.1}%
+\contentsline {paragraph}{1-}{73}{section*.179}%
+\contentsline {paragraph}{-}{73}{section*.180}%
+\contentsline {paragraph}{-}{73}{section*.181}%
+\contentsline {paragraph}{-}{74}{section*.183}%
+\contentsline {paragraph}{-}{75}{section*.185}%
+\contentsline {paragraph}{2-}{75}{section*.186}%
+\contentsline {paragraph}{-}{75}{section*.187}%
+\contentsline {paragraph}{3-}{76}{section*.189}%
+\contentsline {paragraph}{-}{76}{section*.190}%
+\contentsline {paragraph}{-}{77}{section*.192}%
+\contentsline {paragraph}{3-}{78}{section*.194}%
+\contentsline {paragraph}{-}{78}{section*.195}%
+\contentsline {paragraph}{4-}{79}{section*.197}%
+\contentsline {paragraph}{-}{79}{section*.198}%
+\contentsline {paragraph}{Conclusion:}{80}{section*.200}%
+\contentsline {subsection}{\numberline {3.5.2}YOLOv4}{80}{subsection.3.5.2}%
+\contentsline {paragraph}{Conclusion:}{85}{section*.207}%
+\contentsline {subsection}{\numberline {3.5.3}YOLOv5}{85}{subsection.3.5.3}%
+\contentsline {paragraph}{Conclusion:}{92}{section*.215}%
 \contentsline {section}{\numberline {3.6}Conclusion Géneral}{92}{section.3.6}%
 \contentsline {chapter}{Bibliographie}{93}{section.3.6}%
-\contentsline {chapter}{Annexe}{95}{chapter*.234}%
+\contentsline {chapter}{Annexe}{95}{chapter*.216}%
