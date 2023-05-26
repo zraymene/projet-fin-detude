@@ -402,31 +402,30 @@
 
      % ---------- YOLOv3 -------------
      \subsection{YOLOv3}
+      \paragraph{-le résultat général :} 
+          dans cette étude, le modèle a donné $43.12\%$ comme précision moyenne (AP) 
+      \begin{figure}[H]
+               \centering
+                \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov3-pr-Global.png}
+                \caption{Courbe Précision-Rappel et Précision Moyenne de modele Yolov3.}
+                \label{y3_t0}
+                \end{figure}
+
       \paragraph{1-} Police de caractère.
          Il y  3 types des polices  et nous allons faites des tests par yolo-v3 et afficher les résultats.
-        \paragraph{-}Type 1(jokerman): il détecte 3/4 éléments, le score $80.33\%$
-        \paragraph{-}Type 2(bradleyhand itc): il détecte 4/4 éléments, le score $100\%$
-
-        \begin{figure}[H]
+      \begin{figure}[H]
               \centering
                \includegraphics[height=10cm,width=17cm]{Chapitre3/y3-t1.png}
-               \caption{yolov3 : Test des URL écrites en police "jokerman"et "bradleyhand itc".}
+               \caption{yolov3 : Test des URL écrites en police .}
                \label{y3_t1}
                \end{figure}
-        \paragraph{-}Type 3(algerian):il détecte 3/4 éléments, le score $72.21\%$
-        \begin{figure}[H]
-          \centering
-           \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t2.png}
-           \caption{yolov3 : Test des URL écrites en police "algerian".}
-           \label{y3_t2}
-           \end{figure}
-        \paragraph{-}Le résultat 
-         L’efficacité d’algorithme yolo-v3 dans cette partie est$72\%$--$100\%$ selon chaque type des polices
-
+       
+      \paragraph{-}Le résultat 
+      la précision moyenne de l'algorithme yolo-v3 dans cette partie  est$72.73\%$.
 
       \paragraph{2-} Couleur.
-      \paragraph{-}  On utilise 13 éléments ont couleurs
-      Le résultat qui nous avons détecté et trouver est 6 éléments le score = $46.23\%$
+      \paragraph{-}  On utilise 15 éléments ont couleurs
+       Le résultat qui nous avons détecté et trouver est 7 éléments,  la précision moyenne est de  $31.17\%$
       \begin{figure}[H]
           \centering
            \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t3.png}
@@ -443,7 +442,7 @@
            \label{y3_t5}
            \end{figure}
      
-      \paragraph{-} Pour une rotation de 180, le score est $80\%$.
+      \paragraph{-} Pour une rotation de 180, le score est $27.27\%$.
       \begin{figure}[H]
           \centering
            \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t6.png}
@@ -452,7 +451,7 @@
            \end{figure}
 
       \paragraph{3-}Link (https)
-      \paragraph{-} Dans cette étude, nous constatons que le score est faible ($15\%$~$20\%$.) et nous avons remarqué que dans certains cas, nous avons détecté le modèle (www) dans le modèle (https).
+      \paragraph{-} Dans cette étude, nous constatons que  la précision moyenne  est faible $12.12\%$ et nous avons remarqué que dans certains cas, nous avons détecté le modèle (www) dans le modèle (https).
       
       \begin{figure}[H]
           \centering
