@@ -7,40 +7,17 @@
 \fancyfoot[C]{\thepage}
 
 \section{Introduction} 
-     Le web était et reste un média révolutionnaire qui permet le transfert de données de manière simple et rapide. il compte comme un outil nécessaire dans la vie moderne. il ouvre de nombreuses opportunités pour les particuliers comme pour les grandes entreprises.
+Dans notre travail, nous allons comparer trois modèles profond de la 
+famille YOLO, à savoir YOLOv3, YOLOv4, et YOLOv5, car ceux sont des détecteurs à une étape qui fournissent une détection rapide avec une grande précision qui peut fonctionner dans des machines bas de gamme comme les systèmes embarqués.
 
-     Le web est un réseau d'ordinateurs ou de machines appelé serveur qui communiquent entre eux selon différents protocoles comme HTTP qui est le plus utilisé notamment pour le transfert de documents (ex : Documents HTML).
+Dans ce chapitre, nous présenterons la démarche d'évaluation suivie.
+Nous commençons par une étape principale de création et de préparation de la base d'entraînement. Puis, nous effectuons un entraînement des trois modèles choisis pour l'étude; YOLOv3, YOLOv4, et YOLOv5. Enfin nous faisons des tests avec des images contenant plusieurs difficultés pour évaluer la capacité de généralisation des trois modèles dans des cas d'usage  spécifiques où le contenu est différent. 
 
-     Chaque serveur du réseau a une adresse unique et sert d'identifiant utilisé par d'autres machines pour localiser et communiquer avec la machine de l'identifiant dans le réseau. Cet identifiant est écrit au format d'adresse IP dont 2 versions (IPv4 ou IPv6), une série unique de chiffres et de lettres (IPv6) sont attribuées à la machine dans le réseau. Cependant, pour un utilisateur normal qui utilise un client pour surfer sur le Web (généralement un navigateur), pour accéder à la machine, il doit saisir son adresse IP complète, ce qui a créé un problème d'erreurs fréquentes lors de la saisie de l'adresse et, surtout, de sa mémorisation.
 
-     Pour lutter contre ce problème, le DNS (Domain Name System) a été introduit. Il remplace le format d'adresse IP imbiguis par un format simple facile à saisir et à mémoriser, communément appelé adresse Web ou URL. Il est limité aux seules lettres anglaises.
+\section{Création de l'ensemble de données d'entraînement}
+Les algorithmes de détection d'objets sélectionnés relèvent de l'apprentissage en profondeur en raison de leur structure complexe et ils doivent être entraînés à l'aide d'un ensemble de données pour atteindre l'objectif requis. L'ensemble de données affecte fortement les performances des modèles, c'est pourquoi l'ensemble de données doit être robuste pour atteindre des performances plus élevées du modèle. mais nous devons d'abord comprendre ce que nous essayons de détecter.
 
-     Nous voulons aller beaucoup plus loin et supprimer l'étape de la saisie, en particulier avec l'augmentation des capacités de traitement telles que la disponibilité des téléphones intelligents et des périphériques d'entrée visuelle tels que les caméras intégrées dans les smartphones. Ce processus peut être divisé en plusieurs étapes expliquées dans le schéma suivant :
-     \begin{figure}[H]
-          \centering
-          \includegraphics[height=6cm,width=16cm]{Chapitre3/img_2.png}
-          \caption{Étapes de numérisation d'une URL.}
-          \label{img2}
-          \end{figure}
-
-     \subsubsection{Acquisition d'image:} Cette phase consiste à obtenir l'image souhaitée qui peut contenir au moins une adresse Web, l'acquisition peut être effectuée à l'aide d'une 	caméra, téléchargée à partir d'Internet ou chargée à partir d'un disque.
-     \subsubsection{Localistaion des URL:} Cette phase joue un rôle crucial dans la localisation des URL dans l'image saisie. Les méthodes de détection d'objets conviennent parfaitement pour accomplir ce processus.
-     \subsubsection{Numériser l'URL :} Cette phase finale prend l'entrée de la localisation d'url qui peut être des métadonnées : les informations détectées de la boîte englobante (position du point en haut à gauche, largeur et hauteur) qui peuvent être appliquées sur le tampon 	d'image d'entrée d'origine ou la liste des tampons d'image qui contient des pixels qui la boîte englobante détectée contient.
-
-     Nous nous concentrerons principalement sur la 2ème phase Localisation d'URL où nous essaierons d'implémenter et de tester 3 méthodes d'état de détection d'objets dans le but de détecter des URL dans une image donnée.
-
-\section{Méthodes de détection d'objets choisies}
-          Nous avons choisi 3 versions de la famille YOLO car YOLO est un détecteur à un étage qui fournit une détection rapide avec une grande précision qui peut fonctionner dans des machines bas de gamme comme les systèmes embarqués.
-          \subsection{YOLOv3} Réalisé deux ans plus tard en 2018 après la première version de YOLO. c'est une version améliorée de YOLO et YOLOv2. Il existe des différences 	majeures entre YOLOv3 et les anciennes versions en termes de vitesse, de précision et de spécificité des classes. YOLOv2 utilisait Darknet-19 comme extracteur defonctionnalités de base, tandis que YOLOv3 utilise désormais Darknet-53. Darknet-53 	est une collne verébrale également réalisée par les créateurs de YOLO Joseph Redmon et Ali Farhadi. Le Darknet-53 possède 53 couches convolutives au lieu des 19 	précédentes, ce qui le rend plus puissant que le Darknet-19 et plus efficace que les backbones concurrents (ResNet-101 ou ResNet-152). il est également rapide et précis en termes de précision moyenne moyenne (mAP) et de valeurs d'intersection sur l'union (IOU). Il fonctionne beaucoup plus rapidement que les autres méthodes de détection avec des performances comparables.
-          \subsection{YOLOv4} Créé par Alexeï Bochkovski en 2020, L'architecture de YOLOv4 est composée de CSPDarknet53 en tant que colonne vertébrale, d'un module supplémentaire de regroupement de pyramides spatiales, d'un col d'agrégation de chemins PANet et d'une tête YOLOv3. CSPDarknet53 est une nouvelle dorsale qui peut améliorer la capacité d'apprentissage de CNN. Le bloc de regroupement pyramidal spatial est ajouté sur CSPDarknet53 pour augmenter le champ réceptif et séparer les caractéristiques contextuelles les plus importantes. Au lieu des réseaux pyramidaux de fonctionnalités (FPN) pour la détection d'objets utilisés dans YOLOv3.
-          \subsection{YOLOv5} Développé par ultralytics en 2020, il a été une énorme amélioration de l'accessibilité pour la détection d'objets en temps réel en raison de la transition de Darknet à PyTorck en tant que cadre de mise en œuvre, car Darknet est plus difficile à configurer et moins prêt pour la production. Cette transition a entraîné une forte augmentation du temps de formation et également du temps de prédiction avec l'accessibilité au grand écosystème de PyTorch.
-
-\section{Ensemble de données d'entraînement}
-          Les algorithmes de détection d'objets sélectionnés relèvent de l'apprentissage en profondeur en raison de leur structure complexe et ils doivent être entraînés à l'aide d'un ensemble de données pour atteindre l'objectif requis. L'ensemble de données affecte fortement les performances des modèles, c'est pourquoi l'ensemble de données doit être robuste pour atteindre des performances plus élevées du modèle.
-
-          Les algorithmes de détection d'objets sélectionnés relèvent de l'apprentissage en profondeur en raison de leur structure complexe et ils doivent être entraînés à l'aide d'un ensemble de données pour atteindre l'objectif requis. L'ensemble de données affecte fortement les performances des modèles, c'est pourquoi l'ensemble de données doit être robuste pour atteindre des performances plus élevées du modèle. mais nous devons d'abord comprendre ce que nous essayons de détecter.
-
-          L'URL commence par 3 lettres 'w' consécutives et un point \(www.\) suivi d'une étiquette, l'étiquette est une série de lettres anglaises de a à z (non sensible à la casse) et peut également contenir des chiffres de 0 à 9, des traits d'union peuvent être ajoutés mais pas au début ni à la fin et ajouter plus de 1 consécutivement n'est pas autorisé, La longueur du libellé est comprise entre 3 et 63 caractères maximum. Au final, après un point, une extension est ajoutée. Les extensions les plus utilisées sont : ".com", ".net" et ".org". cette partie peut être nommée le nom de domaine.
+          L'URL commence par 3 lettres 'w' consécutives et un point \(www.\) suivi d'une étiquette, l'étiquette est une série de lettres anglaises de a à z (non sensible à la casse) et peut également contenir des chiffres de 0 à 9, des traits d'union peuvent être ajoutés mais pas au début ni à la fin et ajouter plus de 1 consécutivement n'est pas autorisé, La longueur du libellé est comprise entre 3 et 63 caractères maximum. Au final, après un point, une extension est ajoutée. Les extensions les plus utilisées sont : ".com", ".net" et ".org". cette partie peut être nommée le nom de domaine.
 
           L'URL peut commencer par un protocole tel que \(http://\) ou \(https://\) pour le HTTP sécurisé, mais les clients Web modernes comme les navigateurs ajoutent automatiquement le protocole avant l'URL s'il n'en contient pas. L'URL peut également contenir après le nom de l'extension plus de données telles que le nom de fichier \(/index.html\) ou des sous-répertoires comme \(/dir1/dir2\)
           \begin{figure}[H]
@@ -60,7 +37,7 @@
                \label{img4}
                \end{figure}
 
-          La plupart des impressions dans le monde se font sur du papier A4, dans cet esprit, l'ensemble de données contiendra des échantillons d'URL imprimés sur du papier au format A4. Les URL seront accompagnées de texte aléatoire écrit dans différentes langues : Latin, Arabe, Chinois, Russe et Indien.
+          La plupart des impressions dans le monde se font sur du papier A4, dans cet esprit, l'ensemble de données contiendra des échantillons d'URL imprimés sur du papier au format A4. Les URL seront accompagnées de texte aléatoire écrit dans différentes langues : Latin, Arabe, Chinois, Russe et Indien.
           \begin{figure}[H]
                \centering
                \includegraphics[height=16cm,width=16cm]{Chapitre3/img_4.png}
@@ -72,7 +49,7 @@
 
           Les bases du rendu 3D consistent à transformer des données tridimensionnelles représentées dans une série de triangles appelés maillage en écran 2D. Un buffer de pixels appelé Textures peut être appliqué à ces mesh pour les afficher dessus. Des algorithmes supplémentaires peuvent être utilisés pour améliorer le résultat rendu à la qualité du monde réel, comme : l'éclairage et l'ombre.
 
-          Le processus de génération de nos données synthétiques est divisé en plusieurs phases qui sont :
+          Le processus de génération de nos données synthétiques est divisé en plusieurs phases qui sont :
           \begin{figure}[H]
                \centering
                \includegraphics[height=10cm,width=16cm]{Chapitre3/img_5.png}
@@ -255,7 +232,7 @@
      \subsection{YOLOv4}
      \paragraph{1-} Nous chargeons d'abord notre jeu de données, cette fois il est chargé depuis Roboflow car il est beaucoup plus facile de le télécharger directement depuis github puis de le décompresser. Roboflow télécharge, décompresse et crée des variables globales python liées à l'ensemble de données, ce qui facilite la configuration de la formation.
 
-     Ce bloc de code est généré automatiquement dans la page roboflow de l'ensemble de données :
+     Ce bloc de code est généré automatiquement dans la page roboflow de l'ensemble de données :
      \begin{figure}[H]
                \centering
                \includegraphics[height=4cm,width=16cm]{Chapitre3/y4_1.png}
@@ -312,7 +289,7 @@
            
      
      \paragraph{6-} Pour configurer notre réseau, nous allons modifier le fichier de configuration \(yolov4-custom.cfg\) qui se trouve dans le répertoire \(cfg/\). Les configurations qui nous concernent sont :
-     \paragraph{-} \(batch\): définit le nombre d'images traitées en 1 itération (mise à jour du poids), contrairement aux ecpoches où l'ensemble des données est entièrement itéré.
+     \paragraph{-} \(batch\): définit le nombre d'images traitées en 1 itération (mise à jour du poids), contrairement aux ecpoches où l'ensemble des données est entièrement itéré.
      \paragraph{-} \(sous-divisions\): la mémoire GPU n'est pas infinie, il est donc impossible de passer un lot complet à la mémoire GPU pour le traitement. Subdiviser le lot en mini-lot est la solution. les sous-divisions inférieures sont les besoins en mémoire GPU les plus élevés, si la mémoire n'est pas suffisante, une erreur sera renvoyée au début de la formation.
      \paragraph{-} \(max-batches\): cette valeur définit le nombre d'itérations lorsque la formation s'arrêtera. \(2000 * number_classes\) est recommandé pour de meilleurs résultats.
      \paragraph{-} \(classes\) : définit le nombre de classes que le réseau formera. trouvé dans les lignes: $970$, $1058$ et $1146$.
@@ -340,7 +317,7 @@
                \label{y4_8}
                \end{figure}
       
-     \paragraph{Condition spéciale :} si l'entraînement échoue à mi-parcours en raison de la désactivation de l'instance Google Colab. l'entraînement peut être poursuivi en utilisant les derniers poids enregistrés qui ont été enregistrés sur Google Drive en modifiant la commande de train pour utiliser le dernier poids.
+     \paragraph{Condition spéciale :} si l'entraînement échoue à mi-parcours en raison de la désactivation de l'instance Google Colab. l'entraînement peut être poursuivi en utilisant les derniers poids enregistrés qui ont été enregistrés sur Google Drive en modifiant la commande de train pour utiliser le dernier poids.
      \begin{figure}[H]
                \centering
                \includegraphics[height=0.5cm,width=17cm]{Chapitre3/y4_9.png}
@@ -390,7 +367,7 @@
 % ========= TESING =============
 \section{Testing}
      Tous les modèles sont formés sur le même jeu de données qui contient 127 images et tous seront évalués sur des images de test.
-     Nous voulons tester comment les modèles réagissent à différents types de :
+     Nous voulons tester comment les modèles réagissent à différents types de :
      \paragraph{-} Police de caractère.
      \paragraph{-} Couleur.
      \paragraph{-} Transformation (Rotation).
@@ -455,7 +432,7 @@
       \begin{figure}[H]
           \centering
            \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t4.png}
-           \caption{yolov3 : tester les URL écrites avec prefixe protocol HTTPS.}
+           \caption{yolov3 : tester les URL écrites avec prefixe protocol HTTPS.}
            \label{y3_t4}
            \end{figure}
 
@@ -488,7 +465,7 @@
      \begin{figure}[H]
                \centering
                \includegraphics[height=8cm,width=17cm]{Chapitre3/y4_t1.png}
-               \caption{YOLOv4 : Test des URL écrites en police Arial.}
+               \caption{YOLOv4 : Test des URL écrites en police Arial.}
                \label{y4_t1}
                \end{figure}
      
@@ -496,7 +473,7 @@
      \begin{figure}[H]
                \centering
                \includegraphics[height=8cm,width=17cm]{Chapitre3/y4_t2.png}
-               \caption{YOLOv4 : Test des URL écrites dans différentes polices.}
+               \caption{YOLOv4 : Test des URL écrites dans différentes polices.}
                \label{y4_t2}
                \end{figure}
 
@@ -504,7 +481,7 @@
      \begin{figure}[H]
                \centering
                \includegraphics[height=9cm,width=17cm]{Chapitre3/y4_t3.png}
-               \caption{YOLOv4 : test des URL écrites dans différentes couleurs.}
+               \caption{YOLOv4 : test des URL écrites dans différentes couleurs.}
                \label{y4_t3}
                \end{figure}
 
@@ -512,7 +489,7 @@
      \begin{figure}[H]
                \centering
                \includegraphics[height=12cm,width=16cm]{Chapitre3/y4_t4.png}
-               \caption{YOLOv4 : test des URL écrites dans différentes rotations.}
+               \caption{YOLOv4 : test des URL écrites dans différentes rotations.}
                \label{y4_t4}
                \end{figure}
      
@@ -520,7 +497,7 @@
      \begin{figure}[H]
                \centering
                \includegraphics[height=9cm,width=17cm]{Chapitre3/yolov4_https.png}
-               \caption{YOLOv4 : test des URL écrites avec prefixe protocol HTTPS.}
+               \caption{YOLOv4 : test des URL écrites avec prefixe protocol HTTPS.}
                \label{y4_https}
                \end{figure}
      
@@ -544,7 +521,7 @@
      \begin{figure}[H]
                \centering
                \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t1.png}
-               \caption{YOLOv5 : Test des URL écrites en police Arial.}
+               \caption{YOLOv5 : Test des URL écrites en police Arial.}
                \label{y5_t1}
                \end{figure}
 
@@ -560,7 +537,7 @@
      \begin{figure}[H]
                \centering
                \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t3.png}
-               \caption{YOLOv5 : test des URL écrites dans différentes couleurs.}
+               \caption{YOLOv5 : test des URL écrites dans différentes couleurs.}
                \label{y5_t3}
                \end{figure}
 
@@ -576,7 +553,7 @@
      \begin{figure}[H]
                \centering
                \includegraphics[height=9cm,width=17cm]{Chapitre3/yolov5_https.png}
-               \caption{YOLOv5 : test des URL écrites avec prefixe protocol HTTPS.}
+               \caption{YOLOv5 : test des URL écrites avec prefixe protocol HTTPS.}
                \label{y5_https}
                \end{figure}
      
@@ -585,7 +562,7 @@
      \begin{figure}[H]
                \centering
                \includegraphics[height=11cm,width=12cm]{Chapitre3/y5_t5.jpg}
-               \caption{YOLOv5 : Test des URL écrites en manuscrit.}
+               \caption{YOLOv5 : Test des URL écrites en manuscrit.}
                \label{y5_t5}
                \end{figure}
 
