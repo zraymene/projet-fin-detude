@@ -2,7 +2,6 @@
 %    - Chapitre 2:  
 %         - More detail on YOLOv4 / YOLOv5
 %    - Chapitre 3:
-%         - Evaluation global
 %         - Evluation pour chaque diffuclter
 %         - Conclusion general
 %
@@ -115,207 +114,236 @@ Les algorithmes de détection d'objets sélectionnés relèvent de l'apprentissa
 
 % ========= TESING =============
 \section{Évaluation des modèles}
-     Tous les modèles sont formés sur le même jeu de données qui contient 127 images et tous seront évalués sur des images de test.
-     Nous voulons tester comment les modèles réagissent à différents types de :
-     \paragraph{-} Police de caractère.
-     \paragraph{-} Couleur.
-     \paragraph{-} Transformation (Rotation).
-     \paragraph{-} URL avec préfixe de protocole https
-     \paragraph{-} Manuscrits.
+     Les modèles sont évalué sur $20\%$ (33 images) de l'ensemble des donnes le seuil de $IoU$ mis à 0.5.
      
-     La métrique d'évaluation finale est la précision moyenne (AP) qui donne des performances précises du modèle qui est calculé à partir de la courbe de rappel de précision
-     Le seuil d'intersection sur union (IoU) est $0.5$.
+     YOLOv3 a donné $70.53\%$ comme précision moyenne mais la précision baisse après que le rappel atteigne $0.75$.
 
-     % ---------- YOLOv3 -------------
-     \subsection{YOLOv3}
-     En général,, le modèle a donné $43.12\%$ comme précision moyenne (AP). 
-      \begin{figure}[H]
+     YOLOv4 a donné $90.91\%$ comme précision moyenne mais la précision baisse après que le rappel atteigne $0.98$.
+
+     YOLOv5 a donné $88.63\%$ comme précision moyenne mais la précision baisse après que le rappel atteigne $0.91$.
+     
+     \begin{figure}[H]
                \centering
-                \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov3-pr-Global.png}
-                \caption{YOLOv3: Courbe Précision-Rappel et Précision Moyenne de modele.}
-                \label{y3_t0}
+               \includegraphics[height=8cm,width=15cm]{Chapitre3/yolov3_pr_Global.png}
+               \caption{YOLOv3: Courbe Précision-Rappel et La Précision Moyenne.}
+               \label{y3_pr}
+               \end{figure}
+     \begin{figure}[H]
+               \centering
+               \includegraphics[height=8cm,width=15cm]{Chapitre3/yolov4_pr_global.png}
+               \caption{YOLOv4: Courbe Précision-Rappel et La Précision Moyenne.}
+               \label{y4_pr}
+               \end{figure}
+     \begin{figure}[H]
+               \centering
+               \includegraphics[height=8cm,width=15cm]{Chapitre3/yolov5_pr_global.png}
+               \caption{YOLOv5: Courbe Précision-Rappel et La Précision Moyenne.}
+               \label{y5_pr}
+               \end{figure}
+     
+     %========= DIFFICULTIES ==========
+     \subsection{Les difficultés}
+
+          Nous voulons tester comment les modèles réagissent à différents types de :
+          \paragraph{-} Police de caractère.
+          \paragraph{-} Couleur.
+          \paragraph{-} Transformation (Rotation).
+          \paragraph{-} URL avec préfixe de protocole https
+          \paragraph{-} Manuscrits.
+               
+          La métrique d'évaluation finale est la précision moyenne (AP) qui donne des performances précises du modèle qui est calculé à partir de la courbe de rappel de précision
+          Le seuil d'intersection sur union (IoU) est $0.5$.
+
+          % ---------- YOLOv3 -------------
+          \subsubsection{YOLOv3}
+          En général,, le modèle a donné $43.12\%$ comme précision moyenne (AP). 
+           \begin{figure}[H]
+                    \centering
+                     \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov3_pr_Global.png}
+                     \caption{YOLOv3: Courbe Précision-Rappel et Précision Moyenne de modele.}
+                     \label{y3_t0}
+                     \end{figure}
+
+           \paragraph{1-} Police de caractère.
+              Il y  3 types des polices  et nous allons faites des tests par yolo-v3 et afficher les résultats.
+           \begin{figure}[H]
+                   \centering
+                    \includegraphics[height=8cm,width=14cm]{Chapitre3/y3-t2.png}
+                    \caption{YOLOv3: Test des URL écrites en police Arial.}
+                    \label{y3_t1}
+                    \end{figure}
+               
+           \paragraph{-}Le résultat 
+           la précision moyenne de l'algorithme yolo-v3 dans cette partie est $72.73\%$.
+
+           \paragraph{2-} Couleur.
+           \paragraph{-}  On utilise 15 éléments ont couleurs
+            Le résultat qui nous avons détecté et trouver est 7 éléments,  la précision moyenne est de $31.17\%$
+           \begin{figure}[H]
+               \centering
+                \includegraphics[height=10cm,width=14cm]{Chapitre3/y3-t3.png}
+                \caption{YOLOv3: test des URL écrites dans différentes couleurs.}
+                \label{y3_t3}
+                \end{figure}
+           
+           \paragraph{3-} Transformation (Rotation).
+           \paragraph{-} Pour la rotation de 90 ne donne aucun résultat.
+           \begin{figure}[H]
+               \centering
+                \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t5.png}
+                \caption{YOLOv3: test des URL écrites en rotation $90°$.}
+                \label{y3_t5}
+                \end{figure}
+           
+           \paragraph{-} Pour une rotation de 180, le score est $27.27\%$.
+           \begin{figure}[H]
+               \centering
+                \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t6.png}
+                \caption{YOLOv3: test des URL écrites en rotation $180°$.}
+                \label{y3_t6}
                 \end{figure}
 
-      \paragraph{1-} Police de caractère.
-         Il y  3 types des polices  et nous allons faites des tests par yolo-v3 et afficher les résultats.
-      \begin{figure}[H]
-              \centering
-               \includegraphics[height=8cm,width=14cm]{Chapitre3/y3-t2.png}
-               \caption{YOLOv3: Test des URL écrites en police Arial.}
-               \label{y3_t1}
-               \end{figure}
-       
-      \paragraph{-}Le résultat 
-      la précision moyenne de l'algorithme yolo-v3 dans cette partie est $72.73\%$.
-
-      \paragraph{2-} Couleur.
-      \paragraph{-}  On utilise 15 éléments ont couleurs
-       Le résultat qui nous avons détecté et trouver est 7 éléments,  la précision moyenne est de $31.17\%$
-      \begin{figure}[H]
-          \centering
-           \includegraphics[height=10cm,width=14cm]{Chapitre3/y3-t3.png}
-           \caption{YOLOv3: test des URL écrites dans différentes couleurs.}
-           \label{y3_t3}
-           \end{figure}
-     
-      \paragraph{3-} Transformation (Rotation).
-      \paragraph{-} Pour la rotation de 90 ne donne aucun résultat.
-      \begin{figure}[H]
-          \centering
-           \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t5.png}
-           \caption{YOLOv3: test des URL écrites en rotation $90°$.}
-           \label{y3_t5}
-           \end{figure}
-     
-      \paragraph{-} Pour une rotation de 180, le score est $27.27\%$.
-      \begin{figure}[H]
-          \centering
-           \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t6.png}
-           \caption{YOLOv3: test des URL écrites en rotation $180°$.}
-           \label{y3_t6}
-           \end{figure}
-
-      \paragraph{3-}Link (https)
-      \paragraph{-} Dans cette étude, nous constatons que  la précision moyenne  est faible $12.12\%$ et nous avons remarqué que dans certains cas, nous avons détecté le modèle $www$ dans le modèle $http$.
-      
-      \begin{figure}[H]
-          \centering
-           \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t4.png}
-           \caption{yolov3 : tester les URL écrites avec prefixe protocol HTTPS.}
-           \label{y3_t4}
-           \end{figure}
-
-
-      \paragraph{4-} Manuscrits.
-      \paragraph{-} Dans cette étude, nous n'avons pas obtenu de résultats.
-
-      \begin{figure}[H]
-          \centering
-           \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t7.png}
-           \caption{YOLOv3: Test des URL écrites en manuscrit.}
-           \label{y3_t7}
-           \end{figure}
-
-      \paragraph{Conclusion:} Ces résultats nous permettent de dire que Yolov3 a été capable d'obtenir d'excellents résultats malgré les changements dans les images.     
-
-     % ---------- YOLOv4 -------------
-     \subsection{YOLOv4}
-     Ce modèle est formé en utilisant 16 images par lot et 2000 lots maximum.
-
-     Généralement, le modèle a atteint $53,12\%$ en tant que précision moyenne (AP)
-     \begin{figure}[H]
+           \paragraph{3-}Link (https)
+           \paragraph{-} Dans cette étude, nous constatons que  la précision moyenne  est faible $12.12\%$ et nous avons remarqué que dans certains cas, nous avons détecté le modèle $www$ dans le modèle $http$.
+           
+           \begin{figure}[H]
                \centering
-               \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov4_pr_global.png}
-               \caption{YOLOv4: Courbe Précision-Rappel et Précision Moyenne de modele.}
-               \label{y4_pr}
-               \end{figure}
-     
-     Le modèle atteint une précision de moyenne $100.00\%$ sur les ULR écrits en police Arial. L'épaisseur des lettres n'affecte pas les résultats. Cependant, plus l'image est réduite à une taille plus petite, plus la précision diminue.
-     \begin{figure}[H]
-               \centering
-               \includegraphics[height=8cm,width=17cm]{Chapitre3/y4_t1.png}
-               \caption{YOLOv4 : Test des URL écrites en police Arial.}
-               \label{y4_t1}
-               \end{figure}
-     
-     Le modèle atteint une précision moyenne de $84.29\%$ sur les URL écrites dans différentes polices.
-     \begin{figure}[H]
-               \centering
-               \includegraphics[height=8cm,width=17cm]{Chapitre3/y4_t2.png}
-               \caption{YOLOv4 : Test des URL écrites dans différentes polices.}
-               \label{y4_t2}
-               \end{figure}
+                \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t4.png}
+                \caption{yolov3 : tester les URL écrites avec prefixe protocol HTTPS.}
+                \label{y3_t4}
+                \end{figure}
 
-     Le modèle atteint une précision moyenne de $54.44\%$ avec des URL de couleurs différentes (lettres et arrière-plan).
-     \begin{figure}[H]
-               \centering
-               \includegraphics[height=9cm,width=17cm]{Chapitre3/y4_t3.png}
-               \caption{YOLOv4 : test des URL écrites dans différentes couleurs.}
-               \label{y4_t3}
-               \end{figure}
 
-     Dans le cas des rotations, les modèles échouent totalement lorsque l'entrée est tournée de $90°$, d'autre part, une rotation de $180°$ n'affecte pas la précision du modèle.
-     \begin{figure}[H]
-               \centering
-               \includegraphics[height=12cm,width=16cm]{Chapitre3/y4_t4.png}
-               \caption{YOLOv4 : test des URL écrites dans différentes rotations.}
-               \label{y4_t4}
-               \end{figure}
-     
-     Dans le cas d'URL avec le protocole de préfixe https, le modèle ne parvient pas à donner des prédictions précises avec $28.9\%$ précision moyenne
-     \begin{figure}[H]
-               \centering
-               \includegraphics[height=9cm,width=17cm]{Chapitre3/yolov4_https.png}
-               \caption{YOLOv4 : test des URL écrites avec prefixe protocol HTTPS.}
-               \label{y4_https}
-               \end{figure}
-     
-     Enfin, le modèle ne parvient pas à détecter les URL écrites en manuscrit.
-     \paragraph{Conclusion:} Le modèle est fortement affecté par la mise à l'échelle, plus la taille est petite, plus la précision du modèle est faible. Différentes polices réduisent la précision du modèle, mais en plus petites quantités $~ 5\%$. Les couleurs affectent fortement la précision des modèles à la fois en cas de lettres colorées et de couleur de fond. Pour la rotation, les rotations à $90 degrés$ cassent le modèle à $180 degrés$, la précision n'est pas affectée. Enfin, les URL des manuscrits ne sont pas reconnaissables par le modèle, même les faux objets de vérité n'ont pas été détectés.
-     
-     % ---------- YOLOv5 -------------
-     \subsection{YOLOv5}
-     Ce modèle a été formé avec 640x640 comme image d'entrée et 30 époques.
-     
-     Généralement, le modèle a atteint $44,19\%$ en tant que précision moyenne (AP)
-     \begin{figure}[H]
-               \centering
-               \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov5_pr_global.png}
-               \caption{YOLOv5: Courbe Précision-Rappel et Précision Moyenne de modéle.}
-               \label{y4_pr}
-               \end{figure}
-     
-     
-     Le modèle réussit à détecter les URL écrites à l'aide de la police Arial de couleur noire avec $100\%$ de précision moyenne, l'épaisseur de la police n'affecte pas les résultats. 
-     \begin{figure}[H]
-               \centering
-               \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t1.png}
-               \caption{YOLOv5 : Test des URL écrites en police Arial.}
-               \label{y5_t1}
-               \end{figure}
+           \paragraph{4-} Manuscrits.
+           \paragraph{-} Dans cette étude, nous n'avons pas obtenu de résultats.
 
-     Le modèle fait un excellent travail en détectant les URL écrites dans une police différente avec $88.05\%$ de précision moyenne.
-     \begin{figure}[H]
+           \begin{figure}[H]
                \centering
-               \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t2.png}
-               \caption{YOLOv5: Test des URL écrites dans différentes polices.}
-               \label{y5_t2}
-               \end{figure}
+                \includegraphics[height=10cm,width=12cm]{Chapitre3/y3-t7.png}
+                \caption{YOLOv3: Test des URL écrites en manuscrit.}
+                \label{y3_t7}
+                \end{figure}
 
-     Pour les lettres d'URL colorées et les URL de couleur d'arrière-plan, le modèle ne parvient pas à les détecter correctement avec $27.27\%$ précision moyenne.
-     \begin{figure}[H]
-               \centering
-               \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t3.png}
-               \caption{YOLOv5 : test des URL écrites dans différentes couleurs.}
-               \label{y5_t3}
-               \end{figure}
+          \paragraph{Conclusion:} Ces résultats nous permettent de dire que Yolov3 a été capable d'obtenir d'excellents résultats malgré les changements dans les images.     
 
-     Pour les transformations, la mise à l'échelle n'affecte pas les résultats, par contre, les rotations affectent grandement la précision des modèles. Dans les rotations à $90 °$, le modèle échoue totalement à détecter les URL avec $0\%$ de précision, mais à $180 °$, le modèle détecte les URL correctement, comme si la rotation ne s'était jamais produite.
-     \begin{figure}[H]
-               \centering
-               \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t4.png}
-               \caption{YOLOv5: test des URL écrites dans différentes rotations.}
-               \label{y5_t4}
-               \end{figure}
-     
-     Dans le cas d'URL avec le protocole de préfixe https, le modèle ne parvient pas à donner des prédictions précises avec $13.6\%$ précision moyenne
-     \begin{figure}[H]
-               \centering
-               \includegraphics[height=9cm,width=17cm]{Chapitre3/yolov5_https.png}
-               \caption{YOLOv5 : test des URL écrites avec prefixe protocol HTTPS.}
-               \label{y5_https}
-               \end{figure}
-     
+          % ---------- YOLOv4 -------------
+          \subsubsection{YOLOv4}
+          Ce modèle est formé en utilisant 16 images par lot et 2000 lots maximum.
 
-     Enfin, pour les URL manuscrites, le modèle échoue totalement à effectuer une détection correcte. Cependant, il a détecté la première partie de l'URL $www.$ mais ne parvient pas à détecter l'intégralité de l'URL.
-     \begin{figure}[H]
-               \centering
-               \includegraphics[height=11cm,width=12cm]{Chapitre3/y5_t5.jpg}
-               \caption{YOLOv5 : Test des URL écrites en manuscrit.}
-               \label{y5_t5}
-               \end{figure}
+          Généralement, le modèle a atteint $53,12\%$ en tant que précision moyenne (AP)
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov4_pr_global.png}
+                    \caption{YOLOv4: Courbe Précision-Rappel et Précision Moyenne de modele.}
+                    \label{y4_pr}
+                    \end{figure}
+               
+          Le modèle atteint une précision de moyenne $100.00\%$ sur les ULR écrits en police Arial. L'épaisseur des lettres n'affecte pas les résultats. Cependant, plus l'image est réduite à une taille plus petite, plus la précision diminue.
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=8cm,width=17cm]{Chapitre3/y4_t1.png}
+                    \caption{YOLOv4 : Test des URL écrites en police Arial.}
+                    \label{y4_t1}
+                    \end{figure}
+               
+          Le modèle atteint une précision moyenne de $84.29\%$ sur les URL écrites dans différentes polices.
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=8cm,width=17cm]{Chapitre3/y4_t2.png}
+                    \caption{YOLOv4 : Test des URL écrites dans différentes polices.}
+                    \label{y4_t2}
+                    \end{figure}
 
-     \paragraph{Conclusion:} La police et l'épaisseur des lettres n'affectent pas la précision du modèle. Cependant, les lettres colorées et l'arrière-plan des URL affectent la précision du modèle, en plus de cela, une rotation de 90 degrés affecte également la précision. Dans le manuscrit, le modèle échoue totalement à détecter une URL. De plus, le modèle vu détecte également les faux objets contenant des points ou des virgules.
-     La solution consiste à incrémenter l'amélioration de l'ensemble de données pour qu'il contienne des exemples plus généralisés qui incluent les problèmes précédents.
+          Le modèle atteint une précision moyenne de $54.44\%$ avec des URL de couleurs différentes (lettres et arrière-plan).
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=9cm,width=17cm]{Chapitre3/y4_t3.png}
+                    \caption{YOLOv4 : test des URL écrites dans différentes couleurs.}
+                    \label{y4_t3}
+                    \end{figure}
+
+          Dans le cas des rotations, les modèles échouent totalement lorsque l'entrée est tournée de $90°$, d'autre part, une rotation de $180°$ n'affecte pas la précision du modèle.
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=12cm,width=16cm]{Chapitre3/y4_t4.png}
+                    \caption{YOLOv4 : test des URL écrites dans différentes rotations.}
+                    \label{y4_t4}
+                    \end{figure}
+               
+          Dans le cas d'URL avec le protocole de préfixe https, le modèle ne parvient pas à donner des prédictions précises avec $28.9\%$ précision moyenne
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=9cm,width=17cm]{Chapitre3/yolov4_https.png}
+                    \caption{YOLOv4 : test des URL écrites avec prefixe protocol HTTPS.}
+                    \label{y4_https}
+                    \end{figure}
+               
+          Enfin, le modèle ne parvient pas à détecter les URL écrites en manuscrit.
+          \paragraph{Conclusion:} Le modèle est fortement affecté par la mise à l'échelle, plus la taille est petite, plus la précision du modèle est faible. Différentes polices réduisent la précision du modèle, mais en plus petites quantités $~ 5\%$. Les couleurs affectent fortement la précision des modèles à la fois en cas de lettres colorées et de couleur de fond. Pour la rotation, les rotations à $90 degrés$ cassent le modèle à $180 degrés$, la précision n'est pas affectée. Enfin, les URL des manuscrits ne sont pas reconnaissables par le modèle, même les faux objets de vérité n'ont pas été détectés.
+               
+          % ---------- YOLOv5 -------------
+          \subsubsection{YOLOv5}
+          Ce modèle a été formé avec 640x640 comme image d'entrée et 30 époques.
+               
+          Généralement, le modèle a atteint $44,19\%$ en tant que précision moyenne (AP)
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=10cm,width=17cm]{Chapitre3/yolov5_pr_global.png}
+                    \caption{YOLOv5: Courbe Précision-Rappel et Précision Moyenne de modéle.}
+                    \label{y4_pr}
+                    \end{figure}
+               
+               
+          Le modèle réussit à détecter les URL écrites à l'aide de la police Arial de couleur noire avec $100\%$ de précision moyenne, l'épaisseur de la police n'affecte pas les résultats. 
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t1.png}
+                    \caption{YOLOv5 : Test des URL écrites en police Arial.}
+                    \label{y5_t1}
+                    \end{figure}
+
+          Le modèle fait un excellent travail en détectant les URL écrites dans une police différente avec $88.05\%$ de précision moyenne.
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t2.png}
+                    \caption{YOLOv5: Test des URL écrites dans différentes polices.}
+                    \label{y5_t2}
+                    \end{figure}
+
+          Pour les lettres d'URL colorées et les URL de couleur d'arrière-plan, le modèle ne parvient pas à les détecter correctement avec $27.27\%$ précision moyenne.
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t3.png}
+                    \caption{YOLOv5 : test des URL écrites dans différentes couleurs.}
+                    \label{y5_t3}
+                    \end{figure}
+
+          Pour les transformations, la mise à l'échelle n'affecte pas les résultats, par contre, les rotations affectent grandement la précision des modèles. Dans les rotations à $90 °$, le modèle échoue totalement à détecter les URL avec $0\%$ de précision, mais à $180 °$, le modèle détecte les URL correctement, comme si la rotation ne s'était jamais produite.
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=10cm,width=17cm]{Chapitre3/y5_t4.png}
+                    \caption{YOLOv5: test des URL écrites dans différentes rotations.}
+                    \label{y5_t4}
+                    \end{figure}
+               
+          Dans le cas d'URL avec le protocole de préfixe https, le modèle ne parvient pas à donner des prédictions précises avec $13.6\%$ précision moyenne
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=9cm,width=17cm]{Chapitre3/yolov5_https.png}
+                    \caption{YOLOv5 : test des URL écrites avec prefixe protocol HTTPS.}
+                    \label{y5_https}
+                    \end{figure}
+               
+
+          Enfin, pour les URL manuscrites, le modèle échoue totalement à effectuer une détection correcte. Cependant, il a détecté la première partie de l'URL $www.$ mais ne parvient pas à détecter l'intégralité de l'URL.
+          \begin{figure}[H]
+                    \centering
+                    \includegraphics[height=11cm,width=12cm]{Chapitre3/y5_t5.jpg}
+                    \caption{YOLOv5 : Test des URL écrites en manuscrit.}
+                    \label{y5_t5}
+                    \end{figure}
+
+          \paragraph{Conclusion:} La police et l'épaisseur des lettres n'affectent pas la précision du modèle. Cependant, les lettres colorées et l'arrière-plan des URL affectent la précision du modèle, en plus de cela, une rotation de 90 degrés affecte également la précision. Dans le manuscrit, le modèle échoue totalement à détecter une URL. De plus, le modèle vu détecte également les faux objets contenant des points ou des virgules.
+          La solution consiste à incrémenter l'amélioration de l'ensemble de données pour qu'il contienne des exemples plus généralisés qui incluent les problèmes précédents.
 
 \section{Conclusion Géneral}
