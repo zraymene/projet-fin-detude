@@ -404,9 +404,14 @@ Le score IoU varie de 0 à 1, plus les deux boites englobantes sont proches, plu
 En Choisissant un seuil prédéfini pour la valeur IoU, nous pouvons créer la matrice de confusion qui définit les performances d'un modèle en nous permettant de calculer d'autres mesures comme le rappel et la précision.
           \paragraph{Vrai positif (TP):} IoU >= seuil, une détection correcte. 
           \paragraph{Faux positif (FP):} IoU < seuil, une mauvaise détection.
-          \paragraph{Faux négatif (FN):} Recherché pas trouvé.
+          \paragraph{Faux négatif (FN):} Le modèle n'a pas détecté l'objet actuel.
           \paragraph{Vrai négatif (TN):} Non utilisé, il représenterait une erreur de détection corrigée. Dans la tâche de détection d'objet, il existe de nombreuses boîtes englobantes possibles qui ne doivent pas être détectées dans une image. Ainsi, TN serait toutes les boîtes englobantes possibles qui n'ont pas été correctement détectées (autant de boîtes possibles dans une image). C'est pourquoi il n'est pas utilisé par les métriques.
-
+          \begin{figure}[H]
+               \centering
+               \includegraphics[height=9cm,width=9cm]{Chapitre2/mat_conf.png}
+               \caption{Matrice de confusion.}
+               \label{mat_conf}
+               \end{figure}
           
           % =========== Precision ===========
           \subsection{Précision}
@@ -423,6 +428,8 @@ En Choisissant un seuil prédéfini pour la valeur IoU, nous pouvons créer la m
           La courbe Précision x Rappel est un bon moyen d'évaluer les performances d'un détecteur d'objets car la confiance est modifiée en traçant une courbe pour chaque classe d'objets. Un détecteur d'objet d'une classe particulière est considéré comme bon si sa précision reste élevée à mesure que le rappel augmente, ce qui signifie que si vous faites varier le seuil de confiance, la précision et le rappel seront toujours élevés. Une autre façon d'identifier un bon détecteur d'objets est de rechercher un détecteur capable d'identifier uniquement les objets pertinents (0 faux positifs = haute précision), en trouvant tous les objets recherchés (0 faux négatifs = rappel élevé).
           
           Un détecteur d'objets médiocre doit augmenter le nombre d'objets détectés (augmentation des faux positifs = précision inférieure) afin de récupérer tous les objets recherchés (rappel élevé). C'est pourquoi la courbe Précision x Rappel commence généralement par des valeurs de haute précision, diminuant à mesure que le rappel augmente.
+          
+          Le modèle est performant si la précision reste élevée lorsque le rappel devient élevé.
           \begin{figure}[H]
                \centering
                \includegraphics[height=10cm,width=12cm]{Chapitre2/img21.png}
