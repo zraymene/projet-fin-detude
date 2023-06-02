@@ -153,6 +153,25 @@ Les algorithmes de détection d'objets sélectionnés relèvent de l'apprentissa
                
           La métrique d'évaluation finale est la précision moyenne (AP) qui donne des performances précises du modèle qui est calculé à partir de la courbe de rappel de précision
           Le seuil d'intersection sur union (IoU) est $0.5$.
+          \paragraph
+
+           \begin{tabular}{|C|C|C|C| }
+                \hline
+                modèle      & yolo-v3      &   yolo-v4     &    yolo-v5 \\
+                \hline
+                couleurs     & $31,17\%$AP  &  $54,55\%$AP  &  $27,27\%$AP \\
+                \hline
+                Police(font) &  $72,73\%$AP & $84,29\%$AP   &  $88,07\%$AP \\ 
+                \hline
+                Link(https)  & $12,12\%$AP  &  $28,9\%$AP   &  $13,64\%$AP \\
+                \hline
+                Manuscript   & $0,0\%$AP    &  $0,0\%$AP    &  $0,0\%$AP  \\
+                \hline
+                Rotation     & 180° ($27,27\%$AP) & 180° ($18,18\%$AP)  & 180° ($18,18\%$AP) \\
+                             & 90°($0,0\%$AP)     & 90°($0,0\%$AP)      & 90°($0,0\%$AP) \\             
+                \hline
+              
+                \end{tabular}
 
           % ---------- YOLOv3 -------------
           \subsubsection{YOLOv3}
@@ -224,7 +243,10 @@ Les algorithmes de détection d'objets sélectionnés relèvent de l'apprentissa
                 \label{y3_t7}
                 \end{figure}
 
-          \paragraph{Conclusion:} Ces résultats nous permettent de dire que Yolov3 a été capable d'obtenir d'excellents résultats malgré les changements dans les images.     
+           \paragraph{Conclusion:} Ces résultats nous permettent de dire que Yolov3 a été capable d'obtenir d'excellents résultats malgré les changements dans les images.  
+           
+           
+                
 
           % ---------- YOLOv4 -------------
           \subsubsection{YOLOv4}
