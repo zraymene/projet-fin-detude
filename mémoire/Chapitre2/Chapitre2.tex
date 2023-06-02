@@ -363,11 +363,22 @@ Darknet-53  est plus puissant que le Darknet-19 et plus efficace que les backbon
           \end{figure}
      
 
-\subsection{YOLOv4} 
+\subsubsection{YOLOv4\cite{yolov4_paper} }
 
-Créé par Alexeï Bochkovski en 2020, L'architecture de YOLOv4 est composée de CSPDarknet53 en tant que colonne vertébrale, d'un module supplémentaire de regroupement de pyramides spatiales, d'un col d'agrégation de chemins PANet et d'une tête YOLOv3. CSPDarknet53 est une nouvelle dorsale qui peut améliorer la capacité d'apprentissage de CNN. Le bloc de regroupement pyramidal spatial est ajouté sur CSPDarknet53 pour augmenter le champ réceptif et séparer les caractéristiques contextuelles les plus importantes. Au lieu des réseaux pyramidaux de fonctionnalités (FPN) pour la détection d'objets utilisés dans YOLOv3.
+Créé par Alexeï Bochkovski en 2020, L'architecture de YOLOv4 est composée de CSPDarknet53 en tant que pilier, ce pilier est basé sur DarkNet-53 et utiliser une stratégie CSPNet\cite{cspnet} pour diviser la carte des caractéristiques de la couche de base en deux parties, puis les fusionne via une hiérarchie à plusieurs étapes. L'utilisation d'une stratégie de division et de fusion permet un flux plus dégradé à travers le réseau.
 
-\subsection{YOLOv5} 
+Après le pilier, PANet\cite{panet} est utilisé comme méthode d'agrégation de paramètres à partir de différents niveaux de pilier pour différents niveaux de détecteur, au lieu du FPN utilisé dans YOLOv3.
+
+De plus, le bloc SPP\cite{spp} est également ajouté car il augmente considérablement le champ de réception, sépare les caractéristiques de contexte les plus importantes et ne provoque pratiquement aucune réduction de la vitesse de fonctionnement du réseau.
+enfin, YOLOv3 est utilisé comme la tête de réseaux.
+\begin{figure}[H]
+          \centering
+          \includegraphics[height=4cm,width=16cm]{Chapitre2/arch_yolov4.png}
+          \caption{Architecture de YOLOv4.}
+          \label{img16_}
+          \end{figure}
+
+     \subsubsection{YOLOv5} 
 
 Développé par ultralytics en 2020, il a été une énorme amélioration de l'accessibilité pour la détection d'objets en temps réel en raison de la transition de Darknet à PyTorck en tant que cadre de mise en œuvre, car Darknet est plus difficile à configurer et moins prêt pour la production. Cette transition a entraîné une forte augmentation du temps de formation et également du temps de prédiction avec l'accessibilité au grand écosystème de PyTorch.          
      % =========== SSD ===========
