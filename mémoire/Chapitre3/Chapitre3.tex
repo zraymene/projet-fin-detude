@@ -142,7 +142,6 @@ Les algorithmes de détection d'objets sélectionnés relèvent de l'apprentissa
      
      %========= DIFFICULTIES ==========
      \subsection{Les difficultés}
-
           Dans cette section, nous évaluons le modèle avec des difficultés qui n'étaient pas incluses dans l'ensemble de données d'apprentissage. Ces difficultés sont :
           \paragraph{-} Différentes polices de caractères qui sont : ?????????????????????
           \paragraph{-} Différentes couleurs de fond et couleurs de caractères.
@@ -151,6 +150,32 @@ Les algorithmes de détection d'objets sélectionnés relèvent de l'apprentissa
           \paragraph{-} Caractères d'URL écrits en manuscrit.
           \paragraph{-} Images avec Flou-Gaussien avec la taille du noyau: $7\times7$.
           \paragraph{-} Images avec Bruit-Gaussien.
+
+          Le tableau suivant résume cette section. il contient la précision moyenne (AP) de tous les modèles dans chaque difficulté:
+
+          \begin{table}[hbt!]
+               \begin{tabular}{|c|c|c|c|}
+                    \hline
+                    \diagbox{Difficulté}{Modèle} &  YOLOv3      &   YOLOv4     &    YOLOv5 \\
+                    \hline
+                    Couleurs     & $31,17\%$ AP  &  $54,55\%$ AP  &  $27,27\%$ AP \\
+                    \hline
+                    Police(font) &  $72,73\%$ AP & $84,29\%$ AP   &  $88,07\%$ AP \\ 
+                    \hline
+                    Balise de protocole (\textit{https://})  & $12,12\%$ AP  &  $28,9\%$ AP   &  $13,64\%$ AP \\
+                    \hline
+                    Manuscript   & $0,0\%$AP    &  $0,0\%$ AP    &  $0,0\%$ AP  \\
+                    \hline
+                    Rotation     & 180° ($27,27\%$ AP) & 180° ($18,18\%$ AP)  & 180° ($18,18\%$ AP) \\
+                              & 90°($0,0\%$ AP)     & 90°($0,0\%$ AP)      & 90°($0,0\%$ AP) \\
+                    \hline
+                    Flou-Gaussien ($7\times7$) & $72.73\%$ AP & $100\%$ AP & $90.91\%$ AP \\
+                    \hline
+                    Bruit-Gaussien & $36.36\%$ AP & $36.36\%$ AP & $83.98\%$ AP \\
+                    \hline
+                    \end{tabular}
+               \caption{Précision moyenne de YOLOv3-YOLOv4-YOLOv5 dans différentes difficultés.}
+               \end{table}
 
           % ---------- Font --------------
           \subsubsection{Différentes polices de caractères}
