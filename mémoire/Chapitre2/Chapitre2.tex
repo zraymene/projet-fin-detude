@@ -378,10 +378,18 @@ enfin, YOLOv3 est utilisé comme la tête de réseaux.
           \label{img16_}
           \end{figure}
 
-     \subsubsection{YOLOv5} 
-
+\subsubsection{YOLOv5} 
 Développé par ultralytics en 2020, il a été une énorme amélioration de l'accessibilité pour la détection d'objets en temps réel en raison de la transition de Darknet à PyTorck en tant que cadre de mise en œuvre, car Darknet est plus difficile à configurer et moins prêt pour la production. Cette transition a entraîné une forte augmentation du temps de formation et également du temps de prédiction avec l'accessibilité au grand écosystème de PyTorch.          
-     % =========== SSD ===========
+
+L'architecture de ce modèle est similaire à YOLOv4 mais CSPDarknet53 comme pilier, SPP et PANet pour le cou et YOLOv3 comme tête. La principale différence avec les techniques d'augmentation de données comme l'augmentation de mosaïque où plusieurs images sont combinées pour former une image unique avec différents contextes, cette technique apprend au modèle à reconnaître des objets dans différentes localisations sans trop s'appuyer sur un contexte spécifique. Cela améliore les performances du modèle en rendant l'algorithme plus robuste à l'environnement des objets.
+\begin{figure}[H]
+          \centering
+          \includegraphics[height=9cm,width=14cm]{Chapitre2/yolov5_data.jpg}
+          \caption{Résultat de la technique d'augmentation de données Mosaic.}
+          \label{yolov5_mosa}
+          \end{figure}
+
+% =========== SSD ===========
 % =========== Evaluation Metrics ===========
 \section{Métriques pour l'évaluation des systèmes de détection d'objets} 
 Pour qu'un système de détection d'objets soit utile et ait le potentiel d'apporter une contribution significative sur le terrain, son efficacité doit être soigneusement évaluée. En outre, l'évaluation doit être effectuée à l'aide de critères généraux et connus permettant une comparaison équitable avec les méthodes existantes et une confirmation de la validité et de l'utilité du système.
