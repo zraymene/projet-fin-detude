@@ -1,35 +1,32 @@
 \chapter*{Conclusion générale}
-\newpage
 \pagestyle{fancy}
 \fancyhead[L]{}
 \fancyhead[R]{Conclusion générale}
 \renewcommand{\headrulewidth}{1pt}
 \fancyfoot[C]{\thepage}
 \section*{Conclusion générale}
-Dans ce travail, nous avons étudié un thème très abordé en traitement d’images couleur qui est la segmentation sémantique d’images. L’intérêt de ce thème est de transformer l’image en informations interprétables.
+Dans ce travail, nous avons étudié un thème très abordé en détection d'objets et apprentissage profond qui s'applique  sur ensemble des images, 
 
-Dans le cadre de ce mémoire, premièrement, nous avons présenté un aperçu sur la caractérisation de l’image couleur et ces éléments de géométrie discrète. Ces caractéristiques sont à la base de la majorité des traitements qu’on peut appliquer à une image couleur.
+Dans le cadre de ce mémoire, premièrement nous avons présenté la  définition  de la détection  d'objets  et ses  applications.
 
-Ensuite, nous avons introduit les différentes méthodes classiques utilisées en segmentation d’images couleurs. Appliquées à une même image, ces méthodes ne donnent pas toujours le même résultat. Chaque méthode à ses propres caractéristiques et fonctionne mieux sur un type d’images que d’autre. 
+ensuite, nous avons introduit  les modèles de détection d'objets  (3 méthodes ) avant Période de détection par apprentissage profond (après 2014 ) ,dans cette période  la détection d'objets est regroupée en deux classes : la "détection en deux étapes (RCNN-SPP NET -FPN)" et la "détection en une étape (YOLO-SSD)".
 
-Egalement, nous avons présenté l’application du concept de deep learning pour la segmentation sémantiques des images. 
+Également, nous avons présenté  les Mesures d'évaluation des systèmes de détection d'objets. 
 
-Enfin, nous avons décrit les différentes expérimentations, ainsi que les résultats et leur synthèse. L'évaluation est réalisée sur une base de donnée CamVid destinée pour la compréhension des scènes de route/conduite, c'est une base d'image bien connue dans le domaine. 
+Enfin, nous décrivons la création de l'ensemble de données et les différentes étapes d'apprentissage à l'aide de YOLOv3, YOLOv4 et YOLOv5, ainsi que les résultats des tests.
 
-Notre objectif était d'implémenter une architecture convolutive, encodeurs-décodeurs, basée sur le réseau neuronal convolutif VGG16 pour l'étiquetage au niveau des pixels, et de la tester avec différentes profondeurs, à savoir: 2,3, 4 et 5.
+Notre objectif était de mettre en place une architecture permettant reconnaissance d’url dans différents difficultés.
 
-Les résultats expérimentaux exprimés en terme de plusieurs métriques reconnues dans le domaine de la segmentation sémantique des images, nous a permis de déduire les conclusions suivantes: 
+Les résultats expérimentaux exprimés en terme de plusieurs métriques dans le domaine   de la reconnaissance  d’url, nous a permis de déduire les conclusions suivantes:
+\paragraph{-} Les 3 modèles ont donné des résultats très satisfaisants dans le test de la base de données, mais le meilleur est YOLOv4. 
+\paragraph{-} Les 3 modèles ont donné $0.0\%$ (AP) dans le test de rotation à $90^\circ$.
+\paragraph{-} Les 3 modèles ont donné $0,0\%$ (AP) au test du Manuscrit.
 
-\begin{itemize}
-\item L'approche SegNet peut donner des résultats très stasfaisants.
-\item Elle est directement liée à la profondeur du réseau.
-\item Elle est influencée par le nombre de pixels dans la classe.
-\end{itemize} 
+pour améliorer les résultats , nous proposons de : 
 
-Comme perspectives, nous proposons de :
-\begin{enumerate}
-\item Etendre cette étude à d'autre domaines, en utilisant d'autres bases de données.
-\item Tester la méthode en termes de temps d'exécution.
-\item Essayer de réduire l'influence du nombre de pixels dans la classe sur les performance de la méthode.
-\end{enumerate}
+\paragraph{-} D’augmenter la taille de l'ensemble de données.
+\paragraph{-}ajouter des images avec des difficultés à l'ensemble de données.
+\paragraph{-} D’améliorer et d'ajouter le nombre d'itérations dans la phase d’apprentissage.
+\paragraph{-} Utiliser les nouvelles versions de YOLO et comparer les résultats.
+
 
