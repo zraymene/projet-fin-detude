@@ -35,7 +35,7 @@ Une couche de convolution est un empilement de convolutions. En effet, l'image e
  \item  \textbf{La marge (à 0) ou zéro remplissage:} est le processus simple de remplissage de la bordure de l'entrée, elle constitue une méthode efficace pour mieux contrôler la dimensionnalité des volumes de sortie.
 
 \end{itemize}
-Tout simplement, La convolution est une opération mathématique simple généralement utilisée pour le traitement et la reconnaissance d'images. Sur une image, son effet s'assimile à un filtrage,  dont fonctionnement est présenté dans la figure \ref{conv}
+Tout simplement, La convolution est une opération mathématique simple généralement utilisée pour le traitement et la reconnaissance d'images. Sur une image, son effet s'assimile à un filtrage,  dont le fonctionnement est présenté dans la figure \ref{conv}
 
 \begin{figure}[H]
 \centering
@@ -44,7 +44,7 @@ Tout simplement, La convolution est une opération mathématique simple généra
 \label{conv}
 \end{figure}
 
-À chaque portion d'image rencontrée, une convolution s'effectue permettant d'obtenir en sortie une \textbf{carte d'activation ou de caractéristiques} ou \textbf{feature map} qui indique où sont localisées les caractéristiques dans l'image. 
+À chaque portion d'image rencontrée, une convolution s'effectue permettant d'obtenir en sortie une \textbf{carte d'activation ou de caractéristiques} ou \textbf{feature map} qui indique où sont localisées les caractéristiques dans l'image. \\
 
 \item \underline{\textbf{La couche de pooling:}}
 C'est une technique de sous-échantillonnage. Généralement, une couche de pooling est insérée régulièrement entre deux couches convolutives successives.  Cela permet de réduire la taille spatiale des cartes de caractéristiques, donc le nombre de paramètres du réseau, ce qui accélère le temps de calcul et contrôle le risque de sur-apprentissage. 
@@ -72,7 +72,7 @@ Les trois opérations de pooling sont illustrées dans la figure \ref{poolef}
 \end{figure}
 
 \item \underline{\textbf{La couche de correction (ReLu) :}}
-La couche de correction est l'application d'une fonction non-linéaire(voir la figure \ref{relu} aux sorties de la couche de convolution, où toutes les valeurs de pixels négatifs sont mises à zéro. Le but est d'introduire la non-linéarité dans le CNN, ce qui permet de faciliter l'extraction des caractéristiques complexes qui ne peuvent pas être modélisées par une combinaison linéaire.
+La couche de correction est l'application d'une fonction non-linéaire(voir la figure \ref{relu}) aux sorties de la couche de convolution, où toutes les valeurs de pixels négatifs sont mises à zéro. Le but est d'introduire la non-linéarité dans le CNN, ce qui permet de faciliter l'extraction des caractéristiques complexes qui ne peuvent pas être modélisées par une combinaison linéaire.
 
 \begin{figure}[H]
 \centering
@@ -82,7 +82,7 @@ La couche de correction est l'application d'une fonction non-linéaire(voir la f
 \end{figure}
 
 \item \underline{\textbf{La couche entièrement connectée(FC):}}
-La couche entièrement connectée est un perceptron multicouche traditionnel (Multi Layer Perceptron) utilisant une fonction d'activation notamment appelée softmax dans la couche de sortie. 
+La couche entièrement connectée est un perceptron multicouche traditionnel (Multi Layer Perceptron) utilisant une fonction d'activation notamment appelée Softmax dans la couche de sortie. 
 
 Elle est entièrement connectée, car chaque neurone dans la couche précédente est connecté à chaque neurone sur la couche suivante. La couche entièrement connectée utilise ses sorties pour classer l'image d'entrée dans différentes classes en fonction de l'ensemble de données d'apprentissage \cite{CNN2015}.  
 \end{enumerate}     
@@ -90,7 +90,7 @@ Elle est entièrement connectée, car chaque neurone dans la couche précédente
 La figure \ref{img4} montre un exemple d'une structure d'un réseau de neurones convolutif:
      \begin{figure}[H]
           \centering
-          \includegraphics[height=4cm,width=18cm]{Chapitre2/img4.png}
+          \includegraphics[height=5cm,width=17cm]{Chapitre2/img4.png}
           \caption{Exemple de structure de réseaux de neurones convolutif.}
           \label{img4}
           \end{figure}
@@ -102,7 +102,7 @@ La figure \ref{img4} montre un exemple d'une structure d'un réseau de neurones 
      Le processus prend des parties pertinentes d'un modèle existant et les applique pour résoudre un problème nouveau mais similaire. Un élément clé de l'apprentissage par transfert est la généralisation. Cela signifie que seules les connaissances pouvant être utilisées par un autre modèle dans différents scénarios ou conditions sont transférées. Au lieu que les modèles soient liés de manière rigide à un ensemble de données d'entraînement, les modèles utilisés dans l'apprentissage par transfert seront plus généralisés. Les modèles développés de cette manière peuvent être utilisés dans des conditions changeantes et avec différents ensembles de données.
      \begin{figure}[H]
           \centering
-          \includegraphics[height=7cm,width=13cm]{Chapitre2/img5.png}
+          \includegraphics[height=7cm,width=15cm]{Chapitre2/img5.png}
           \caption{Différence entre l'apprentissage traditionnel et l'apprentissage par transfert.}
           \label{img5}
           \end{figure}
@@ -113,26 +113,30 @@ Certains réseaux profonds ont apporté des contributions si importantes dans le
 
 \begin{enumerate}
 \item \textbf{AlexNet}\cite{alexnet}\\
-AlexNet a été le  CNN pionnier qui a largement surpassé ses concurrents au défi ImageNet ILSVRC-2012 avec une précision de test TOP-5 de 84,6\% tandis que le concurrent le plus proche, qui utilisait des techniques traditionnelles au lieu d'architectures profondes, a atteint une précision de 73,8\% dans le même défi. L'architecture présentée par Krizhevsky et coll. était relativement simple, elle est composée de huit couches d'entraînement, cinq couches de convolution et trois couches entièrement connectées. Toutes les couches entraînables sont suivies d'une fonction d'activation (ReLu) à l'exception de la dernière couche entièrement connectée où une fonction softmax est utilisée. L'architecture aussi se compose de couches
-non entraînables : trois couches de pooling, deux couches de normalisation et une couche Dropout. cette architecture est clairement présentée sur la figure\ref{alexnet}.
+AlexNet a été le  CNN pionnier qui a largement surpassé ses concurrents au défi ImageNet ILSVRC-2012 avec une précision de test TOP-5 de 84,6\% tandis que le concurrent le plus proche, qui utilisait des techniques traditionnelles au lieu d'architectures profondes, a atteint une précision de 73,8\% dans le même défi. 
+
+Cette architecture présentée par Krizhevsky et coll était relativement simple, elle est composée de huit couches d'entraînement, cinq couches de convolution et trois couches entièrement connectées. Toutes les couches entraînables sont suivies d'une fonction d'activation (ReLu) à l'exception de la dernière couche entièrement connectée où une fonction softmax est utilisée. L'architecture aussi se compose de couches non entraînables : trois couches de pooling, deux couches de normalisation et une couche Dropout. cette architecture est clairement présentée sur la figure \ref{alexnet}.
 
 \begin{figure}[H]
 \centering
 \includegraphics[height=2in,width=6in]{Chapitre2/alexnet.png}
 \caption{Architecture du réseau convolutif AlexNet. \cite{alexnet}}
 \label{alexnet}
-\end{figure} 
+\end{figure}
+ 
 \item \textbf{VGG}\cite{vgg}\\
 Visual Geometry Group (VGG) est un modèle CNN introduit par le Groupe de Géométrie Visuelle (VGG) de l'Université d'Oxford. Ils ont proposé divers modèles et configurations de CNN profonds, l'un d'eux a été soumis au ImageNet Large Scale Visual Recognition Challenge (ILSVRC)-2013. Ce modèle, également connu sous le nom de VGG-16 , est devenu populaire grâce à sa précision  de test TOP-5 de 92,7\% . 
-La figure \ref{vgg} montre la configuration de VGG-16. La principale différence entre VGG - 16 et ses prédécesseurs est l'utilisation d'un empilement de couches de convolution avec de petits champs réceptifs  dans les premières couches au lieu de quelques couches avec grands champs réceptifs. Cela conduit à moins de paramètres et plus de non-linéarités entre les deux, rendant ainsi la fonction de décision plus discriminante et le modèle plus facile à entraîner.
+
+La figure \ref{vgg} montre la configuration de VGG-16. La principale différence entre VGG-16 et ses prédécesseurs est l'utilisation d'un empilement de couches de convolution avec de petits champs réceptifs  dans les premières couches au lieu de quelques couches avec grands champs réceptifs. Cela conduit à moins de paramètres et plus de non-linéarités entre les deux, rendant ainsi la fonction de décision plus discriminante et le modèle plus facile à entraîner.
 \begin{figure}[H]
 \centering
-\includegraphics[height=2in,width=6in]{Chapitre2/vgg.png}
+\includegraphics[height=.5in,width=6.5in]{Chapitre2/vgg.png}
 \caption{Architecture du réseau convolutif VGG-16. }
 \label{vgg}
 \end{figure} 
+
 \item \textbf{GoogleNet}\cite{google}\\
-En 2014, les chercheurs de Google ont présenté le réseau GoogLeNet, qui a pris la première place du concours ImageNet en 2014 pour les défis de classification et de détection. La principale caractéristique intéressante de GoogLeNet est qu'il fonctionne très rapidement en raison de l'introduction d'un nouveau concept appelé (inception module), il est clairement illustré sur la figure \ref{google}. Ce module est basé sur plusieurs très petites convolutions afin de réduire drastiquement le nombre de paramètres à seulement 5 millions ; c'est 12 fois moins qu'AlexNet. Il utilise moins de mémoire et moins d'énergie. L'architecture GoogLeNet se compose de 22 couches.GoogLeNet est principalement utilisé dans le modèle de détection d'objets YOLO.
+En 2014, les chercheurs de Google ont présenté le réseau GoogLeNet, qui a pris la première place du concours ImageNet en 2014 pour les défis de classification et de détection. La principale caractéristique intéressante de GoogLeNet est qu'il fonctionne très rapidement en raison de l'introduction d'un nouveau concept appelé (inception module), il est clairement illustré sur la figure \ref{google}. Ce module est basé sur plusieurs très petites convolutions afin de réduire  le nombre de paramètres à seulement 5 millions ; c'est 12 fois moins qu'AlexNet. Il utilise moins de mémoire. L'architecture GoogLeNet se compose de 22 couches.GoogLeNet est principalement utilisé dans le modèle de détection d'objets YOLO.
 \begin{figure}[H]
  \centering
 \includegraphics[height=8cm,width=12cm]{Chapitre2/img9.png}
@@ -151,7 +155,7 @@ Les réseaux résiduels profonds (ResNet) sont basés sur l'idée de développer
 
 \item \textbf{SqueezeNet} \cite{SqueezeNet2016}
 Une petite architecture CNN avec une précision équivalente à AlexNet. Ça peut être  3 fois plus rapide et 500 fois plus petit qu'AlexNet.
-Il est construit sur une architecture spécifique, que l'on appelle (Fire module) qui contient une couche de compression(Squeeze) et une couche d'extension (expand), il est clairement illustré sur la figure \ref{SN}.
+Il est construit sur une architecture spécifique, le Fire module, qui contient une couche de compression(Squeeze) et une couche d'extension (expand), il est clairement illustré sur la figure \ref{SN}.
 
 Les couches de compression(Squeeze) sont des couches de convolution composées uniquement de filtres $1\times 1$ et les couches d'extension sont des couches de convolution avec un mélange de filtres $1 \times 1$ et $3 \times 3$.
 \begin{figure}[H]
@@ -162,7 +166,9 @@ Les couches de compression(Squeeze) sont des couches de convolution composées u
  \end{figure}
 
 \item \textbf{ShuffleNet} \cite{shufflenet2018} et \textbf{ShuffleNetV2}\cite{shufflenetV2}
-Une architecture CNN très efficace en termes de calcul, conçue principalement pour les appareils mobiles avec une puissance de calcul limitée. L'architecture introduit deux opérations clés pour réduire considérablement les coûts de calcul tout en conservant la précision. La première opération consiste en des convolutions de groupe par points (pointwise group convolutions), qui peuvent réduire la complexité de calcul des convolutions 1 × 1. Néanmoins, ces convolutions ont un effet secondaire, qui fait que les outputs d'un canal en particulier ne sont dérivées que d'une petite fraction des canaux d'input. Cet effet peut être diminué en divisant les canaux de chaque groupe en de multiples sous-groupes, ce qui est l'opération de mélange de canaux (channel shuffle).
+Une architecture CNN très efficace en termes de calcul, conçue principalement pour les appareils mobiles avec une puissance de calcul limitée. L'architecture introduit deux opérations clés pour réduire considérablement les coûts de calcul tout en conservant la précision. 
+
+La première opération consiste en des convolutions de groupe par points (pointwise group convolutions), qui peuvent réduire la complexité de calcul des convolutions 1 × 1. Néanmoins, ces convolutions ont un effet secondaire, qui fait que les outputs d'un canal en particulier ne sont dérivés que d'une petite fraction des canaux d'input. Cet effet peut être diminué en divisant les canaux de chaque groupe en de multiples sous-groupes, ce qui est l'opération de mélange de canaux (channel shuffle).
 
 ShuffleNetV2 propose de nombreux guides pratiques pour des architectures CNN efficientes. Il optimise davantage l’architecture avec des changements dans le goulot d’étranglement et en présentant la division de canaux (channel split). La figure montre clairement les différences entre ShuffleNet (a., b.) et ShuffleNetV2 (c. d.).
 
@@ -174,7 +180,9 @@ ShuffleNetV2 propose de nombreux guides pratiques pour des architectures CNN eff
  \end{figure}
  
 \item \textbf{MobileNetV2 } \cite{mobilenetv2}
-La version deux des séries MobileNet introduit les résiduels inversés (inverted residuals) et les goulots d'étranglement linéaires (linear bottlenecks) pour améliorer les performances de MobileNets. Les résiduels inversés permettent au réseau de calculer des activations (ReLU) de manière plus efficace, et de maintenir plus d’informations après activation. La figure \ref{mobv2} montre le goulot d'étranglement, et inclue les résiduels inversés. Sur ce schéma, les blocs plus épais ont plus de canaux. 
+La version deux des séries MobileNet introduit les résiduels inversés (inverted residuals) et les goulots d'étranglement linéaires (linear bottlenecks) pour améliorer les performances de MobileNets. 
+
+Les résiduels inversés permettent au réseau de calculer des activations (ReLU) de manière plus efficace, et de maintenir plus d’informations après activation. La figure \ref{mobv2} montre le goulot d'étranglement, et inclue les résiduels inversés. Sur ce schéma, les blocs plus épais ont plus de canaux. 
 
 \begin{figure}[H]
 \centering
@@ -185,14 +193,14 @@ et résiduel inversé \cite{mobilenetv2}.}
  \end{figure}
  
 \item \textbf{Darknet-53} \cite{yolov3_paper}
-Introduit en 2018 Darknet-53 par Joseph Redmon Ali Farhadi, c'est un réseau neuronal convolutif qui sert de base pour l'extraction de caractéristiques dans l'approche de détection d'objets YOLOv3. C'est une amélioration de son prédécesseur Darknet-19 sur lequel est basé l'architecture de YOLOv2.
+Introduit en 2018 par Joseph Redmon Ali Farhadi, Darknet-53  est un réseau neuronal convolutif qui sert de base pour l'extraction de caractéristiques dans l'approche de détection d'objets YOLOv3. C'est une amélioration de son prédécesseur Darknet-19 sur lequel est basé l'architecture de YOLOv2.
 Les améliorations par rapport à Darknet-19 incluent l'utilisation de connexions résiduelles, ainsi que davantage de couches.
 
-L'architecture du réseau Darknet-53 est illustrée à la figure \ref{img10}. Ce modèle de réseau combine les blocs résiduels et le réseau d'extraction de caractéristiques de base YOLOv2, Darknet-19 \cite{yolov3_paper}, en utilisant des couches de convolution et des blocs résiduels successifs $1\times 1$ et $3\times 3$. La couche convolutive, la couche de normalisation par lots et la couche Leaky Relu constituent ensemble sa plus petite composante.
+L'architecture du réseau Darknet-53 est illustrée à la figure \ref{img10}. Ce modèle de réseau combine les blocs résiduels et le réseau d'extraction de caractéristiques de base YOLOv2, Darknet-19 \cite{yolov3_paper}, en utilisant des couches de convolution et des blocs résiduels successifs $1\times 1$ et $3\times 3$. La couche convolutive, la couche de normalisation par lots, et la couche Leaky Relu constituent ensemble sa plus petite composante.
 
            \begin{figure}[H]
                 \centering
-                \includegraphics[height=9cm,width=8cm]{Chapitre2/img10.png}
+                \includegraphics[height=10cm,width=9cm]{Chapitre2/img10.png}
                 \caption{Architecture du réseau Darknet-53 \cite{yolov3_paper}.}
                 \label{img10}
                 \end{figure}
@@ -240,18 +248,18 @@ Dans les détecteurs d'objets à deux étages, les régions d'objet approximativ
     
      % =========== RCNN ===========
 \subsubsection{Les modèles R-CNN}  
-La famille de méthodes R-CNN fait référence au R-CNN, qui peut signifier "Régions avec des caractéristiques CNN" ou "Réseau de neurones convolutifs basés sur les régions", développé par Ross Girshick, et al.
-
-Cela inclut les techniques R-CNN, Fast R-CNN et Faster-RCNN conçues et démontrées pour la localisation et la reconnaissance d'objets.
+La famille de méthodes R-CNN fait référence au R-CNN, qui peut signifier "Régions avec des caractéristiques CNN" ou "Réseau de neurones convolutifs basés sur les régions", développé par Ross Girshick, et al. \cite{rcnn_paper}.  Cela inclut les techniques R-CNN, Fast R-CNN et Faster-RCNN conçues et démontrées pour la localisation et la reconnaissance d'objets.
 
 \begin{enumerate}
  \item  \textbf{R-CNN}\cite{rcnn_paper}
  
 Le R-CNN a été introduit par Ross Girshick et al en 2004. Il s'agit peut-être de l'une des premières applications importantes des réseaux de neurones convolutifs au problème de la localisation, de la détection et de la segmentation d'objets. Le modèle R-CNN proposé est composé de trois modules qui sont:
 \begin{itemize}
-\item \underline{Module 1 : Proposition de Région.} Générez et extrayez des propositions de régions indépendantes des catégories, par ex. boîtes englobantes candidates.
-\item \underline{Module 2 : Extracteur de caractéristiques.} Extraire une caractéristique de chaque région candidate, par ex. à l'aide d'un réseau de neurones à convolution profonde.
-\item \underline{Module 3 : Classificateur.} Classer les caractéristiques comme faisant partie de la classe connue, par ex. modèle de classificateur SVM linéaire.
+\item \underline{Module 1 : Proposition de Région.} Générer et extraire des propositions de régions indépendantes des catégories, par ex. boîtes englobantes candidates.\\
+
+\item \underline{Module 2 : Extracteur de caractéristiques.} Extraire une caractéristique de chaque région candidate, par ex. à l'aide d'un réseau de neurones à convolution profonde.\\
+
+\item \underline{Module 3 : Classificateur.} Classer les caractéristiques comme faisant partie de la classe connue, par ex. modèle de classificateur SVM linéaire.\\
 \end{itemize}
  
 L'architecture du modèle est résumée dans l'image ci-dessous.
@@ -312,9 +320,7 @@ L'architecture du modèle est résumée dans l'image \ref{img14}:
           \label{img14}
           \end{figure}
           
-Le RPN fonctionne en prenant la sortie d'un CNN profond pré-entraîné, tel que VGG-16, et en passant un petit réseau sur la carte des caractéristiques et en produisant plusieurs propositions de régions et une prédiction de classe pour chacune. Les propositions de régions sont des boîtes englobantes, basées sur des boîtes dites d'ancrage ou des formes prédéfinies conçues pour accélérer et améliorer la proposition de régions. La prédiction de classe est binaire, indiquant la présence d'un objet, ou non.
-
-Une procédure d'apprentissage alterné est utilisée où les deux sous-réseaux sont entraînés en même temps. Cela permet aux paramètres du CNN profond du détecteur de caractéristiques d'être adaptés ou affinés pour les deux tâches en même temps.
+Le RPN fonctionne en prenant la sortie d'un CNN profond pré-entraîné, tel que VGG-16, et en passant un petit réseau sur la carte des caractéristiques,en produisant plusieurs propositions de régions et une prédiction de classe pour chacune. Les propositions de régions sont des boîtes englobantes, basées sur des boîtes dites d'ancrage ou des formes prédéfinies conçues pour accélérer et améliorer la proposition de régions. La prédiction de classe est binaire, indiquant la présence d'un objet, ou non. Une procédure d'apprentissage alterné est utilisée où les deux sous-réseaux sont entraînés en même temps. Cela permet aux paramètres du CNN profond du détecteur de caractéristiques d'être adaptés ou affinés pour les deux tâches en même temps.
  \end{enumerate} 
 
 
@@ -324,7 +330,7 @@ Une procédure d'apprentissage alterné est utilisée où les deux sous-réseaux
      
 % =========== One-Stage ===========
 \subsection{La détection d'objets en une étape}
-Contrairement aux détecteurs à deux étapes, ces modèles ignorent l'étape de proposition de région des modèles à deux étages et exécutent la détection directement sur un échantillonnage dense d'emplacements. Ils considèrent généralement toutes les positions sur l'image comme des objets potentiels et essaient de classer chaque région d'intérêt comme arrière-plan ou comme objet cible.
+Contrairement aux détecteurs à deux étapes, ces modèles ignorent l'étape de proposition de région des modèles à deux étapes et exécutent la détection directement sur un échantillonnage dense d'emplacements. Ils considèrent généralement toutes les positions sur l'image comme des objets potentiels et essaient de classer chaque région d'intérêt comme arrière-plan ou comme objet cible.
 
      % =========== YOLO ===========
 \subsubsection{YOLO (You Only Look Once) \cite{yolo_paper} }
@@ -332,7 +338,8 @@ Contrairement aux détecteurs à deux étapes, ces modèles ignorent l'étape de
 Le modèle a été décrit pour la première fois par Joseph Redmon et al. en 2015. 
 L'approche implique un seul réseau neuronal entraîné de bout en bout qui prend une image en entrée et prédit directement les boîtes englobantes et les étiquettes de classe pour chaque boîte englobante. La technique offre une précision prédictive inférieure (par exemple, plus d'erreurs de localisation), bien qu'elle fonctionne à 45 images par seconde et jusqu'à 155 images par seconde pour une version optimisée en vitesse du modèle.
 
-En outre, YOLO sélectionne GoogLeNet comme réseau de base. Il se compose de 24 couches convolutives et de 2 couches entièrement connectées avec une entrée réseau de 448 × 448 images. Il divise l'image complète en grilles S×S. Chaque cellule de grille est responsable de la détection du centre de l'objet tombant dans la cellule de grille. Chaque cellule de la grille prédit les probabilités de classe C, les boîtes englobantes B et les scores de confiance, et l'image complète est codée pour produire le tenseur SxSx(5B+C).
+En outre, YOLO sélectionne GoogLeNet comme réseau de base. Il se compose de 24 couches convolutives et de 2 couches entièrement connectées avec une entrée réseau de $448 \times 448$ images. Il divise l'image complète en grilles $S \times S$. Chaque cellule de grille est responsable de la détection du centre de l'objet tombant dans la cellule de grille. Chaque cellule de la grille prédit les probabilités de classe $C$, les boîtes englobantes $B$ et les scores de confiance, et l'image complète est codée pour produire le tenseur $S \times S \times(5B+C)$.
+
      \begin{figure}[H]
           \centering
           \includegraphics[height=7cm,width=16cm]{Chapitre2/img151.png}
@@ -343,49 +350,61 @@ En outre, YOLO sélectionne GoogLeNet comme réseau de base. Il se compose de 24
      % =========== YOLOv3 ===========
 \subsubsection{YOLOv3 \cite{yolov3_paper}} 
 
-Proposé par Redmon J et Farhadi deux ans plus tard en 2018 après la première version de YOLO. c'est une version améliorée de YOLO et YOLOv2. Il existe des différences majeures entre YOLOv3 et les anciennes versions en termes de vitesse, de précision et de spécificité des classes. YOLOv2 utilise Darknet-19 comme extracteur de caractéristiques de base, tandis que YOLOv3 utilise Darknet-53.    
-    
-Darknet-53  combine des blocs résiduels et FPN (Feature Pyramid Network). C'est un extracteur de caractéristiques qui prend une image à échelle unique d'une taille arbitraire en entrée et des sorties proportionnellement dimensionnées cartes de fonctionnalités à plusieurs niveaux, ce qui donne de bonnes performances sur une large gamme de résolutions d'entrée.
+Proposé par Redmon J et Farhadi deux ans plus tard en 2018 après la première version de YOLO. c'est une version améliorée de YOLO et YOLOv2. Il existe des différences majeures entre YOLOv3 et les anciennes versions en termes de vitesse, de précision et de spécificité des classes. YOLOv2 utilise Darknet-19 comme extracteur de caractéristiques de base, tandis que YOLOv3 utilise Darknet-53.  
 
-Darknet-53  est plus puissant que le Darknet-19 et plus efficace que les backbones concurrents (ResNet-101 ou ResNet-152). Il est également rapide et précis en termes de précision moyenne moyenne (mAP) et de valeurs d'intersection sur l'union (IOU). Il fonctionne beaucoup plus rapidement que les autres méthodes de détection avec des performances comparables.
+YOLOv3 se compose principalement de deux parties: un extracteur de caractéristiques et un détecteur. L'image est d'abord introduite dans l'extracteur de caractéristiques  (Darknet-53). Darknet-53 traite l'image et crée des cartes d'entités à plusieurs échelles différentes. Les cartes d'entités à chaque échelle sont ensuite introduites dans des branches séparées d'un détecteur. Le travail du détecteur consiste à traiter les multiples cartes de caractéristiques à différentes échelles pour créer des grilles de sorties composées de scores d'objectivité, et de cadres de délimitation.  
+    
+Darknet-53  combine des blocs résiduels et des FPN (Feature Pyramid Network) (voir figure \ref{img16_}. C'est un extracteur de caractéristiques qui prend une image à échelle unique d'une taille arbitraire en entrée et des sorties proportionnellement dimensionnées cartes de fonctionnalités à plusieurs niveaux, ce qui donne de bonnes performances sur une large gamme de résolutions d'entrée.
+
 
      \begin{figure}[H]
           \centering
-          \includegraphics[height=5cm,width=9cm]{Chapitre2/img16_.jpg}
+          \includegraphics[height=6cm,width=9.5cm]{Chapitre2/img16_.jpg}
           \caption{Feature Network Pyramid (FNP)}
           \label{img16_}
           \end{figure}
      \begin{figure}[H]
           \centering
-          \includegraphics[height=6cm,width=14cm]{Chapitre2/img16.jpg}
+          \includegraphics[height=7cm,width=16cm]{Chapitre2/img16.jpg}
           \caption{Architecture de YOLOv3}
           \label{img16}
           \end{figure}
      
 
-\subsubsection{YOLOv4\cite{yolov4_paper} }
+\subsubsection{YOLOv4 \cite{yolov4_paper} }
 
-Créé par Alexeï Bochkovski en 2020, L'architecture de YOLOv4 est composée de CSPDarknet53 en tant que pilier, ce pilier est basé sur DarkNet-53 et utiliser une stratégie CSPNet\cite{cspnet} pour diviser la carte des caractéristiques de la couche de base en deux parties, puis les fusionne via une hiérarchie à plusieurs étapes. L'utilisation d'une stratégie de division et de fusion permet un flux plus dégradé à travers le réseau.
+Créé par Alexeï Bochkovski en 2020, L'architecture de YOLOv4 est composée de CSPDarknet53 en tant que pilier, ce pilier est basé sur DarkNet-53 et utilise une stratégie CSPNet\cite{cspnet} pour diviser la carte des caractéristiques de la couche de base en deux parties, puis les fusionne via une hiérarchie à plusieurs étapes. L'utilisation d'une stratégie de division et de fusion permet un flux plus dégradé à travers le réseau.
 
 Après le pilier, PANet\cite{panet} est utilisé comme méthode d'agrégation de paramètres à partir de différents niveaux de pilier pour différents niveaux de détecteur, au lieu du FPN utilisé dans YOLOv3.
 
 De plus, le bloc SPP\cite{spp} est également ajouté car il augmente considérablement le champ de réception, sépare les caractéristiques de contexte les plus importantes et ne provoque pratiquement aucune réduction de la vitesse de fonctionnement du réseau.
-enfin, YOLOv3 est utilisé comme la tête de réseaux.
+enfin, YOLOv3 est utilisé comme la tête de réseaux, il a pour rôle d'extraire les caractéristiques pertinentes.
+
 \begin{figure}[H]
           \centering
-          \includegraphics[height=4cm,width=16cm]{Chapitre2/arch_yolov4.png}
+          \includegraphics[height=4.2cm,width=16cm]{Chapitre2/arch_yolov4.png}
           \caption{Architecture de YOLOv4.}
           \label{img16_}
           \end{figure}
 
 \subsubsection{YOLOv5} 
-Développé par ultralytics en 2020, il a été une énorme amélioration de l'accessibilité pour la détection d'objets en temps réel en raison de la transition de Darknet à PyTorck en tant que cadre de mise en œuvre, car Darknet est plus difficile à configurer et moins prêt pour la production. Cette transition a entraîné une forte augmentation du temps de formation et également du temps de prédiction avec l'accessibilité au grand écosystème de PyTorch.          
+Développé par ultralytics en 2020, il a été une énorme amélioration de l'accessibilité pour la détection d'objets en temps réel en raison de la transition de Darknet à PyTorch en tant que cadre de mise en œuvre (framework), car Darknet est plus difficile à configurer et moins prêt pour la production. Cette transition a entraîné une forte augmentation du temps d'entraînement et également du temps de prédiction avec l'accessibilité au grand écosystème de PyTorch.          
 
-L'architecture de ce modèle est similaire à YOLOv4 mais CSPDarknet53 comme pilier, SPP et PANet pour le cou et YOLOv3 comme tête. La principale différence avec les techniques d'augmentation de données comme l'augmentation de mosaïque où plusieurs images sont combinées pour former une image unique avec différents contextes, cette technique apprend au modèle à reconnaître des objets dans différentes localisations sans trop s'appuyer sur un contexte spécifique. Cela améliore les performances du modèle en rendant l'algorithme plus robuste à l'environnement des objets.
+L'architecture de ce modèle est similaire à YOLOv4 mais CSPDarknet53 comme pilier, SPP et PANet pour le cou, et YOLOv3 comme tête (voir figure \ref{yolo5}). 
+
 \begin{figure}[H]
           \centering
-          \includegraphics[height=9cm,width=14cm]{Chapitre2/yolov5_data.jpg}
-          \caption{Résultat de la technique d'augmentation de données Mosaic.}
+          \includegraphics[height=8.5cm,width=14cm]{Chapitre2/yolo5.png}
+          \caption{Architecture du modèle YOLO5 \cite{}.}
+          \label{yolo5}
+          \end{figure}
+
+La principale différence avec les techniques d'augmentation de données comme l'augmentation de mosaïque où plusieurs images sont combinées pour former une image unique avec différents contextes (voir figure \ref{yolov5_mosa}) , cette technique apprend au modèle à reconnaître des objets dans différentes localisations sans trop s'appuyer sur un contexte spécifique. Cela améliore les performances du modèle en rendant l'algorithme plus robuste à l'environnement des objets.
+
+\begin{figure}[H]
+          \centering
+          \includegraphics[height=8.5  cm,width=14cm]{Chapitre2/yolov5_data.jpg}
+          \caption{Résultat de la technique d'augmentation de données mosaïque.}
           \label{yolov5_mosa}
           \end{figure}
 
@@ -399,20 +418,20 @@ Les métriques de détection d'objets servent de mesure pour évaluer les perfor
 \subsection{Intersection over Union (IoU)}
 Étant donné que la tâche de classification évalue uniquement la probabilité que l'objet de classe apparaisse dans l'image, c'est une tâche simple pour un classificateur d'identifier les prédictions correctes des incorrectes. Cependant, la tâche de détection d'objet localise davantage l'objet avec une boîte englobante associée à son score de confiance correspondant pour signaler la certitude avec laquelle la boîte englobante de la classe d'objets a été détectée.
 
-L'intersection over Union, également appelée indice de Jaccard, est une métrique d'évaluation qui quantifie la similarité entre la boîte englobante de vérité terrain  et la boîte englobante prédite pour évaluer la qualité de la boîte prédite. 
+L'intersection over Union, également appelée indice de Jaccard, est une métrique d'évaluation qui quantifie la similarité entre la boîte englobante de la vérité terrain  et la boîte englobante prédite pour évaluer la qualité de la boîte prédite. 
 
 Formellement, l'IoU égale à l'intersection entre la boîte de vérité terrain et la boîte prédite sur leur union. La figure \ref{img19} montre clairement cette notion d'IoU
           \begin{figure}[H]
                \centering
-               \includegraphics[height=5cm,width=10cm]{Chapitre2/img19.png}
+               \includegraphics[height=4cm,width=8cm]{Chapitre2/img19.png}
                \caption{Intersection over Union (IoU)}
                \label{img19}
                \end{figure}
 
-Le score IoU varie de 0 à 1, plus les deux boites englobantes sont proches, plus le score IoU est élevé (voir figure \ref{img20}.
+Le score IoU varie de 0 à 1, plus les deux boites englobantes sont proches, plus le score IoU est proche de 1 (voir figure \ref{img20}).
           \begin{figure}[H]
                \centering
-               \includegraphics[height=4.5cm,width=8cm]{Chapitre2/img20.png}
+               \includegraphics[height=4cm,width=7cm]{Chapitre2/img20.png}
                \caption{Exemples de la mesure Intersection over Union (IoU)}
                \label{img20}
                \end{figure}
@@ -420,30 +439,47 @@ Le score IoU varie de 0 à 1, plus les deux boites englobantes sont proches, plu
           % =========== Confusion Matrix ===========
 \subsection{Matrice de confusion}
 
-En Choisissant un seuil prédéfini pour la valeur IoU, nous pouvons créer la matrice de confusion qui définit les performances d'un modèle en nous permettant de calculer d'autres mesures comme le rappel et la précision.
-          \paragraph{Vrai positif (TP):} IoU >= seuil, une détection correcte. 
-          \paragraph{Faux positif (FP):} IoU < seuil, une mauvaise détection.
-          \paragraph{Faux négatif (FN):} Le modèle n'a pas détecté l'objet actuel.
-          \paragraph{Vrai négatif (TN):} Non utilisé, il représenterait une erreur de détection corrigée. Dans la tâche de détection d'objet, il existe de nombreuses boîtes englobantes possibles qui ne doivent pas être détectées dans une image. Ainsi, TN serait toutes les boîtes englobantes possibles qui n'ont pas été correctement détectées (autant de boîtes possibles dans une image). C'est pourquoi il n'est pas utilisé par les métriques.
+En Choisissant un seuil prédéfini pour la valeur IoU, nous pouvons créer la matrice de confusion qui définit les performances d'un modèle en nous permettant de calculer d'autres mesures comme le rappel et la précision. Une matrice de confusion contient les éléments suivants (voir figure \ref{mat_conf}):\\
+
+\begin{itemize}
+\item \textbf{Vrai positif (TP):} IoU >= seuil, une détection correcte. \\
+
+\item \textbf{Faux positif (FP):} IoU < seuil, une mauvaise détection.\\
+
+\item \textbf{Faux négatif (FN):} Le modèle n'a pas détecté l'objet actuel.\\
+
+\item \textbf{Vrai négatif (TN):} Non utilisés.
+
+Ils décrivent la situation où les cases vides sont correctement détectées comme "non-objet". Dans ce scénario, le modèle identifierait évidemment des milliers de boîtes englobantes vides, ce qui n'ajoute pas de valeur au modèle évalué. \\
+
+\end{itemize}
+         
           \begin{figure}[H]
                \centering
-               \includegraphics[height=9cm,width=9cm]{Chapitre2/mat_conf.png}
+               \includegraphics[height=6cm,width=7cm]{Chapitre2/mat_conf.png}
                \caption{Matrice de confusion.}
                \label{mat_conf}
                \end{figure}
+               
+ 
           
           % =========== Precision ===========
           \subsection{Précision}
-          La précision est la capacité d'un modèle à identifier uniquement les objets pertinents. C'est le pourcentage de prédictions positives correctes et est donné par :
-          \begin{center} $Précision = \frac{TP}{TP + FP}$ \end{center}
-
-          % =========== Recall ===========
+          La précision est la capacité d'un modèle à identifier uniquement les objets pertinents. C'est le pourcentage de prédictions positives correctes,  elle est donnée par :
+          \begin{equation}
+          Précision = \frac{TP}{TP + FP}
+          \end{equation}
+          
+             % =========== Recall ===========
           \subsection{Rappel}
-          Le rappel est la capacité d'un modèle à trouver tous les cas pertinents (toutes les boîtes englobantes souhaitées). C'est le pourcentage de vrais positifs détectés parmi toutes les vérités recherchées pertinentes et est donné par:
-          \begin{center} $Rappel = \frac{TP}{TP + FN}$ \end{center}
+          Le rappel est la capacité d'un modèle à trouver tous les cas pertinents (toutes les boîtes englobantes souhaitées). C'est le pourcentage de vrais positifs détectés parmi toutes les vérités recherchées pertinentes, elle est donnée par:
+          \begin{equation}
+          Rappel = \frac{TP}{TP + FN}
+          \end{equation}
+          
           
           % =========== Precision x Recall Curve ===========
-          \subsection{Précision x Rappel courbe}
+          \subsection{Courbe Précision x Rappel }
           La courbe Précision x Rappel est un bon moyen d'évaluer les performances d'un détecteur d'objets car la confiance est modifiée en traçant une courbe pour chaque classe d'objets. Un détecteur d'objet d'une classe particulière est considéré comme bon si sa précision reste élevée à mesure que le rappel augmente, ce qui signifie que si vous faites varier le seuil de confiance, la précision et le rappel seront toujours élevés. Une autre façon d'identifier un bon détecteur d'objets est de rechercher un détecteur capable d'identifier uniquement les objets pertinents (0 faux positifs = haute précision), en trouvant tous les objets recherchés (0 faux négatifs = rappel élevé).
           
           Un détecteur d'objets médiocre doit augmenter le nombre d'objets détectés (augmentation des faux positifs = précision inférieure) afin de récupérer tous les objets recherchés (rappel élevé). C'est pourquoi la courbe Précision x Rappel commence généralement par des valeurs de haute précision, diminuant à mesure que le rappel augmente.
@@ -452,29 +488,39 @@ En Choisissant un seuil prédéfini pour la valeur IoU, nous pouvons créer la m
           \begin{figure}[H]
                \centering
                \includegraphics[height=10cm,width=12cm]{Chapitre2/img21.png}
-               \caption{Exemple de Précision x Rappel courbe d'un model}
+               \caption{Exemple d'une courbe Précision x Rappel}
                \label{img21}
                \end{figure}
           
           % =========== AP ===========
           \subsection{Précision moyenne (AP)}
-          Une autre façon de comparer les performances des détecteurs d'objets consiste à calculer l'aire sous la courbe (AUC) de la courbe Précision x Rappel. Comme les courbes AP sont souvent des courbes en zigzag qui montent et descendent, comparer différentes courbes (différents détecteurs) dans le même tracé n'est généralement pas une tâche facile car les courbes ont tendance à se croiser très fréquemment. C'est pourquoi la précision moyenne (AP), une mesure numérique, peut également nous aider à comparer différents détecteurs. En pratique, AP est la précision moyenne sur toutes les valeurs de rappel entre 0 et 1.
+          Une autre façon de comparer les performances des détecteurs d'objets consiste à calculer l'aire sous la courbe Précision x Rappel.
           
-          La précision moyenne (AP) de la catégorie $C_i$ peut être calculée:
-          \begin{center} $AP_{C_i} = \frac{1}{m} \sum^{m}_{j=1} P_{C_i}$ \end{center}
+  Comme les courbes Précision x Rappel sont souvent des courbes en zigzag qui montent et descendent, comparer différentes courbes (différents détecteurs) dans le même tracé n'est généralement pas une tâche facile car les courbes ont tendance à se croiser très fréquemment. C'est pourquoi la précision moyenne (AP), une mesure numérique, peut également nous aider à comparer différents détecteurs. 
+  
+En pratique,La précision moyenne (AP) est une métrique qui encapsule à la fois la précision et le rappel et résume la courbe Précision x Rappel en faisant la moyenne de la précision sur les valeurs de rappel de 0 à 1. 
+          
+          La précision moyenne (AP) de la catégorie $C_i$ peut être calculée par la formule suivante:
+          \begin{equation}
+          AP_{C_i} = \frac{1}{m} \sum^{m}_{j=1} P_{C_i}
+          \end{equation}
+         
 
           % =========== mAP ===========
-          \subsection{Précision moyenne moyenne  (mAP)}
-          S'il existe plusieurs catégories ${C_1, C_2, ... , C_n}$ pour l'ensemble de données. Par conséquent, la précision moyenne moyenne (mAP) de l'ensemble de la catégorie peut être calculée comme suit:
-          \begin{center} $mAP_{C_i} = \frac{1}{n} \sum^{n}_{j=1} P_{C_i}$ \end{center}
-
-
-
+          \subsection{La moyenne de la précision moyenne (mAP)}
+Si l'ensemble de données contient N catégories ${C_1, C_2, ... , C_n}$. Tout simplement, La moyenne de la précision moyenne (mAP) est la moyenne de AP sur les N classes.   La moyenne de la mAP  est calculée comme suit: 
+\begin{equation}
+    mAP_{C_i} = \frac{1}{n} \sum^{n}_{j=1} P_{C_i}
+     \end{equation}     
+         
+     
 
 
 \section{Conclusion} 
-Dans ce chapitre, nous avons expliqué la pierre angulaire des méthodes de détection d'objets qui sont les réseaux de neurones convolutifs (CNN) avec la capacité d'apprentissage par transfert et nous avons également mentionné les réseaux CNN les plus populaires comme AlexNet.
+Dans ce chapitre, nous avons présenté les bases des méthodes de détection d'objets basées sur l'apprentissage profond.
 
-Nous avons classé les méthodes modernes de détection d'objets en 2 catégories : les détecteurs à deux étages qui donnent une plus grande précision au détriment de la vitesse comme R-CNN, les détecteurs à un étage qui sont plus rapides mais ont une faible précision par rapport aux détecteurs à deux étages comme la famille YOLO.
+Ces méthodes sont classées en deux catégories:  les détecteurs à deux étages qui donnent une plus grande précision au détriment de la vitesse comme R-CNN, et les détecteurs à une seule étape qui sont plus rapides mais ont une faible précision par rapport aux détecteurs à deux étages comme la famille YOLO.
 
-Enfin, nous avons expliqué quelles sont les mesures utilisées pour évaluer avec précision un modèle de détection d'objets.
+Également, nous avons exposé les mesures principales utilisées pour évaluer avec précision un modèle de détection d'objets.
+
+Dans le prochain chapitre nous allons présenter notre démarche d'évaluation et  de comparaison de trois détecteurs d'objets très populaires dans le contexte de la détection d'URL.

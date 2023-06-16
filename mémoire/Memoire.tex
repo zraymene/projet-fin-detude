@@ -22,6 +22,7 @@
 \usepackage{array,multirow,makecell}
 \usepackage{lettrine}
 \usepackage{caption}
+\usepackage{pdfpages}
 \DeclareCaptionFormat{sanslabel}{#3}%
 %------------------------------Fin Zone 1---------------------------
 % Interligne
@@ -33,10 +34,11 @@
 \usepackage{diagbox}
 \begin{document}
 %------------------------------Zone 2: début des page non numérotées-------------------------
+\includepdf{PageDeGarde/page_de_garde.pdf}
+
 \frontmatter
-\input{PageDeGarde/PageDeGarde.tex}
-%\input{Remerciements/Remerciements.tex}
-%\input{Dedicaces/Dedicace_souad.tex}
+\input{Merci/Merci.tex}
+\input{Dedicaces/Dedicace.tex}
 \input{Resume/Resume.tex}
 \input{Resume/Abstract.tex}
 

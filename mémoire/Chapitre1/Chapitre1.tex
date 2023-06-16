@@ -33,7 +33,7 @@ Il s'agit de prédire la classe d'un élément dans une image.
 \end{itemize}
 
 \item \underline{\textbf{Localisation d'objets}}
-Il s'agit de localiser la présence d'objets dans une image et indiquer leur emplacement à l'aide d'un cadre de délimitation (voir figure \ref{im4}.
+Il s'agit de localiser la présence d'objets dans une image et indiquer leur emplacement à l'aide d'un cadre de délimitation (voir figure \ref{im4}).
      
 \begin{itemize}
 \item  \textbf{Entrée :} Une image avec un ou plusieurs objets, comme une photographie.
@@ -54,7 +54,7 @@ Il s'agit de localiser la présence d'objets avec une boîte englobante et les t
 \item  \textbf{Entrée : }Une image avec un ou plusieurs objets, comme une photographie.
 \item \textbf{Sortie :} une ou plusieurs boîtes englobantes (par exemple définies par un point, une largeur et une hauteur) et une étiquette de classe pour chaque boîte englobante.   
  \end{itemize}
- La figure \ref{im7} montre clairement un résultat d'un processus de détection d'objets dans une scène routière
+La figure \ref{im7} montre clairement un résultat d'un processus de détection d'objets dans une scène routière.
 
 \begin{figure}[H]
 \centering
@@ -63,11 +63,11 @@ Il s'agit de localiser la présence d'objets avec une boîte englobante et les t
 \label{im7}
 \end{figure}
      
-La technique de la boîte englobante est la méthode traditionnelle d'étiquetage des données dans l'image. Les cadres de délimitation sont des marqueurs d'annotation dessinés autour des objets dans une image. Contours mais en forme rectangulaire. 
+La technique de la boîte englobante est la méthode traditionnelle d'étiquetage des données dans l'image. Les cadres de délimitation sont des marqueurs d'annotation dessinés autour des objets dans une image. Des c ontours mais en forme rectangulaire. 
 \end{enumerate}
 
 Une autre extension de cette répartition des tâches de vision par ordinateur est \underline{\textbf{la segmentation sémantique}}  des images où les instances d'objets reconnus sont indiquées en mettant en évidence les pixels spécifiques de l'objet,  sans limiter l'objet d'un cadre de délimitation.  Cette technique donne un emplacement précis (au niveau du pixel) d'un objet et des pixels trouvés. les pixels produits peuvent aussi être appelés: masque.
-(voir figure \ref{im5}.
+(voir figure \ref{im5}).
 
 
 \begin{figure}[H]
@@ -77,7 +77,7 @@ Une autre extension de cette répartition des tâches de vision par ordinateur e
 \label{im5}
 \end{figure}
 
-La combinaison de la segmentation sémantique avec la détection d'objets conduit à la \underline{\textbf{segmentation d'instance}}, qui détecte d'abord les instances d'objet, puis segmente chacune dans les boîtes détectées (appelées dans ce cas régions d'intérêt). En d'autre termes, chaque objet de l'image obtient son masque unique même s'il existe d'autres objets avec la même classe (voir figure .    
+La combinaison de la segmentation sémantique avec la détection d'objets conduit à la \underline{\textbf{segmentation d'instance}}, qui détecte d'abord les instances d'objet, puis segmente chacune dans les boîtes détectées (appelées dans ce cas régions d'intérêt). En d'autre termes, chaque objet de l'image obtient son masque unique même s'il existe d'autres objets avec la même classe (voir figure \ref{im6}) .    
 
 \begin{figure}[H]
 \centering
@@ -91,7 +91,7 @@ La combinaison de la segmentation sémantique avec la détection d'objets condui
 \section{Les applications de la détection d'objets}
 La détection et la reconnaissance d'objets sont appliquées dans de nombreux domaines de la vision par ordinateur, notamment la récupération d'images, la sécurité, la surveillance, les systèmes de véhicules automatisés et l'inspection des machines. La détection d'objets fait son entrée dans un large éventail d'industries, avec des cas d'utilisation allant de la sécurité personnelle à la productivité sur le lieu de travail.
 
-Dans cette section, nous discutons  certaines applications actuelles  des systèmes de détection d'objets dans divers domaines:
+Dans cette section, nous discuterons  certaines applications actuelles  des systèmes de détection d'objets dans divers domaines:
      % =========== OCR ===========
      \subsection{Reconnaissance optique de caractères }
 La reconnaissance optique de caractères, souvent abrégé en OCR, est la conversion d'images de texte  manuscrit ou imprimé en texte codé par machine, qu'il s'agisse d'un document numérisé, d'une photo d'un document, d'une scène-photo (par exemple le texte sur des panneaux  publicitaires dans une photo de paysage) ou à partir d'un texte de sous-titre superposé à une image (voir figure \ref{ocr}).
@@ -101,11 +101,11 @@ La reconnaissance optique de caractères, souvent abrégé en OCR, est la conver
 \caption{Reconnaissance optique de caractères.}
 \label{ocr}
 \end{figure}     
-Largement utilisé comme forme de saisie d'informations à partir d'enregistrements de données papier imprimés - qu'il s'agisse de documents de passeport, de factures, de relevés bancaires, de reçus informatisés, de cartes de visite, de courrier, d'impressions de données statiques ou de toute documentation appropriée, il s'agit d'une méthode courante de numérisation des textes imprimés afin qu'ils puissent être numérisés, recherchés, stockés de manière plus compacte, affichés en ligne et utilisés dans des processus automatiques tels que la traduction automatique, la synthèse vocale,  etc.
+Largement utilisé comme forme de saisie d'informations à partir d'enregistrements de données papier imprimés - qu'il s'agisse de documents de passeport, de factures, de relevés bancaires, de reçus informatisés, de cartes de visite, de courrier, d'impressions de données statiques ou de toute documentation appropriée, il s'agit d'une méthode courante de numérisation des textes imprimés afin qu'ils puissent être numérisés, recherchés, stockés de manière plus compacte, affichés en ligne et utilisés dans des processus automatiques tels que la traduction automatique, et la synthèse vocale,  etc.
      
      % =========== Self-Driving ===========
      \subsection{Voitures autonomes}
- L'un des meilleurs exemples de la raison pour laquelle la détection d'objets est très nécessaire est la conduite autonome. Pour qu'une voiture décide quoi faire à l'étape suivante, que ce soit accélérer, freiner ou tourner, elle doit savoir où se trouvent tous les objets autour de la voiture et quels sont ces objets.  Cela nécessite la détection d'objets pour entraîner essentiellement la voiture à détecter un ensemble connu d'objets tels que des voitures, des piétons, des feux de circulation, des panneaux de signalisation, des vélos, des motos, etc.
+ L'un des meilleurs exemples de la raison pour laquelle la détection d'objets est très nécessaire est la conduite autonome. Pour qu'une voiture décide quoi faire à l'étape suivante, que ce soit accélérer, freiner ou tourner, elle doit savoir où se trouvent tous les objets autour d'elle et quels sont ces objets.  Cela nécessite la détection d'objets pour entraîner essentiellement la voiture à détecter un ensemble connu d'objets tels que des voitures, des piétons, des feux de circulation, des panneaux de signalisation, des vélos, des motos, etc.
 
       \begin{figure}[H]
           \centering
@@ -113,12 +113,13 @@ Largement utilisé comme forme de saisie d'informations à partir d'enregistreme
           \caption{carte de l'environnement des voitures autonomes générée à l'aide de la détection d'objets.}
           \label{img12}
           \end{figure}
+          
 \subsection{Suivi des objets}
 Le système de détection d'objets est également utilisé pour suivre les objets, par exemple suivre un ballon pendant un match de football, suivre une personne dans une vidéo. Le suivi d'objets a une variété d'utilisations, dont certaines sont la surveillance et la sécurité , surveillance du trafic, communication vidéo, vision et animation de robots.
 
 Après avoir découvert ces objets, on a parfois envie de les suivre. Le suivi consiste à suivre un objet dans une vidéo. En gros, dès qu'un des objets est détecté, un identifiant lui est attribué et suivi jusqu'à ce qu'il ne soit plus visible sur l'image.
 
-La figure \ref{so} montre un exemple pour mieux comprendre de quoi il s'agit, malgré qu'on parle de suivi lorsqu'il s'agit d'une vidéo).
+La figure \ref{so} montre un exemple pour mieux comprendre de quoi il s'agit, malgré qu'on parle de suivi lorsqu'il s'agit d'une vidéo.
 
 \begin{figure}[H]
 \centering
@@ -139,7 +140,7 @@ La figure \ref{so} montre un exemple pour mieux comprendre de quoi il s'agit, ma
      
      % =========== Acitivity ===========
      \subsection{Reconnaissance d'activités}
-     La reconnaissance d'activité vise à reconnaître les actions et objectifs d'un ou plusieurs agents à partir d'une série d'observations sur les actions des agents et les conditions environnementales. Ce domaine de recherche a attiré l'attention de plusieurs communautés informatiques en raison de sa capacité à fournir un support personnalisé pour de nombreuses applications différentes et de sa connexion à de nombreux domaines d'études différents tels que l'interaction homme-machine ou la sociologie.
+     La reconnaissance d'activité vise à reconnaître les actions et objectifs d'un ou plusieurs agents à partir d'une série d'observations sur leurs actions et les conditions environnementales. Ce domaine de recherche a attiré l'attention de plusieurs communautés informatiques en raison de sa capacité à fournir un support personnalisé pour de nombreuses applications différentes et de sa connexion à de nombreux domaines d'études différents tels que l'interaction homme-machine ou la sociologie.
      \begin{figure}[H]
           \centering
           \includegraphics[height=10cm,width=12cm]{Chapitre1/img14.png}
@@ -169,7 +170,7 @@ La figure \ref{so} montre un exemple pour mieux comprendre de quoi il s'agit, ma
      
      % =========== Factory ===========
      \subsection{Production industrielle}
-     Les usines du monde entier s'efforcent de produire des produits de la meilleure qualité avec un coût de production minimum. Cependant, pour  atteindre cet objectif, les usines doivent embaucher de la main-d'œuvre pour vérifier la qualité des composants, ce qui augmente le coût de production et d'autres problèmes liés au travail manuel, comme la dextérité et la productivité du travailleur. La détection d'objets résout les problèmes liés au travail manuel, elle garantit que les bons composants sont utilisés dans les chaînes de montage et que les processus corrects sont suivis avec une précision et une exactitude élevées, plus qu'un travail manuel et à moindre coût.
+     Les usines du monde entier s'efforcent de produire des produits de la meilleure qualité avec un coût de production minimum. Cependant, pour  atteindre cet objectif, les usines doivent embaucher de la main-d'œuvre pour vérifier la qualité des composants, ce qui augmente le coût de production et d'autres problèmes liés au travail manuel, comme la dextérité et la productivité du travailleur. La détection d'objets résout les problèmes liés au travail manuel, elle garantit que les bons composants sont utilisés dans les chaînes de montage et que les processus corrects sont suivis avec une précision et une exactitude élevées, plus qu'un travail manuel  à moindre coût.
      \begin{figure}[H]
           \centering
           \includegraphics[height=6cm,width=11cm]{Chapitre1/im8.png}
@@ -184,7 +185,7 @@ La figure \ref{so} montre un exemple pour mieux comprendre de quoi il s'agit, ma
      \begin{figure}[H]
           \centering
           \includegraphics[height=6cm,width=12cm]{Chapitre1/img17.jpeg}
-          \caption{Détection d'objets utilisée dans la sécurité et la surveillance.}
+          \caption{Détection d'objets pour la sécurité et la surveillance.}
           \label{im17}
           \end{figure}
 
@@ -237,9 +238,8 @@ En outre, au lieu de simplement parcourir l'image avec une fenêtre glissante mu
     
 \subsection{L'histogramme des gradients orientés  (2005)}
 
-Proposé à l'origine en 2005 par N. Dalal et B. Triggs \cite{hog}, l'histogramme des gradients orientés (en anglais, histogram of oriented gradients ou HOG) est une amélioration des descripteurs SIFT, Shape contexts et les histogrammes d'orientation de contours. 
+Proposé à l'origine en 2005 par N. Dalal et B. Triggs \cite{hog}, l'histogramme des gradients orientés (en anglais, histogram of oriented gradients ou HOG) est une amélioration des descripteurs SIFT, Shape contexts et les histogrammes d'orientation de contours. Le descripteur fournit une solution robuste invariante à l'échelle. 
 
-Le descripteur fournit une solution robuste invariante à l'échelle. 
 Comme son nom l'indique, “HOG” calcule une carte des histogrammes des gradients de l'image, qui est ensuite pondérée par la moyenne des gradients d'images à partir de l'ensemble de données d'apprentissage.
 
 La figure \ref{hog} montre une aperçu de la méthode HOG avec les histogrammes de gradients calculées localement et pondérées avec les exemples d'entraînement.
@@ -256,7 +256,7 @@ La méthode est largement connue pour son utilisation dans la détection des pi�
 
 \subsection{Modèle partiel déformable (DPM) (2008)} 
 
-Le modèle partiel déformable (DPM) \cite{dpm } a été proposé à l'origine par P. Felzenszwalb en 2008 comme une extension du détecteur HOG, mais qui introduit la stratégie de l'apprentissage des parties et de leur ensemble. 
+Le modèle partiel déformable (DPM) \cite{dpm} a été proposé à l'origine par P. Felzenszwalb en 2008 comme une extension du détecteur HOG, mais qui introduit la stratégie d'apprentissage des parties et de leur ensemble. 
 Par exemple, le problème de la détection d'une « voiture » peut être décomposé en utilisant une stratégie de « diviser pour mieux régner » en détectant sa fenêtre, sa carrosserie et ses roues. Le processus d'entraînement implique l'apprentissage d'une manière appropriée de décomposer un objet, et l'inférence implique l'assemblage de détections de différentes parties d'objet.
 
 La figure \ref{dpm}  montre un aperçu de la méthode DPM. A gauche, on voit la détection  DPM de deux personnes dans des poses différentes et à droite le modèle d'apprentissage basé sur l’histogramme des gradients de l'ensemble et des parties d'un humain.
@@ -298,7 +298,11 @@ Les principaux algorithmes de détection d'objets en une seule étape sont :
      
 
 \section{Conclusion}
-Nous avons défini ce qu'est la détection d'objets et nous l'avons distinguée des autres tâches de vision par ordinateur.
+La détection d'objets comme une technique de vision par ordinateur qui consiste à identifier et localiser des objets spécifiques dans des images ou des vidéos.Elle offre des avantages concrets dans de nombreux domaines, tels que la surveillance, l'automobile, la robotique, la santé et bien d'autres encore.
 
-Nous avons mentionné quelques cas d'utilisation de la détection d'objets et nous avons parlé de l'histoire de la détection d'objets et de ses 2 phases : avant l'apprentissage en profondeur et après l'apprentissage en profondeur.
+La détection d'objets peut  être réalisée en utilisant des techniques classiques, telles que les descripteurs de texture, ou de forme, combinés à des classificateurs tels que les machines à vecteurs de support (SVM). Cependant, ces méthodes sont souvent moins précises. 
+La détection d'objets continue d'évoluer rapidement grâce aux avancées de l'apprentissage profond, et les modèles de détection d'objets deviennent de plus en plus précis et rapides.
+
+Dans ce chapitre nous avons présenté brièvement ce domaine
+de la détection d'objets, dans le chapitre qui suit, nous allons introduire le domaine de l'apprentissage profond, en se basant sur les technique de l'apprentissage profond utilisées pour la détection d'objets.
 

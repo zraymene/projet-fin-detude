@@ -5,28 +5,33 @@
 \renewcommand{\headrulewidth}{1pt}
 \fancyfoot[C]{\thepage}
 \section*{Conclusion générale}
-Dans ce travail, nous avons étudié un thème très abordé en détection d'objets et apprentissage profond qui s'applique  sur ensemble des images, 
+Dans ce travail, nous avons étudié un thème très intéressant dans le domaine de la vision par ordinateur, à savoir  la détection d'objets, qui constitue une étape principale dans n'importe quel processus  de reconnaissance.\\
 
-Dans le cadre de ce mémoire, premièrement nous avons présenté la  définition  de la détection  d'objets  et ses  applications.
+Dans le cadre de ce mémoire, premièrement, nous avons présenté une vue d'ensemble de la détection  d'objets, ses  applications, ainsi que les différentes méthodes classiques utilisées.
 
-ensuite, nous avons introduit  les modèles de détection d'objets  (3 méthodes ) avant Période de détection par apprentissage profond (après 2014 ) ,dans cette période  la détection d'objets est regroupée en deux classes : la "détection en deux étapes (RCNN-SPP NET -FPN)" et la "détection en une étape (YOLO-SSD)".
+Ensuite, nous avons introduit  le méthodes récentes de la détection d'objets qui sont basées principalement sur l'apprentissage en profondeur, et qui sont regroupées en  deux classes : la détection en deux étapes  et la détection en une étape . En plus de certain nombre de mesures d'évaluation des systèmes de détection d'objets. 
 
-Également, nous avons présenté  les Mesures d'évaluation des systèmes de détection d'objets. 
 
-Enfin, nous décrivons la création de l'ensemble de données et les différentes étapes d'apprentissage à l'aide de YOLOv3, YOLOv4 et YOLOv5, ainsi que les résultats des tests.
+Enfin, nous avons décrit les différentes expérimentations, ainsi que les résultats des différents tests et leur synthèse. 
 
-Notre objectif était de mettre en place une architecture permettant reconnaissance d’url dans différents difficultés.
 
-Les résultats expérimentaux exprimés en terme de plusieurs métriques dans le domaine   de la reconnaissance  d’url, nous a permis de déduire les conclusions suivantes:
-\paragraph{-} Les 3 modèles ont donné des résultats très satisfaisants dans le test de la base de données, mais le meilleur est YOLOv4. 
-\paragraph{-} Les 3 modèles ont donné $0.0\%$ (AP) dans le test de rotation à $90^\circ$.
-\paragraph{-} Les 3 modèles ont donné $0,0\%$ (AP) au test du Manuscrit.
+Notre objectif était de tester la capacité de généralisation, ainsi que la stabilité de trois   modèles YOLOv3, YOLOv4 et YOLOv5, pour le contexte de la détection des URLs dans des photos prises par un téléphone mobile.
 
-pour améliorer les résultats , nous proposons de : 
+Les résultats expérimentaux exprimés en terme de précision moyenne, nous ont permis  de déduire les conclusions suivantes:
+\paragraph{-} Les 3 modèles ont donné des résultats de généralisation très satisfaisants, et le meilleur est YOLOv4. 
 
-\paragraph{-} D’augmenter la taille de l'ensemble de données.
-\paragraph{-}ajouter des images avec des difficultés à l'ensemble de données.
-\paragraph{-} D’améliorer et d'ajouter le nombre d'itérations dans la phase d’apprentissage.
-\paragraph{-} Utiliser les nouvelles versions de YOLO et comparer les résultats.
+Concernant la stabilité pou plusieurs difficultés: 
+
+\paragraph{-} Les 3 modèles n'ont pas reconnu complètement les URLs  tournées par un angle de rotation à $90^\circ$, où la précision moyenne atteinte est: $0.0\%$.
+
+\paragraph{-} Également pour les URL manuscrites, les 3 modèles ont fourni une précision moyenne de  $0,0\%$.
+
+\paragraph{-}Enfin, pour améliorer ces résultats , nous proposons de : 
+\begin{itemize}
+\item Augmenter la taille de l'ensemble de données.
+\item Ajouter des images avec des difficultés à l'ensemble de données d'entrainement.
+\item Changer les paramètres d'entraînement.
+\item Utiliser d'autres versions de la famille YOLO, même d'autres modèles de la famille des détecteurs en deux étapes.
+\end{itemize}
 
 
